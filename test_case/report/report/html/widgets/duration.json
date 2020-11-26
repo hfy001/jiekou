@@ -1,0 +1,41 @@
+[ {
+  "uid" : "52affe13d1cfce3f",
+  "name" : "test_case02[3-None-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'感冒灵'}-get-4]",
+  "time" : {
+    "start" : 1601283067184,
+    "stop" : 1601283067188,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4dc7c859dfe0a206",
+  "name" : "test_case02[2-http://192.168.2.252:18080/4000/4000/0/-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'克拉霉素'}-get-3]",
+  "time" : {
+    "start" : 1601283066991,
+    "stop" : 1601283067176,
+    "duration" : 185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3441db924730562",
+  "name" : "test_case02[4-http://192.168.2.252:18080/4000/4000/0/-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':''}-get-5]",
+  "time" : {
+    "start" : 1601283067345,
+    "stop" : 1601283067380,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9584c059a29198f",
+  "name" : "test_case02[1-http://192.168.2.252:18080/4000/4000/0/-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'感冒灵',\n'aliascn':'999',\n'standard':'10gx9袋/盒',\n'trocheType':'颗粒剂',\n'titleAbb':'华润三九',\n'pageSize':'10',\n'pageIndex':'1orderBy=\\'shopCount asc\\''}-get-2]",
+  "time" : {
+    "start" : 1601283061635,
+    "stop" : 1601283066983,
+    "duration" : 5348
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

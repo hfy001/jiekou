@@ -1,0 +1,96 @@
+{
+  "uid" : "b7f82b50b80fbacb",
+  "name" : "test_BannerBottom[16-16-{}-17]",
+  "fullName" : "test_case.test_storemedicine.TestSearchMedicine#test_BannerBottom",
+  "historyId" : "956771c9ee22c12d1064c4f8653d0767",
+  "time" : {
+    "start" : 1605842267983,
+    "stop" : 1605842268007,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1605842267401,
+      "stop" : 1605842267401,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1605842268068,
+      "stop" : 1605842268068,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_storemedicine"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearchMedicine"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "22952-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_storemedicine"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_id",
+    "value" : "16"
+  }, {
+    "name" : "id",
+    "value" : "16"
+  }, {
+    "name" : "params",
+    "value" : "'{}'"
+  }, {
+    "name" : "rowid",
+    "value" : "17"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b7f82b50b80fbacb.json",
+  "parameterValues" : [ "16", "16", "'{}'", "17" ]
+}

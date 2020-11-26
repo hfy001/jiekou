@@ -1,0 +1,2 @@
+INFO     查询药品:test_log.py:33 当前是第4条案例
+INFO     查询药品:test_log.py:34 当前测试数据是{'keywords':''}

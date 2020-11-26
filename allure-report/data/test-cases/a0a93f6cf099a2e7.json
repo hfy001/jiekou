@@ -1,0 +1,165 @@
+{
+  "uid" : "a0a93f6cf099a2e7",
+  "name" : "商家优选商品",
+  "fullName" : "test_case.test_storemedicine.TestSearchMedicine#test_StoreMedicineTop",
+  "historyId" : "da01cef1818e572cc7f48a50f107fcc8",
+  "time" : {
+    "start" : 1605858898316,
+    "stop" : 1605858898536,
+    "duration" : 220
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1605858897764,
+      "stop" : 1605858897764,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "商家优选商品",
+      "time" : {
+        "start" : 1605858898316,
+        "stop" : 1605858898536,
+        "duration" : 220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "id",
+        "value" : "14"
+      }, {
+        "name" : "api_id",
+        "value" : "14"
+      }, {
+        "name" : "params",
+        "value" : "'{'storeid':'351879'}'"
+      }, {
+        "name" : "rowid",
+        "value" : "15"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1605858898626,
+      "stop" : 1605858898626,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "药房网APP"
+  }, {
+    "name" : "feature",
+    "value" : "店铺模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_storemedicine"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearchMedicine"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "14276-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_storemedicine"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_id",
+    "value" : "14"
+  }, {
+    "name" : "id",
+    "value" : "14"
+  }, {
+    "name" : "params",
+    "value" : "'{'storeid':'351879'}'"
+  }, {
+    "name" : "rowid",
+    "value" : "15"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8cba047576a030a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605850112534,
+        "stop" : 1605850112643,
+        "duration" : 109
+      }
+    }, {
+      "uid" : "db326db0df3dcc6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605842267813,
+        "stop" : 1605842267936,
+        "duration" : 123
+      }
+    }, {
+      "uid" : "c518bd4cb4c83f70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605836394874,
+        "stop" : 1605836395056,
+        "duration" : 182
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0a93f6cf099a2e7.json",
+  "parameterValues" : [ "14", "14", "'{'storeid':'351879'}'", "15" ]
+}

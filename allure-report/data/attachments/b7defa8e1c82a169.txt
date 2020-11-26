@@ -1,0 +1,6 @@
+INFO     查询药品:test_log.py:33 当前是第2条案例
+INFO     查询药品:test_log.py:34 当前测试数据是{'keywords':'克拉霉素'}
+DEBUG    urllib3.connectionpool:connectionpool.py:207 Starting new HTTP connection (1): 192.168.2.252
+DEBUG    urllib3.connectionpool:connectionpool.py:394 http://192.168.2.252:18080 "GET /4000/4000/0/guest.medicine.getSearchPageData?keywords=%E5%85%8B%E6%8B%89%E9%9C%89%E7%B4%A0 HTTP/1.1" 200 2088
+DEBUG    urllib3.connectionpool:connectionpool.py:207 Starting new HTTP connection (1): 192.168.2.252
+DEBUG    urllib3.connectionpool:connectionpool.py:394 http://192.168.2.252:18080 "GET /4000/4000/0/guest.medicine.getSearchPageData?keywords=%E5%85%8B%E6%8B%89%E9%9C%89%E7%B4%A0 HTTP/1.1" 200 2088

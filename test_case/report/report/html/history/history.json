@@ -1,0 +1,79 @@
+{
+  "b8db2a1bb4ce7f3b9971e691bb3022d8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4dc7c859dfe0a206",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601283066991,
+        "stop" : 1601283067176,
+        "duration" : 185
+      }
+    } ]
+  },
+  "5404ff5c0d307efb8522610824c7bef2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "52affe13d1cfce3f",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'dict' object has no attribute 'status_code'",
+      "time" : {
+        "start" : 1601283067184,
+        "stop" : 1601283067188,
+        "duration" : 4
+      }
+    } ]
+  },
+  "5ce569ba9c72debee7dc8f43f9b4c7ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d3441db924730562",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601283067345,
+        "stop" : 1601283067380,
+        "duration" : 35
+      }
+    } ]
+  },
+  "7498f73f20a989caecfedb664574a8ae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b9584c059a29198f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601283061635,
+        "stop" : 1601283066983,
+        "duration" : 5348
+      }
+    } ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "uid" : "fdd03e1e349aafae",
+  "name" : "test_login[login_r0-query_param2]",
+  "fullName" : "test_case.test_1#test_login",
+  "historyId" : "d91a5a00b0f0db1a5f93bc2bef28d86a",
+  "time" : {
+    "start" : 1602581056326,
+    "stop" : 1602581056326,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "query_param",
+    "time" : {
+      "start" : 1602581056323,
+      "stop" : 1602581056323,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login_r",
+    "time" : {
+      "start" : 1602581056326,
+      "stop" : 1602581056326,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "fix_a",
+    "time" : {
+      "start" : 1602581056313,
+      "stop" : 1602581056313,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "fix_a::0",
+    "time" : {
+      "start" : 1602581058532,
+      "stop" : 1602581058532,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_1"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "16172-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "login_r",
+    "value" : "{'user': 'linda', 'password': '888888'}"
+  }, {
+    "name" : "query_param",
+    "value" : "{'q': 'pdd', 'count': 3, 'page': 1}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fdd03e1e349aafae.json",
+  "parameterValues" : [ "{'user': 'linda', 'password': '888888'}", "{'q': 'pdd', 'count': 3, 'page': 1}" ]
+}

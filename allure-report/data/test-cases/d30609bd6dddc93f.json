@@ -1,0 +1,183 @@
+{
+  "uid" : "d30609bd6dddc93f",
+  "name" : "店铺包邮活动",
+  "fullName" : "test_case.test_shop.Testshop#test_FreePost",
+  "historyId" : "bd138562f8757c87e3841727a8c98646",
+  "time" : {
+    "start" : 1605858897601,
+    "stop" : 1605858897759,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1605858897600,
+      "stop" : 1605858897600,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "loginssid",
+    "time" : {
+      "start" : 1605858897600,
+      "stop" : 1605858897600,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "店铺包邮活动",
+      "time" : {
+        "start" : 1605858897601,
+        "stop" : 1605858897759,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "id",
+        "value" : "25"
+      }, {
+        "name" : "api_id",
+        "value" : "25"
+      }, {
+        "name" : "params",
+        "value" : "'{'storeid':'338958','price':'不可为空'}'"
+      }, {
+        "name" : "rowid",
+        "value" : "26"
+      }, {
+        "name" : "loginssid",
+        "value" : "<common.login.login1 object at 0x04A5E478>"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1605858897762,
+      "stop" : 1605858897762,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "药房网APP"
+  }, {
+    "name" : "feature",
+    "value" : "店铺模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_shop"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testshop"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "14276-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_shop"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_id",
+    "value" : "25"
+  }, {
+    "name" : "id",
+    "value" : "25"
+  }, {
+    "name" : "params",
+    "value" : "'{'storeid':'338958','price':'不可为空'}'"
+  }, {
+    "name" : "rowid",
+    "value" : "26"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "62109b367c137fc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605850111900,
+        "stop" : 1605850112110,
+        "duration" : 210
+      }
+    }, {
+      "uid" : "c6a97c10f01ba273",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605842267138,
+        "stop" : 1605842267396,
+        "duration" : 258
+      }
+    }, {
+      "uid" : "2bb17264dab1a696",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605836393253,
+        "stop" : 1605836393526,
+        "duration" : 273
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d30609bd6dddc93f.json",
+  "parameterValues" : [ "25", "25", "'{'storeid':'338958','price':'不可为空'}'", "26" ]
+}

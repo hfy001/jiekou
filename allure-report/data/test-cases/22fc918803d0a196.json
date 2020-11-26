@@ -1,0 +1,72 @@
+{
+  "uid" : "22fc918803d0a196",
+  "name" : "test_case02[1-http://192.168.2.252:18080/4000/4000/0/-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'感冒灵',\n'aliascn':'999',\n'standard':'10gx9袋/盒',\n'trocheType':'颗粒剂',\n'titleAbb':'华润三九',\n'pageSize':'10',\n'pageIndex':'1orderBy=\\'shopCount asc\\''}-get-2]",
+  "fullName" : "test_case.test_chaxunyaopin#test_case02",
+  "historyId" : "3212569345fecd58c9e9622af60d63e6",
+  "time" : {
+    "start" : 1605836385896,
+    "stop" : 1605836386245,
+    "duration" : 349
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_chaxunyaopin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "9036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_chaxunyaopin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseID",
+    "value" : "1"
+  }, {
+    "name" : "headers",
+    "value" : "'{'Content-Type':'application/x-www-form-urlencoded'}'"
+  }, {
+    "name" : "host",
+    "value" : "'http://192.168.2.252:18080/4000/4000/0/'"
+  }, {
+    "name" : "method",
+    "value" : "'get'"
+  }, {
+    "name" : "params",
+    "value" : "'{'keywords':'感冒灵',\n'aliascn':'999',\n'standard':'10gx9袋/盒',\n'trocheType':'颗粒剂',\n'titleAbb':'华润三九',\n'pageSize':'10',\n'pageIndex':'1orderBy=\\'shopCount asc\\''}'"
+  }, {
+    "name" : "path",
+    "value" : "'guest.medicine.getSearchPageData'"
+  }, {
+    "name" : "rowid",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22fc918803d0a196.json",
+  "parameterValues" : [ "1", "'{'Content-Type':'application/x-www-form-urlencoded'}'", "'http://192.168.2.252:18080/4000/4000/0/'", "'get'", "'{'keywords':'感冒灵',\n'aliascn':'999',\n'standard':'10gx9袋/盒',\n'trocheType':'颗粒剂',\n'titleAbb':'华润三九',\n'pageSize':'10',\n'pageIndex':'1orderBy=\\'shopCount asc\\''}'", "'guest.medicine.getSearchPageData'", "2" ]
+}

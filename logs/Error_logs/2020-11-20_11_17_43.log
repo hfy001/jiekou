@@ -1,0 +1,55 @@
+2020-11-20 11:17:43,287 - test_log.py - 查询药品 - INFO - test_log  - 33 - 当前是第1条案例
+2020-11-20 11:17:43,288 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':'感冒灵',
+'aliascn':'999',
+'standard':'10gx9袋/盒',
+'trocheType':'颗粒剂',
+'titleAbb':'华润三九',
+'pageSize':'10',
+'pageIndex':'1orderBy=\'shopCount asc\''}
+2020-11-20 11:17:43,288 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':'感冒灵',
+'aliascn':'999',
+'standard':'10gx9袋/盒',
+'trocheType':'颗粒剂',
+'titleAbb':'华润三九',
+'pageSize':'10',
+'pageIndex':'1orderBy=\'shopCount asc\''}
+2020-11-20 11:17:43,425 - test_log.py - 查询药品 - INFO - test_log  - 33 - 当前是第2条案例
+2020-11-20 11:17:43,425 - test_log.py - 查询药品 - INFO - test_log  - 33 - 当前是第2条案例
+2020-11-20 11:17:43,425 - test_log.py - 查询药品 - INFO - test_log  - 33 - 当前是第2条案例
+2020-11-20 11:17:43,427 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':'克拉霉素'}
+2020-11-20 11:17:43,427 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':'克拉霉素'}
+2020-11-20 11:17:43,427 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':'克拉霉素'}
+2020-11-20 11:17:43,427 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':'克拉霉素'}
+2020-11-20 11:17:43,624 - test_log.py - 查询药品 - INFO - test_log  - 33 - 当前是第3条案例
+2020-11-20 11:17:43,624 - test_log.py - 查询药品 - INFO - test_log  - 33 - 当前是第3条案例
+2020-11-20 11:17:43,624 - test_log.py - 查询药品 - INFO - test_log  - 33 - 当前是第3条案例
+2020-11-20 11:17:43,624 - test_log.py - 查询药品 - INFO - test_log  - 33 - 当前是第3条案例
+2020-11-20 11:17:43,624 - test_log.py - 查询药品 - INFO - test_log  - 33 - 当前是第3条案例
+2020-11-20 11:17:43,625 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':'感冒灵'}
+2020-11-20 11:17:43,625 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':'感冒灵'}
+2020-11-20 11:17:43,625 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':'感冒灵'}
+2020-11-20 11:17:43,625 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':'感冒灵'}
+2020-11-20 11:17:43,625 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':'感冒灵'}
+2020-11-20 11:17:43,625 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':'感冒灵'}
+2020-11-20 11:17:43,639 - test_log.py - 查询药品 - INFO - test_log  - 33 - 当前是第4条案例
+2020-11-20 11:17:43,639 - test_log.py - 查询药品 - INFO - test_log  - 33 - 当前是第4条案例
+2020-11-20 11:17:43,639 - test_log.py - 查询药品 - INFO - test_log  - 33 - 当前是第4条案例
+2020-11-20 11:17:43,639 - test_log.py - 查询药品 - INFO - test_log  - 33 - 当前是第4条案例
+2020-11-20 11:17:43,639 - test_log.py - 查询药品 - INFO - test_log  - 33 - 当前是第4条案例
+2020-11-20 11:17:43,639 - test_log.py - 查询药品 - INFO - test_log  - 33 - 当前是第4条案例
+2020-11-20 11:17:43,639 - test_log.py - 查询药品 - INFO - test_log  - 33 - 当前是第4条案例
+2020-11-20 11:17:43,640 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':''}
+2020-11-20 11:17:43,640 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':''}
+2020-11-20 11:17:43,640 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':''}
+2020-11-20 11:17:43,640 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':''}
+2020-11-20 11:17:43,640 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':''}
+2020-11-20 11:17:43,640 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':''}
+2020-11-20 11:17:43,640 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':''}
+2020-11-20 11:17:43,640 - test_log.py - 查询药品 - INFO - test_log  - 34 - 当前测试数据是{'keywords':''}
+2020-11-20 11:17:43,684 - test_login.py - 登录 - INFO - test_login  - 34 - 当前是第1条案例
+2020-11-20 11:17:43,685 - test_login.py - 登录 - INFO - test_login  - 35 - 当前测试数据是{'userName':'啦啦哈哈',
+'password':'abc123',
+'login_type':'2'}
+2020-11-20 11:17:43,685 - test_login.py - 登录 - INFO - test_login  - 35 - 当前测试数据是{'userName':'啦啦哈哈',
+'password':'abc123',
+'login_type':'2'}

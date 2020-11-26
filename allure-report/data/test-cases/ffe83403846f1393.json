@@ -1,0 +1,96 @@
+{
+  "uid" : "ffe83403846f1393",
+  "name" : "test_pricecompare[10-10-{'mid':'181741'}-11]",
+  "fullName" : "test_case.test_pricecompare.TestSearchMedicine#test_pricecompare",
+  "historyId" : "427ed5a8db08fda4e6f18b292a34de51",
+  "time" : {
+    "start" : 1605836391762,
+    "stop" : 1605836391998,
+    "duration" : 236
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1605836391761,
+      "stop" : 1605836391761,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1605836392006,
+      "stop" : 1605836392006,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_pricecompare"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearchMedicine"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "9036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_pricecompare"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_id",
+    "value" : "10"
+  }, {
+    "name" : "id",
+    "value" : "10"
+  }, {
+    "name" : "params",
+    "value" : "'{'mid':'181741'}'"
+  }, {
+    "name" : "rowid",
+    "value" : "11"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ffe83403846f1393.json",
+  "parameterValues" : [ "10", "10", "'{'mid':'181741'}'", "11" ]
+}

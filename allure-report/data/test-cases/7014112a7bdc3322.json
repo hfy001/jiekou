@@ -1,0 +1,158 @@
+{
+  "uid" : "7014112a7bdc3322",
+  "name" : "查询药品模块",
+  "fullName" : "test_case.test_chaxunyaopin#test_case02",
+  "historyId" : "3212569345fecd58c9e9622af60d63e6",
+  "time" : {
+    "start" : 1605858891760,
+    "stop" : 1605858892000,
+    "duration" : 240
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "查询药品模块",
+      "time" : {
+        "start" : 1605858891760,
+        "stop" : 1605858892000,
+        "duration" : 240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "caseID",
+        "value" : "1"
+      }, {
+        "name" : "host",
+        "value" : "'http://192.168.2.252:18080/4000/4000/0/'"
+      }, {
+        "name" : "path",
+        "value" : "'guest.medicine.getSearchPageData'"
+      }, {
+        "name" : "headers",
+        "value" : "'{'Content-Type':'application/x-www-form-urlencoded'}'"
+      }, {
+        "name" : "params",
+        "value" : "'{'keywords':'感冒灵',\n'aliascn':'999',\n'standard':'10gx9袋/盒',\n'trocheType':'颗粒剂',\n'titleAbb':'华润三九',\n'pageSize':'10',\n'pageIndex':'1orderBy=\\'shopCount asc\\''}'"
+      }, {
+        "name" : "method",
+        "value" : "'get'"
+      }, {
+        "name" : "rowid",
+        "value" : "2"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "药房网APP"
+  }, {
+    "name" : "feature",
+    "value" : "查询药品模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_chaxunyaopin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "14276-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_chaxunyaopin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseID",
+    "value" : "1"
+  }, {
+    "name" : "headers",
+    "value" : "'{'Content-Type':'application/x-www-form-urlencoded'}'"
+  }, {
+    "name" : "host",
+    "value" : "'http://192.168.2.252:18080/4000/4000/0/'"
+  }, {
+    "name" : "method",
+    "value" : "'get'"
+  }, {
+    "name" : "params",
+    "value" : "'{'keywords':'感冒灵',\n'aliascn':'999',\n'standard':'10gx9袋/盒',\n'trocheType':'颗粒剂',\n'titleAbb':'华润三九',\n'pageSize':'10',\n'pageIndex':'1orderBy=\\'shopCount asc\\''}'"
+  }, {
+    "name" : "path",
+    "value" : "'guest.medicine.getSearchPageData'"
+  }, {
+    "name" : "rowid",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7136c03e6f37e35c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605850104609,
+        "stop" : 1605850104889,
+        "duration" : 280
+      }
+    }, {
+      "uid" : "9094d3ed7219c81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605842260887,
+        "stop" : 1605842261207,
+        "duration" : 320
+      }
+    }, {
+      "uid" : "22fc918803d0a196",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605836385896,
+        "stop" : 1605836386245,
+        "duration" : 349
+      }
+    }, {
+      "uid" : "ed81789f8053496b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602581057900,
+        "stop" : 1602581057971,
+        "duration" : 71
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7014112a7bdc3322.json",
+  "parameterValues" : [ "1", "'{'Content-Type':'application/x-www-form-urlencoded'}'", "'http://192.168.2.252:18080/4000/4000/0/'", "'get'", "'{'keywords':'感冒灵',\n'aliascn':'999',\n'standard':'10gx9袋/盒',\n'trocheType':'颗粒剂',\n'titleAbb':'华润三九',\n'pageSize':'10',\n'pageIndex':'1orderBy=\\'shopCount asc\\''}'", "'guest.medicine.getSearchPageData'", "2" ]
+}

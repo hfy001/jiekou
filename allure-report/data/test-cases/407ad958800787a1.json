@@ -1,0 +1,96 @@
+{
+  "uid" : "407ad958800787a1",
+  "name" : "test_shopinfo[13-13-{'storeid':'351879'}-14]",
+  "fullName" : "test_case.test_storemedicine.TestSearchMedicine#test_shopinfo",
+  "historyId" : "df87adead24f73e129c4485cda07ed26",
+  "time" : {
+    "start" : 1605842267735,
+    "stop" : 1605842267809,
+    "duration" : 74
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1605842267401,
+      "stop" : 1605842267401,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1605842268068,
+      "stop" : 1605842268068,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_storemedicine"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearchMedicine"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "22952-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_storemedicine"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_id",
+    "value" : "13"
+  }, {
+    "name" : "id",
+    "value" : "13"
+  }, {
+    "name" : "params",
+    "value" : "'{'storeid':'351879'}'"
+  }, {
+    "name" : "rowid",
+    "value" : "14"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "407ad958800787a1.json",
+  "parameterValues" : [ "13", "13", "'{'storeid':'351879'}'", "14" ]
+}

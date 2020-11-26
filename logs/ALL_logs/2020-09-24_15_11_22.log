@@ -1,0 +1,45 @@
+2020-09-24 15:11:22,719 - test_log.py - 查询药品 - INFO - 当前是第1条案例
+2020-09-24 15:11:22,719 - test_log.py - 查询药品 - INFO - 当前测试数据是{'keywords':'感冒灵',
+'aliascn':'999',
+'standard':'10gx9袋/盒',
+'trocheType':'颗粒剂',
+'titleAbb':'华润三九',
+'pageSize':'10',
+'pageIndex':'1orderBy=\'shopCount asc\''}
+2020-09-24 15:11:22,719 - test_log.py - 查询药品 - INFO - 当前测试数据是{'keywords':'感冒灵',
+'aliascn':'999',
+'standard':'10gx9袋/盒',
+'trocheType':'颗粒剂',
+'titleAbb':'华润三九',
+'pageSize':'10',
+'pageIndex':'1orderBy=\'shopCount asc\''}
+2020-09-24 15:11:22,807 - test_log.py - 查询药品 - INFO - 当前是第2条案例
+2020-09-24 15:11:22,807 - test_log.py - 查询药品 - INFO - 当前是第2条案例
+2020-09-24 15:11:22,807 - test_log.py - 查询药品 - INFO - 当前是第2条案例
+2020-09-24 15:11:22,808 - test_log.py - 查询药品 - INFO - 当前测试数据是{'keywords':'克拉霉素'}
+2020-09-24 15:11:22,808 - test_log.py - 查询药品 - INFO - 当前测试数据是{'keywords':'克拉霉素'}
+2020-09-24 15:11:22,808 - test_log.py - 查询药品 - INFO - 当前测试数据是{'keywords':'克拉霉素'}
+2020-09-24 15:11:22,808 - test_log.py - 查询药品 - INFO - 当前测试数据是{'keywords':'克拉霉素'}
+2020-09-24 15:11:22,987 - test_log.py - 查询药品 - INFO - 当前是第3条案例
+2020-09-24 15:11:22,987 - test_log.py - 查询药品 - INFO - 当前是第3条案例
+2020-09-24 15:11:22,987 - test_log.py - 查询药品 - INFO - 当前是第3条案例
+2020-09-24 15:11:22,987 - test_log.py - 查询药品 - INFO - 当前是第3条案例
+2020-09-24 15:11:22,987 - test_log.py - 查询药品 - INFO - 当前是第3条案例
+2020-09-24 15:11:22,988 - test_log.py - 查询药品 - INFO - 当前测试数据是{'keywords':'感冒灵'}
+2020-09-24 15:11:22,988 - test_log.py - 查询药品 - INFO - 当前测试数据是{'keywords':'感冒灵'}
+2020-09-24 15:11:22,988 - test_log.py - 查询药品 - INFO - 当前测试数据是{'keywords':'感冒灵'}
+2020-09-24 15:11:22,988 - test_log.py - 查询药品 - INFO - 当前测试数据是{'keywords':'感冒灵'}
+2020-09-24 15:11:22,988 - test_log.py - 查询药品 - INFO - 当前测试数据是{'keywords':'感冒灵'}
+2020-09-24 15:11:22,988 - test_log.py - 查询药品 - INFO - 当前测试数据是{'keywords':'感冒灵'}
+2020-09-24 15:11:23,139 - test_log.py - 查询药品 - INFO - 当前是第4条案例
+2020-09-24 15:11:23,139 - test_log.py - 查询药品 - INFO - 当前是第4条案例
+2020-09-24 15:11:23,139 - test_log.py - 查询药品 - INFO - 当前是第4条案例
+2020-09-24 15:11:23,139 - test_log.py - 查询药品 - INFO - 当前是第4条案例
+2020-09-24 15:11:23,139 - test_log.py - 查询药品 - INFO - 当前是第4条案例
+2020-09-24 15:11:23,139 - test_log.py - 查询药品 - INFO - 当前是第4条案例
+2020-09-24 15:11:23,140 - test_log.py - 查询药品 - INFO - 当前测试数据是{'keywords':''}
+2020-09-24 15:11:23,140 - test_log.py - 查询药品 - INFO - 当前测试数据是{'keywords':''}
+2020-09-24 15:11:23,140 - test_log.py - 查询药品 - INFO - 当前测试数据是{'keywords':''}
+2020-09-24 15:11:23,140 - test_log.py - 查询药品 - INFO - 当前测试数据是{'keywords':''}
+2020-09-24 15:11:23,140 - test_log.py - 查询药品 - INFO - 当前测试数据是{'keywords':''}
+2020-09-24 15:11:23,140 - test_log.py - 查询药品 - INFO - 当前测试数据是{'keywords':''}

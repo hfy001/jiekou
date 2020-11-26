@@ -1,0 +1,117 @@
+{
+  "uid" : "b9584c059a29198f",
+  "name" : "test_case02[1-http://192.168.2.252:18080/4000/4000/0/-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'感冒灵',\n'aliascn':'999',\n'standard':'10gx9袋/盒',\n'trocheType':'颗粒剂',\n'titleAbb':'华润三九',\n'pageSize':'10',\n'pageIndex':'1orderBy=\\'shopCount asc\\''}-get-2]",
+  "fullName" : "test_log#test_case02",
+  "historyId" : "7498f73f20a989caecfedb664574a8ae",
+  "time" : {
+    "start" : 1601283061635,
+    "stop" : 1601283066983,
+    "duration" : 5348
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "fix_a",
+    "time" : {
+      "start" : 1601283061632,
+      "stop" : 1601283061632,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e1ee2f42f660357d",
+      "name" : "log",
+      "source" : "e1ee2f42f660357d.txt",
+      "type" : "text/plain",
+      "size" : 316
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "fix_a::0",
+    "time" : {
+      "start" : 1601283067387,
+      "stop" : 1601283067387,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_log"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "2568-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_log"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseid",
+    "value" : "1"
+  }, {
+    "name" : "headers",
+    "value" : "'{'Content-Type':'application/x-www-form-urlencoded'}'"
+  }, {
+    "name" : "host",
+    "value" : "'http://192.168.2.252:18080/4000/4000/0/'"
+  }, {
+    "name" : "method",
+    "value" : "'get'"
+  }, {
+    "name" : "params",
+    "value" : "'{'keywords':'感冒灵',\n'aliascn':'999',\n'standard':'10gx9袋/盒',\n'trocheType':'颗粒剂',\n'titleAbb':'华润三九',\n'pageSize':'10',\n'pageIndex':'1orderBy=\\'shopCount asc\\''}'"
+  }, {
+    "name" : "path",
+    "value" : "'guest.medicine.getSearchPageData'"
+  }, {
+    "name" : "rowid",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b9584c059a29198f.json",
+  "parameterValues" : [ "1", "'{'Content-Type':'application/x-www-form-urlencoded'}'", "'http://192.168.2.252:18080/4000/4000/0/'", "'get'", "'{'keywords':'感冒灵',\n'aliascn':'999',\n'standard':'10gx9袋/盒',\n'trocheType':'颗粒剂',\n'titleAbb':'华润三九',\n'pageSize':'10',\n'pageIndex':'1orderBy=\\'shopCount asc\\''}'", "'guest.medicine.getSearchPageData'", "2" ]
+}

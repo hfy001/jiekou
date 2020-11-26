@@ -1,0 +1,162 @@
+{
+  "uid" : "9135be4c13cd86f8",
+  "name" : "登录模块",
+  "fullName" : "test_case.test_login#test_case02",
+  "historyId" : "e498bac01cc12691e65b3b97472e1ccc",
+  "time" : {
+    "start" : 1605858894010,
+    "stop" : 1605858894770,
+    "duration" : 760
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录模块",
+      "time" : {
+        "start" : 1605858894010,
+        "stop" : 1605858894770,
+        "duration" : 760
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "caseid",
+        "value" : "1"
+      }, {
+        "name" : "host",
+        "value" : "'http://192.168.2.252:18080/4000/4000/0/'"
+      }, {
+        "name" : "path",
+        "value" : "'guest.account.login'"
+      }, {
+        "name" : "headers",
+        "value" : "None"
+      }, {
+        "name" : "params",
+        "value" : "'{'userName':'啦啦哈哈',\n'password':'abc123',\n'login_type':'2'}'"
+      }, {
+        "name" : "method",
+        "value" : "'get'"
+      }, {
+        "name" : "rowid",
+        "value" : "2"
+      }, {
+        "name" : "exceptvalue",
+        "value" : "'{\"code\":1}'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4b3b6387808b0ea7",
+      "name" : "log",
+      "source" : "4b3b6387808b0ea7.txt",
+      "type" : "text/plain",
+      "size" : 176
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "药房网APP"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "14276-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseid",
+    "value" : "1"
+  }, {
+    "name" : "exceptvalue",
+    "value" : "'{\"code\":1}'"
+  }, {
+    "name" : "headers",
+    "value" : "None"
+  }, {
+    "name" : "host",
+    "value" : "'http://192.168.2.252:18080/4000/4000/0/'"
+  }, {
+    "name" : "method",
+    "value" : "'get'"
+  }, {
+    "name" : "params",
+    "value" : "'{'userName':'啦啦哈哈',\n'password':'abc123',\n'login_type':'2'}'"
+  }, {
+    "name" : "path",
+    "value" : "'guest.account.login'"
+  }, {
+    "name" : "rowid",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d783e8451dc1f275",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605850107085,
+        "stop" : 1605850108759,
+        "duration" : 1674
+      }
+    }, {
+      "uid" : "cb7adcfdedf5f86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605842263684,
+        "stop" : 1605842264579,
+        "duration" : 895
+      }
+    }, {
+      "uid" : "be90e9a33ded9f0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605836388706,
+        "stop" : 1605836389501,
+        "duration" : 795
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9135be4c13cd86f8.json",
+  "parameterValues" : [ "1", "'{\"code\":1}'", "None", "'http://192.168.2.252:18080/4000/4000/0/'", "'get'", "'{'userName':'啦啦哈哈',\n'password':'abc123',\n'login_type':'2'}'", "'guest.account.login'", "2" ]
+}

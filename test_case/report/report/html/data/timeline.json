@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-EQA5M9D",
+    "children" : [ {
+      "name" : "2568-MainThread",
+      "children" : [ {
+        "name" : "test_case02[2-http://192.168.2.252:18080/4000/4000/0/-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'克拉霉素'}-get-3]",
+        "uid" : "4dc7c859dfe0a206",
+        "parentUid" : "0e0c54956b6f48196c7f89b6d4ad96d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601283066991,
+          "stop" : 1601283067176,
+          "duration" : 185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "'{'Content-Type':'application/x-www-form-urlencoded'}'", "'http://192.168.2.252:18080/4000/4000/0/'", "'get'", "'{'keywords':'克拉霉素'}'", "'guest.medicine.getSearchPageData'", "3" ]
+      }, {
+        "name" : "test_case02[3-None-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'感冒灵'}-get-4]",
+        "uid" : "52affe13d1cfce3f",
+        "parentUid" : "0e0c54956b6f48196c7f89b6d4ad96d9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601283067184,
+          "stop" : 1601283067188,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "'{'Content-Type':'application/x-www-form-urlencoded'}'", "None", "'get'", "'{'keywords':'感冒灵'}'", "'guest.medicine.getSearchPageData'", "4" ]
+      }, {
+        "name" : "test_case02[4-http://192.168.2.252:18080/4000/4000/0/-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':''}-get-5]",
+        "uid" : "d3441db924730562",
+        "parentUid" : "0e0c54956b6f48196c7f89b6d4ad96d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601283067345,
+          "stop" : 1601283067380,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4", "'{'Content-Type':'application/x-www-form-urlencoded'}'", "'http://192.168.2.252:18080/4000/4000/0/'", "'get'", "'{'keywords':''}'", "'guest.medicine.getSearchPageData'", "5" ]
+      }, {
+        "name" : "test_case02[1-http://192.168.2.252:18080/4000/4000/0/-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'感冒灵',\n'aliascn':'999',\n'standard':'10gx9袋/盒',\n'trocheType':'颗粒剂',\n'titleAbb':'华润三九',\n'pageSize':'10',\n'pageIndex':'1orderBy=\\'shopCount asc\\''}-get-2]",
+        "uid" : "b9584c059a29198f",
+        "parentUid" : "0e0c54956b6f48196c7f89b6d4ad96d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601283061635,
+          "stop" : 1601283066983,
+          "duration" : 5348
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "'{'Content-Type':'application/x-www-form-urlencoded'}'", "'http://192.168.2.252:18080/4000/4000/0/'", "'get'", "'{'keywords':'感冒灵',\n'aliascn':'999',\n'standard':'10gx9袋/盒',\n'trocheType':'颗粒剂',\n'titleAbb':'华润三九',\n'pageSize':'10',\n'pageIndex':'1orderBy=\\'shopCount asc\\''}'", "'guest.medicine.getSearchPageData'", "2" ]
+      } ],
+      "uid" : "0e0c54956b6f48196c7f89b6d4ad96d9"
+    } ],
+    "uid" : "931bd53e3eacc566d3ecbd4a4e3e64df"
+  } ]
+}

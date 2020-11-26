@@ -1,0 +1,8 @@
+INFO     查询药品:test_log.py:33 当前是第1条案例
+INFO     查询药品:test_log.py:34 当前测试数据是{'keywords':'感冒灵',
+'aliascn':'999',
+'standard':'10gx9袋/盒',
+'trocheType':'颗粒剂',
+'titleAbb':'华润三九',
+'pageSize':'10',
+'pageIndex':'1orderBy=\'shopCount asc\''}

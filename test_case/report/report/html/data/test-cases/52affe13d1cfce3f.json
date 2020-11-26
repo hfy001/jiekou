@@ -1,0 +1,125 @@
+{
+  "uid" : "52affe13d1cfce3f",
+  "name" : "test_case02[3-None-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'感冒灵'}-get-4]",
+  "fullName" : "test_log#test_case02",
+  "historyId" : "5404ff5c0d307efb8522610824c7bef2",
+  "time" : {
+    "start" : 1601283067184,
+    "stop" : 1601283067188,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'dict' object has no attribute 'status_code'",
+  "statusTrace" : "caseid = 3, host = None, path = 'guest.medicine.getSearchPageData'\nheaders = \"{'Content-Type':'application/x-www-form-urlencoded'}\", params = \"{'keywords':'感冒灵'}\", method = 'get'\nrowid = 4\n\n    @pytest.mark.parametrize(\"caseid,host,path,headers,params,method,rowid\",casedate)\n    def test_case02(caseid,host,path,headers,params,method,rowid):\n    \n        get_log('查询药品').info('当前是第{}条案例'.format(caseid))\n        get_log('查询药品').info('当前测试数据是{}'.format(params))\n    \n        # response=requests.get(url=host+path,headers=eval(headers),params=eval(params))\n    \n        res=Apimethod(host,path,eval(headers),eval(params),method)\n        print(res)\n>       resstatuscode=res.getstatus()\n\ntest_log.py:39: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <page_request.pagerequest.Apimethod object at 0x05081148>\n\n    def getstatus(self):\n>       statuscode = self.jiekouqingqiu().status_code\nE       AttributeError: 'dict' object has no attribute 'status_code'\n\n..\\page_request\\pagerequest.py:33: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "fix_a",
+    "time" : {
+      "start" : 1601283061632,
+      "stop" : 1601283061632,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'dict' object has no attribute 'status_code'",
+    "statusTrace" : "caseid = 3, host = None, path = 'guest.medicine.getSearchPageData'\nheaders = \"{'Content-Type':'application/x-www-form-urlencoded'}\", params = \"{'keywords':'感冒灵'}\", method = 'get'\nrowid = 4\n\n    @pytest.mark.parametrize(\"caseid,host,path,headers,params,method,rowid\",casedate)\n    def test_case02(caseid,host,path,headers,params,method,rowid):\n    \n        get_log('查询药品').info('当前是第{}条案例'.format(caseid))\n        get_log('查询药品').info('当前测试数据是{}'.format(params))\n    \n        # response=requests.get(url=host+path,headers=eval(headers),params=eval(params))\n    \n        res=Apimethod(host,path,eval(headers),eval(params),method)\n        print(res)\n>       resstatuscode=res.getstatus()\n\ntest_log.py:39: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <page_request.pagerequest.Apimethod object at 0x05081148>\n\n    def getstatus(self):\n>       statuscode = self.jiekouqingqiu().status_code\nE       AttributeError: 'dict' object has no attribute 'status_code'\n\n..\\page_request\\pagerequest.py:33: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bb36f96616a1da57",
+      "name" : "log",
+      "source" : "bb36f96616a1da57.txt",
+      "type" : "text/plain",
+      "size" : 160
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "fix_a::0",
+    "time" : {
+      "start" : 1601283067387,
+      "stop" : 1601283067387,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_log"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "2568-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_log"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseid",
+    "value" : "3"
+  }, {
+    "name" : "headers",
+    "value" : "'{'Content-Type':'application/x-www-form-urlencoded'}'"
+  }, {
+    "name" : "host",
+    "value" : "None"
+  }, {
+    "name" : "method",
+    "value" : "'get'"
+  }, {
+    "name" : "params",
+    "value" : "'{'keywords':'感冒灵'}'"
+  }, {
+    "name" : "path",
+    "value" : "'guest.medicine.getSearchPageData'"
+  }, {
+    "name" : "rowid",
+    "value" : "4"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "52affe13d1cfce3f.json",
+  "parameterValues" : [ "3", "'{'Content-Type':'application/x-www-form-urlencoded'}'", "None", "'get'", "'{'keywords':'感冒灵'}'", "'guest.medicine.getSearchPageData'", "4" ]
+}

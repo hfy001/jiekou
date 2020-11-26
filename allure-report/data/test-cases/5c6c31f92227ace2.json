@@ -1,0 +1,111 @@
+{
+  "uid" : "5c6c31f92227ace2",
+  "name" : "test_addCart[20-20-{\n'quantity':'1',\n'storeMedicineId':'26258716'\n}\n-21]",
+  "fullName" : "test_case.test_cart.TestCart#test_addCart",
+  "historyId" : "15a6b84cb7c58ac471d915c53ac03041",
+  "time" : {
+    "start" : 1605842257919,
+    "stop" : 1605842258457,
+    "duration" : 538
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1605842257498,
+      "stop" : 1605842257498,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "loginssid",
+    "time" : {
+      "start" : 1605842257919,
+      "stop" : 1605842257919,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1605842260679,
+      "stop" : 1605842260679,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_cart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCart"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "22952-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_id",
+    "value" : "20"
+  }, {
+    "name" : "id",
+    "value" : "20"
+  }, {
+    "name" : "params",
+    "value" : "'{\n'quantity':'1',\n'storeMedicineId':'26258716'\n}\n'"
+  }, {
+    "name" : "rowid",
+    "value" : "21"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c6c31f92227ace2.json",
+  "parameterValues" : [ "20", "20", "'{\n'quantity':'1',\n'storeMedicineId':'26258716'\n}\n'", "21" ]
+}

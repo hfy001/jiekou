@@ -1,0 +1,157 @@
+{
+  "uid" : "9870c49a2dbdd9f",
+  "name" : "test_getCart[23-23-{}-24]",
+  "fullName" : "test_case.test_cart.TestCart#test_getCart",
+  "historyId" : "bea9828567db169a785160e84f3e8a4d",
+  "time" : {
+    "start" : 1605850104153,
+    "stop" : 1605850104438,
+    "duration" : 285
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1605850102058,
+      "stop" : 1605850102058,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "loginssid",
+    "time" : {
+      "start" : 1605850104152,
+      "stop" : 1605850104152,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取购物车商品等具体信息",
+      "time" : {
+        "start" : 1605850104153,
+        "stop" : 1605850104438,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "id",
+        "value" : "23"
+      }, {
+        "name" : "api_id",
+        "value" : "23"
+      }, {
+        "name" : "params",
+        "value" : "'{}'"
+      }, {
+        "name" : "rowid",
+        "value" : "24"
+      }, {
+        "name" : "loginssid",
+        "value" : "<common.login.login1 object at 0x05266250>"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1605850104441,
+      "stop" : 1605850104441,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "购物车模块"
+  }, {
+    "name" : "epic",
+    "value" : "药房网APP"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_cart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCart"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "22012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_id",
+    "value" : "23"
+  }, {
+    "name" : "id",
+    "value" : "23"
+  }, {
+    "name" : "params",
+    "value" : "'{}'"
+  }, {
+    "name" : "rowid",
+    "value" : "24"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9870c49a2dbdd9f.json",
+  "parameterValues" : [ "23", "23", "'{}'", "24" ]
+}

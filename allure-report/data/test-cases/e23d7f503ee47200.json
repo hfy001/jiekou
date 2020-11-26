@@ -1,0 +1,183 @@
+{
+  "uid" : "e23d7f503ee47200",
+  "name" : "修改购物车数量",
+  "fullName" : "test_case.test_cart.TestCart#test_editCart",
+  "historyId" : "8da2face7f8ce875cea53d34c0acb036",
+  "time" : {
+    "start" : 1605858889984,
+    "stop" : 1605858890685,
+    "duration" : 701
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1605858888021,
+      "stop" : 1605858888021,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "loginssid",
+    "time" : {
+      "start" : 1605858889983,
+      "stop" : 1605858889983,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "修改购物车数量",
+      "time" : {
+        "start" : 1605858889984,
+        "stop" : 1605858890685,
+        "duration" : 701
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "id",
+        "value" : "26"
+      }, {
+        "name" : "api_id",
+        "value" : "26"
+      }, {
+        "name" : "params",
+        "value" : "'{'cartId':'17596967',\n'quantity':'3'}'"
+      }, {
+        "name" : "rowid",
+        "value" : "27"
+      }, {
+        "name" : "loginssid",
+        "value" : "<common.login.login1 object at 0x04A5E628>"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1605858891445,
+      "stop" : 1605858891445,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "药房网APP"
+  }, {
+    "name" : "feature",
+    "value" : "购物车模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_cart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCart"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "14276-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_id",
+    "value" : "26"
+  }, {
+    "name" : "id",
+    "value" : "26"
+  }, {
+    "name" : "params",
+    "value" : "'{'cartId':'17596967',\n'quantity':'3'}'"
+  }, {
+    "name" : "rowid",
+    "value" : "27"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5b78c8193999cd48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605850103396,
+        "stop" : 1605850103689,
+        "duration" : 293
+      }
+    }, {
+      "uid" : "df9be59aa042f310",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605842259685,
+        "stop" : 1605842259933,
+        "duration" : 248
+      }
+    }, {
+      "uid" : "f2964b30a2225aad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605836384524,
+        "stop" : 1605836384898,
+        "duration" : 374
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e23d7f503ee47200.json",
+  "parameterValues" : [ "26", "26", "'{'cartId':'17596967',\n'quantity':'3'}'", "27" ]
+}

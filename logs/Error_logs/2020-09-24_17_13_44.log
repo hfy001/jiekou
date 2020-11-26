@@ -1,0 +1,23 @@
+2020-09-24 17:13:44,893 - test_chaxunyaodian.py - 查询药品 - INFO - test_chaxunyaodian  - 31 - 当前是第2条案例
+2020-09-24 17:13:44,895 - test_chaxunyaodian.py - 查询药品 - INFO - test_chaxunyaodian  - 32 - 当前测试数据是{'keywords':'哈尔滨',
+'pageSize':'10',
+'pageIndex':'2'}
+2020-09-24 17:13:44,895 - test_chaxunyaodian.py - 查询药品 - INFO - test_chaxunyaodian  - 32 - 当前测试数据是{'keywords':'哈尔滨',
+'pageSize':'10',
+'pageIndex':'2'}
+2020-09-24 17:13:46,183 - test_chaxunyaodian.py - 查询药品 - INFO - test_chaxunyaodian  - 31 - 当前是第3条案例
+2020-09-24 17:13:46,183 - test_chaxunyaodian.py - 查询药品 - INFO - test_chaxunyaodian  - 31 - 当前是第3条案例
+2020-09-24 17:13:46,184 - test_chaxunyaodian.py - 查询药品 - INFO - test_chaxunyaodian  - 32 - 当前测试数据是{'keywords':'哈尔滨',
+'pageSize':'10',
+'pageIndex':'3'}
+2020-09-24 17:13:46,184 - test_chaxunyaodian.py - 查询药品 - INFO - test_chaxunyaodian  - 32 - 当前测试数据是{'keywords':'哈尔滨',
+'pageSize':'10',
+'pageIndex':'3'}
+2020-09-24 17:13:46,336 - test_chaxunyaodian.py - 查询药品 - INFO - test_chaxunyaodian  - 31 - 当前是第4条案例
+2020-09-24 17:13:46,336 - test_chaxunyaodian.py - 查询药品 - INFO - test_chaxunyaodian  - 31 - 当前是第4条案例
+2020-09-24 17:13:46,337 - test_chaxunyaodian.py - 查询药品 - INFO - test_chaxunyaodian  - 32 - 当前测试数据是{'keywords':'哈尔滨',
+'pageSize':'10',
+'pageIndex':'4'}
+2020-09-24 17:13:46,337 - test_chaxunyaodian.py - 查询药品 - INFO - test_chaxunyaodian  - 32 - 当前测试数据是{'keywords':'哈尔滨',
+'pageSize':'10',
+'pageIndex':'4'}

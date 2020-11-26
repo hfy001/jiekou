@@ -1,0 +1,184 @@
+{
+  "uid" : "7c0240e0778ec3f1",
+  "name" : "获取地址",
+  "fullName" : "test_case.test_address.TestAddress#test_getaddress",
+  "historyId" : "88aeada198648f00cca299931cb41f1c",
+  "time" : {
+    "start" : 1605858878684,
+    "stop" : 1605858884788,
+    "duration" : 6104
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "loginssid",
+    "time" : {
+      "start" : 1605858878684,
+      "stop" : 1605858878684,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1605858878683,
+      "stop" : 1605858878683,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取地址",
+      "time" : {
+        "start" : 1605858878684,
+        "stop" : 1605858884788,
+        "duration" : 6104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "id",
+        "value" : "1"
+      }, {
+        "name" : "api_id",
+        "value" : "1"
+      }, {
+        "name" : "params",
+        "value" : "'{'pageIndex':'undefined',\n'pageSize':'10',\n'__client':'app_wx',\n'app_version':'4.5.00',\n'osVersion':'miniapp',\n'deviceName':'iPhone%206s%20Plus%3CiPhone8%2C2%3E',\n'os':'ios',\n'version':'7.0.17',\n'market':'iPhone',\n'networkType':'true',\n'lat':'31.236276',\n'lng':'121.480248',\n'user_city_name':'上海',\n'user_region_id':'95'}'"
+      }, {
+        "name" : "rowid",
+        "value" : "2"
+      }, {
+        "name" : "loginssid",
+        "value" : "<common.login.login1 object at 0x04B0BE98>"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1605858885919,
+      "stop" : 1605858885919,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "药房网APP"
+  }, {
+    "name" : "feature",
+    "value" : "收货地址模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_address"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddress"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "14276-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_id",
+    "value" : "1"
+  }, {
+    "name" : "id",
+    "value" : "1"
+  }, {
+    "name" : "params",
+    "value" : "'{'pageIndex':'undefined',\n'pageSize':'10',\n'__client':'app_wx',\n'app_version':'4.5.00',\n'osVersion':'miniapp',\n'deviceName':'iPhone%206s%20Plus%3CiPhone8%2C2%3E',\n'os':'ios',\n'version':'7.0.17',\n'market':'iPhone',\n'networkType':'true',\n'lat':'31.236276',\n'lng':'121.480248',\n'user_city_name':'上海',\n'user_region_id':'95'}'"
+  }, {
+    "name" : "rowid",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "950c4c188d05e4e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605850093629,
+        "stop" : 1605850099616,
+        "duration" : 5987
+      }
+    }, {
+      "uid" : "513774924c284f62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605842248215,
+        "stop" : 1605842254266,
+        "duration" : 6051
+      }
+    }, {
+      "uid" : "c13c289866c04fdc",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '缴费如果您把日军大富别人高' == '海大富别人高回报看缴费如果您把日军'\n  - 海大富别人高回报看缴费如果您把日军\n  + 缴费如果您把日军大富别人高",
+      "time" : {
+        "start" : 1605836368310,
+        "stop" : 1605836373706,
+        "duration" : 5396
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c0240e0778ec3f1.json",
+  "parameterValues" : [ "1", "1", "'{'pageIndex':'undefined',\n'pageSize':'10',\n'__client':'app_wx',\n'app_version':'4.5.00',\n'osVersion':'miniapp',\n'deviceName':'iPhone%206s%20Plus%3CiPhone8%2C2%3E',\n'os':'ios',\n'version':'7.0.17',\n'market':'iPhone',\n'networkType':'true',\n'lat':'31.236276',\n'lng':'121.480248',\n'user_city_name':'上海',\n'user_region_id':'95'}'", "2" ]
+}

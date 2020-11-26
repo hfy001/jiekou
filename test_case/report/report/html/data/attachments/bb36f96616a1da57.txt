@@ -1,0 +1,2 @@
+[32mINFO    [0m 查询药品:test_log.py:32 当前是第3条案例
+[32mINFO    [0m 查询药品:test_log.py:33 当前测试数据是{'keywords':'感冒灵'}

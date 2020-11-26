@@ -1,0 +1,68 @@
+{
+  "uid" : "7fa000adaf6bcbda",
+  "name" : "test_chakandizhi",
+  "fullName" : "common.test_tologin#test_chakandizhi",
+  "historyId" : "3d9c0cdbffe1e5009ae1b864389b6eab",
+  "time" : {
+    "start" : 1605850093553,
+    "stop" : 1605850093553,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'login1' object has no attribute 'login'",
+  "statusTrace" : "loginssid = <common.login.login1 object at 0x05457598>\n\n    def test_chakandizhi(loginssid):\n    \n        headers={}\n>       headers[\"Cookie\"]=loginssid.login()\nE       AttributeError: 'login1' object has no attribute 'login'\n\ncommon\\test_tologin.py:32: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "loginssid",
+    "time" : {
+      "start" : 1605850093552,
+      "stop" : 1605850093552,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "common"
+  }, {
+    "name" : "suite",
+    "value" : "test_tologin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "22012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "common.test_tologin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7fa000adaf6bcbda.json",
+  "parameterValues" : [ ]
+}

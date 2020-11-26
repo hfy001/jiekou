@@ -1,0 +1,111 @@
+{
+  "uid" : "2bb17264dab1a696",
+  "name" : "test_FreePost[25-25-{'storeid':'338958','price':'不可为空'}-26]",
+  "fullName" : "test_case.test_shop.Testshop#test_FreePost",
+  "historyId" : "bd138562f8757c87e3841727a8c98646",
+  "time" : {
+    "start" : 1605836393253,
+    "stop" : 1605836393526,
+    "duration" : 273
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "loginssid",
+    "time" : {
+      "start" : 1605836393253,
+      "stop" : 1605836393253,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1605836393253,
+      "stop" : 1605836393253,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1605836393529,
+      "stop" : 1605836393529,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_shop"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testshop"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "9036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_shop"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_id",
+    "value" : "25"
+  }, {
+    "name" : "id",
+    "value" : "25"
+  }, {
+    "name" : "params",
+    "value" : "'{'storeid':'338958','price':'不可为空'}'"
+  }, {
+    "name" : "rowid",
+    "value" : "26"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2bb17264dab1a696.json",
+  "parameterValues" : [ "25", "25", "'{'storeid':'338958','price':'不可为空'}'", "26" ]
+}

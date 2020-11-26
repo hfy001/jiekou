@@ -1,0 +1,7 @@
+2020-10-15 15:59:46,661 - test_login.py - 登录 - INFO - 当前是第1条案例
+2020-10-15 15:59:46,662 - test_login.py - 登录 - INFO - 当前测试数据是{'userName':'啦啦哈哈',
+'password':'abc123',
+'login_type':'2'}
+2020-10-15 15:59:46,662 - test_login.py - 登录 - INFO - 当前测试数据是{'userName':'啦啦哈哈',
+'password':'abc123',
+'login_type':'2'}

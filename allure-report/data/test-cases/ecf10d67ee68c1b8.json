@@ -1,0 +1,118 @@
+{
+  "uid" : "ecf10d67ee68c1b8",
+  "name" : "test_case01[3-http://192.168.2.252:18080-/4000/4000/0/guest.medicine.getShopMedicines-{'Content-Type': 'application/x-www-form-urlencoded'}-{\n    'user_city_name':'',\n    'user_region_id':'',\n    'pageIndex':'1',\n    'pageSize':'10',\n    'conditions':'{\\\"medicineid\\\":\\\"278803\\\"}'\n    }-get-4]",
+  "fullName" : "test_case.test_bijia#test_case01",
+  "historyId" : "c7e8029dbedcddc6aed3f48092cbd46b",
+  "time" : {
+    "start" : 1602581057188,
+    "stop" : 1602581057663,
+    "duration" : 475
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "fix_a",
+    "time" : {
+      "start" : 1602581056313,
+      "stop" : 1602581056313,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "794446a596f83054",
+      "name" : "log",
+      "source" : "794446a596f83054.txt",
+      "type" : "text/plain",
+      "size" : 1070
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "fix_a::0",
+    "time" : {
+      "start" : 1602581058532,
+      "stop" : 1602581058532,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_bijia"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "16172-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_bijia"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseID",
+    "value" : "3"
+  }, {
+    "name" : "headers",
+    "value" : "'{'Content-Type': 'application/x-www-form-urlencoded'}'"
+  }, {
+    "name" : "host",
+    "value" : "'http://192.168.2.252:18080'"
+  }, {
+    "name" : "method",
+    "value" : "'get'"
+  }, {
+    "name" : "params",
+    "value" : "'{\n    'user_city_name':'',\n    'user_region_id':'',\n    'pageIndex':'1',\n    'pageSize':'10',\n    'conditions':'{\\\"medicineid\\\":\\\"278803\\\"}'\n    }'"
+  }, {
+    "name" : "path",
+    "value" : "'/4000/4000/0/guest.medicine.getShopMedicines'"
+  }, {
+    "name" : "rowid",
+    "value" : "4"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ecf10d67ee68c1b8.json",
+  "parameterValues" : [ "3", "'{'Content-Type': 'application/x-www-form-urlencoded'}'", "'http://192.168.2.252:18080'", "'get'", "'{\n    'user_city_name':'',\n    'user_region_id':'',\n    'pageIndex':'1',\n    'pageSize':'10',\n    'conditions':'{\\\"medicineid\\\":\\\"278803\\\"}'\n    }'", "'/4000/4000/0/guest.medicine.getShopMedicines'", "4" ]
+}

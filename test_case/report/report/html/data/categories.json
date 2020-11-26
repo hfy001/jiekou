@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'dict' object has no attribute 'status_code'",
+      "children" : [ {
+        "name" : "test_case02[3-None-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'感冒灵'}-get-4]",
+        "uid" : "52affe13d1cfce3f",
+        "parentUid" : "351e6bf9897ad7533602fa268df04282",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601283067184,
+          "stop" : 1601283067188,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "'{'Content-Type':'application/x-www-form-urlencoded'}'", "None", "'get'", "'{'keywords':'感冒灵'}'", "'guest.medicine.getSearchPageData'", "4" ]
+      } ],
+      "uid" : "351e6bf9897ad7533602fa268df04282"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

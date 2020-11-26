@@ -1,0 +1,4 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:207 Starting new HTTP connection (1): 192.168.2.252
+DEBUG    urllib3.connectionpool:connectionpool.py:394 http://192.168.2.252:18080 "GET /4000/4000/0/guest.medicine.getSearchPageData?keywords= HTTP/1.1" 200 57
+DEBUG    urllib3.connectionpool:connectionpool.py:207 Starting new HTTP connection (1): 192.168.2.252
+DEBUG    urllib3.connectionpool:connectionpool.py:394 http://192.168.2.252:18080 "GET /4000/4000/0/guest.medicine.getSearchPageData?keywords= HTTP/1.1" 200 57

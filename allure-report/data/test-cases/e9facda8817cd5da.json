@@ -1,0 +1,119 @@
+{
+  "uid" : "e9facda8817cd5da",
+  "name" : "新增用药人",
+  "fullName" : "test_case.test_person.Testperson#test_insertuserdrug",
+  "historyId" : "362551ce3a1ed97b44307824a00ba13a",
+  "time" : {
+    "start" : 1605850111074,
+    "stop" : 1605850111247,
+    "duration" : 173
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert -3 == 1\n +  where -3 = <test_case.test_person.Testperson object at 0x052ABCE8>.resaddresscode",
+  "statusTrace" : "self = <test_case.test_person.Testperson object at 0x052ABCE8>, id = 38\napi_id = 38\nparams = '{\\'data\\':\\'{\\\\\"real_name\\\\\":\\\\\"黄凤雅\\\\\",\\\\\"idcard_no\\\\\":\\\\\"32068419920825136\\\\\",\\\\\"birthday\\\\\":\\\\\"1992-08-25\\\\\",\\\\\"dic..._bool_renal\\\\\":\\\\\"0\\\\\",\\\\\"dict_bool_nurse\\\\\":\\\\\"0\\\\\",\\\\\"relation_label\\\\\":\\\\\"本人\\\\\",\\\\\"dict_bool_default\\\\\":\\\\\"0\\\\\"}\\'}'\nrowid = 39, loginssid = <common.login.login1 object at 0x05283E68>\n\n    @allure.title(\"新增用药人\")\n    @pytest.mark.parametrize(\"id,api_id,params,rowid\",[casedate1[37]])\n    def test_insertuserdrug(self,id,api_id,params,rowid,loginssid):\n        re = self.person.insert_userdrug(eval(params),loginssid)\n        self.resaddresscode = re.json()[\"code\"]\n>       assert self.resaddresscode == 1\nE       assert -3 == 1\nE        +  where -3 = <test_case.test_person.Testperson object at 0x052ABCE8>.resaddresscode\n\ntest_case\\test_person.py:50: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1605850110439,
+      "stop" : 1605850110439,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "loginssid",
+    "time" : {
+      "start" : 1605850111073,
+      "stop" : 1605850111073,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1605850111255,
+      "stop" : 1605850111255,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "我的模块"
+  }, {
+    "name" : "epic",
+    "value" : "药房网APP"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testperson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "22012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_id",
+    "value" : "38"
+  }, {
+    "name" : "id",
+    "value" : "38"
+  }, {
+    "name" : "params",
+    "value" : "'{'data':'{\\\"real_name\\\":\\\"黄凤雅\\\",\\\"idcard_no\\\":\\\"32068419920825136\\\",\\\"birthday\\\":\\\"1992-08-25\\\",\\\"dict_sex\\\":\\\"0\\\",\\\"weight\\\":\\\"\\\",\\\"mobile\\\":\\\"17521558586\\\",\\\"dict_bool_medical_history\\\":\\\"0\\\",\\\"medical_history\\\":\\\"\\\",\\\"allergy_history\\\":\\\"\\\",\\\"family_history\\\":\\\"\\\",\\\"dict_bool_allergy_history\\\":\\\"0\\\",\\\"dict_bool_family_history\\\":\\\"0\\\",\\\"dict_bool_liver\\\":\\\"0\\\",\\\"dict_bool_renal\\\":\\\"0\\\",\\\"dict_bool_nurse\\\":\\\"0\\\",\\\"relation_label\\\":\\\"本人\\\",\\\"dict_bool_default\\\":\\\"0\\\"}'}'"
+  }, {
+    "name" : "rowid",
+    "value" : "39"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9facda8817cd5da.json",
+  "parameterValues" : [ "38", "38", "'{'data':'{\\\"real_name\\\":\\\"黄凤雅\\\",\\\"idcard_no\\\":\\\"32068419920825136\\\",\\\"birthday\\\":\\\"1992-08-25\\\",\\\"dict_sex\\\":\\\"0\\\",\\\"weight\\\":\\\"\\\",\\\"mobile\\\":\\\"17521558586\\\",\\\"dict_bool_medical_history\\\":\\\"0\\\",\\\"medical_history\\\":\\\"\\\",\\\"allergy_history\\\":\\\"\\\",\\\"family_history\\\":\\\"\\\",\\\"dict_bool_allergy_history\\\":\\\"0\\\",\\\"dict_bool_family_history\\\":\\\"0\\\",\\\"dict_bool_liver\\\":\\\"0\\\",\\\"dict_bool_renal\\\":\\\"0\\\",\\\"dict_bool_nurse\\\":\\\"0\\\",\\\"relation_label\\\":\\\"本人\\\",\\\"dict_bool_default\\\":\\\"0\\\"}'}'", "39" ]
+}

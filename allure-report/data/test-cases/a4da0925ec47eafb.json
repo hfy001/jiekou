@@ -1,0 +1,111 @@
+{
+  "uid" : "a4da0925ec47eafb",
+  "name" : "test_CollectStore[21-21-{\n'storeid':'338958'\n}\n-22]",
+  "fullName" : "test_case.test_favorite.TestFavorite#test_CollectStore",
+  "historyId" : "cefbb9a70a77fd782efdbf07e799118f",
+  "time" : {
+    "start" : 1605836387729,
+    "stop" : 1605836387878,
+    "duration" : 149
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "loginssid",
+    "time" : {
+      "start" : 1605836387728,
+      "stop" : 1605836387729,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1605836387255,
+      "stop" : 1605836387256,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1605836388093,
+      "stop" : 1605836388093,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_favorite"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFavorite"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "9036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_favorite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_id",
+    "value" : "21"
+  }, {
+    "name" : "id",
+    "value" : "21"
+  }, {
+    "name" : "params",
+    "value" : "'{\n'storeid':'338958'\n}\n'"
+  }, {
+    "name" : "rowid",
+    "value" : "22"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4da0925ec47eafb.json",
+  "parameterValues" : [ "21", "21", "'{\n'storeid':'338958'\n}\n'", "22" ]
+}

@@ -1,0 +1,12 @@
+INFO     查询药品:test_log.py:33 当前是第1条案例
+INFO     查询药品:test_log.py:34 当前测试数据是{'keywords':'感冒灵',
+'aliascn':'999',
+'standard':'10gx9袋/盒',
+'trocheType':'颗粒剂',
+'titleAbb':'华润三九',
+'pageSize':'10',
+'pageIndex':'1orderBy=\'shopCount asc\''}
+DEBUG    urllib3.connectionpool:connectionpool.py:207 Starting new HTTP connection (1): 192.168.2.252
+DEBUG    urllib3.connectionpool:connectionpool.py:394 http://192.168.2.252:18080 "GET /4000/4000/0/guest.medicine.getSearchPageData?keywords=%E6%84%9F%E5%86%92%E7%81%B5&aliascn=999&standard=10gx9%E8%A2%8B%2F%E7%9B%92&trocheType=%E9%A2%97%E7%B2%92%E5%89%82&titleAbb=%E5%8D%8E%E6%B6%A6%E4%B8%89%E4%B9%9D&pageSize=10&pageIndex=1orderBy%3D%27shopCount+asc%27 HTTP/1.1" 200 81
+DEBUG    urllib3.connectionpool:connectionpool.py:207 Starting new HTTP connection (1): 192.168.2.252
+DEBUG    urllib3.connectionpool:connectionpool.py:394 http://192.168.2.252:18080 "GET /4000/4000/0/guest.medicine.getSearchPageData?keywords=%E6%84%9F%E5%86%92%E7%81%B5&aliascn=999&standard=10gx9%E8%A2%8B%2F%E7%9B%92&trocheType=%E9%A2%97%E7%B2%92%E5%89%82&titleAbb=%E5%8D%8E%E6%B6%A6%E4%B8%89%E4%B9%9D&pageSize=10&pageIndex=1orderBy%3D%27shopCount+asc%27 HTTP/1.1" 200 81

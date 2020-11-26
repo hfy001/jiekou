@@ -1,0 +1,96 @@
+{
+  "uid" : "db326db0df3dcc6",
+  "name" : "test_StoreMedicineTop[14-14-{'storeid':'351879'}-15]",
+  "fullName" : "test_case.test_storemedicine.TestSearchMedicine#test_StoreMedicineTop",
+  "historyId" : "da01cef1818e572cc7f48a50f107fcc8",
+  "time" : {
+    "start" : 1605842267813,
+    "stop" : 1605842267936,
+    "duration" : 123
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1605842267401,
+      "stop" : 1605842267401,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1605842268068,
+      "stop" : 1605842268068,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_storemedicine"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearchMedicine"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "22952-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_storemedicine"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_id",
+    "value" : "14"
+  }, {
+    "name" : "id",
+    "value" : "14"
+  }, {
+    "name" : "params",
+    "value" : "'{'storeid':'351879'}'"
+  }, {
+    "name" : "rowid",
+    "value" : "15"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db326db0df3dcc6.json",
+  "parameterValues" : [ "14", "14", "'{'storeid':'351879'}'", "15" ]
+}
