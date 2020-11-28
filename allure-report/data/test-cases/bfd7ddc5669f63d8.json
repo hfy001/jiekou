@@ -1,0 +1,97 @@
+{
+  "uid" : "bfd7ddc5669f63d8",
+  "name" : "test_add2[4-13-9]",
+  "fullName" : "test_case.test_3.TestAbc#test_add2",
+  "historyId" : "f68f3bafe1153f61073d174995caf773",
+  "time" : {
+    "start" : 1606560207794,
+    "stop" : 1606560207794,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_3"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAbc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "6592-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "4"
+  }, {
+    "name" : "b",
+    "value" : "13"
+  }, {
+    "name" : "c",
+    "value" : "9"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fcf42a75a5754b22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605858878664,
+        "stop" : 1605858878664,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e1b20a1bc71fc416",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605850093608,
+        "stop" : 1605850093608,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2543013ff97811a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605842248194,
+        "stop" : 1605842248194,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7ca4a7584997c0b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605836368289,
+        "stop" : 1605836368289,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bfd7ddc5669f63d8.json",
+  "parameterValues" : [ "4", "13", "9" ]
+}

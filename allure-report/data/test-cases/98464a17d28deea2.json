@@ -1,0 +1,176 @@
+{
+  "uid" : "98464a17d28deea2",
+  "name" : "删除地址模块",
+  "fullName" : "test_case.test_deleteaddress#test_tianjiadizhi",
+  "historyId" : "a51599fd622ef14d1a42898ca01368e9",
+  "time" : {
+    "start" : 1606560224329,
+    "stop" : 1606560224986,
+    "duration" : 657
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "loginssid",
+    "time" : {
+      "start" : 1606560224329,
+      "stop" : 1606560224329,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "删除地址模块",
+      "time" : {
+        "start" : 1606560224329,
+        "stop" : 1606560224986,
+        "duration" : 657
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "caseid1",
+        "value" : "1"
+      }, {
+        "name" : "host",
+        "value" : "'http://192.168.2.252:18080/4000/4000/0/'"
+      }, {
+        "name" : "path",
+        "value" : "'person.address.delete'"
+      }, {
+        "name" : "params",
+        "value" : "'{\n'__client':'app_wx',\n'app_version':'4.5.00',\n'osVersion':'miniapp',\n'deviceName':'iPhone%206s%20Plus%3CiPhone8%2C2%3E',\n'os':'ios',\n'version':'7.0.17',\n'market':'iPhone',\n'networkType':'true',\n'lat':'31.236276',\n'lng':'121.480248'\n}'"
+      }, {
+        "name" : "method",
+        "value" : "'get'"
+      }, {
+        "name" : "rowid",
+        "value" : "2"
+      }, {
+        "name" : "exceptvalue",
+        "value" : "'{\"code\":1}'"
+      }, {
+        "name" : "loginssid",
+        "value" : "<common.login.login1 object at 0x04BBD8C8>"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "删除地址模块"
+  }, {
+    "name" : "epic",
+    "value" : "药房网APP"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_deleteaddress"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "6592-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_deleteaddress"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseid1",
+    "value" : "1"
+  }, {
+    "name" : "exceptvalue",
+    "value" : "'{\"code\":1}'"
+  }, {
+    "name" : "host",
+    "value" : "'http://192.168.2.252:18080/4000/4000/0/'"
+  }, {
+    "name" : "method",
+    "value" : "'get'"
+  }, {
+    "name" : "params",
+    "value" : "'{\n'__client':'app_wx',\n'app_version':'4.5.00',\n'osVersion':'miniapp',\n'deviceName':'iPhone%206s%20Plus%3CiPhone8%2C2%3E',\n'os':'ios',\n'version':'7.0.17',\n'market':'iPhone',\n'networkType':'true',\n'lat':'31.236276',\n'lng':'121.480248'\n}'"
+  }, {
+    "name" : "path",
+    "value" : "'person.address.delete'"
+  }, {
+    "name" : "rowid",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "82fa237b0a74ad73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605858892225,
+        "stop" : 1605858892782,
+        "duration" : 557
+      }
+    }, {
+      "uid" : "6d5603ee81bf55c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605850105134,
+        "stop" : 1605850105708,
+        "duration" : 574
+      }
+    }, {
+      "uid" : "aac62cc4afd34d45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605842261500,
+        "stop" : 1605842262028,
+        "duration" : 528
+      }
+    }, {
+      "uid" : "de5239a78a2d7ab5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605836386717,
+        "stop" : 1605836387249,
+        "duration" : 532
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "98464a17d28deea2.json",
+  "parameterValues" : [ "1", "'{\"code\":1}'", "'http://192.168.2.252:18080/4000/4000/0/'", "'get'", "'{\n'__client':'app_wx',\n'app_version':'4.5.00',\n'osVersion':'miniapp',\n'deviceName':'iPhone%206s%20Plus%3CiPhone8%2C2%3E',\n'os':'ios',\n'version':'7.0.17',\n'market':'iPhone',\n'networkType':'true',\n'lat':'31.236276',\n'lng':'121.480248'\n}'", "'person.address.delete'", "2" ]
+}

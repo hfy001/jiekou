@@ -1,0 +1,136 @@
+{
+  "uid" : "642309e7d9e0830",
+  "name" : "test_case02[4-http://192.168.2.252:18080/4000/4000/0/-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':''}-get-5-{\"code\":1}]",
+  "fullName" : "test_case.test_log#test_case02",
+  "historyId" : "ad3010296be4177e1d9f68cba90d651b",
+  "time" : {
+    "start" : 1606560226086,
+    "stop" : 1606560226102,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "34e0ee2687a82b71",
+      "name" : "log",
+      "source" : "34e0ee2687a82b71.txt",
+      "type" : "text/plain",
+      "size" : 133
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "查询药品"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_log"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "6592-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_log"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseid",
+    "value" : "4"
+  }, {
+    "name" : "exceptvalue",
+    "value" : "'{\"code\":1}'"
+  }, {
+    "name" : "headers",
+    "value" : "'{'Content-Type':'application/x-www-form-urlencoded'}'"
+  }, {
+    "name" : "host",
+    "value" : "'http://192.168.2.252:18080/4000/4000/0/'"
+  }, {
+    "name" : "method",
+    "value" : "'get'"
+  }, {
+    "name" : "params",
+    "value" : "'{'keywords':''}'"
+  }, {
+    "name" : "path",
+    "value" : "'guest.medicine.getSearchPageData'"
+  }, {
+    "name" : "rowid",
+    "value" : "5"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a44936dca786ed8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605858893981,
+        "stop" : 1605858894003,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "a306deb7777a778e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605850107059,
+        "stop" : 1605850107078,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "a80268cf1ae3d88e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605842263638,
+        "stop" : 1605842263676,
+        "duration" : 38
+      }
+    }, {
+      "uid" : "18be941379fb7ea7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605836388664,
+        "stop" : 1605836388698,
+        "duration" : 34
+      }
+    }, {
+      "uid" : "81d5a162b75c2cf3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602581058506,
+        "stop" : 1602581058527,
+        "duration" : 21
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "642309e7d9e0830.json",
+  "parameterValues" : [ "4", "'{\"code\":1}'", "'{'Content-Type':'application/x-www-form-urlencoded'}'", "'http://192.168.2.252:18080/4000/4000/0/'", "'get'", "'{'keywords':''}'", "'guest.medicine.getSearchPageData'", "5" ]
+}

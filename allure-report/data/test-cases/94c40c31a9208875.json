@@ -1,0 +1,96 @@
+{
+  "uid" : "94c40c31a9208875",
+  "name" : "test_searchmedicine[4-4-{\n'keywords':'感冒灵'\n}-5]",
+  "fullName" : "test_case.test_searchmedicine.TestSearchMedicine#test_searchmedicine",
+  "historyId" : "572bc679f5568b93a6ae8bece1cf7d5e",
+  "time" : {
+    "start" : 1605842266884,
+    "stop" : 1605842267010,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1605842266883,
+      "stop" : 1605842266883,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1605842267134,
+      "stop" : 1605842267134,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_searchmedicine"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearchMedicine"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "22952-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_searchmedicine"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_id",
+    "value" : "4"
+  }, {
+    "name" : "id",
+    "value" : "4"
+  }, {
+    "name" : "params",
+    "value" : "'{\n'keywords':'感冒灵'\n}'"
+  }, {
+    "name" : "rowid",
+    "value" : "5"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "94c40c31a9208875.json",
+  "parameterValues" : [ "4", "4", "'{\n'keywords':'感冒灵'\n}'", "5" ]
+}

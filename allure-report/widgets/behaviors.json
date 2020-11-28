@@ -4,10 +4,10 @@
     "uid" : "8d64c952095737b3097cffeed2ae61f2",
     "name" : "药房网APP",
     "statistic" : {
-      "failed" : 5,
+      "failed" : 6,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 5,
       "unknown" : 0,
       "total" : 13
     }

@@ -1,0 +1,139 @@
+{
+  "uid" : "f09677c358716af2",
+  "name" : "test_searchstandard[7-7-{\n'keywords':'黄连素'\n}-8]",
+  "fullName" : "test_case.test_searchmedicine.TestSearchMedicine#test_searchstandard",
+  "historyId" : "35df60af26391b904433c7d80d0070c1",
+  "time" : {
+    "start" : 1605850111852,
+    "stop" : 1605850111881,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1605850111712,
+      "stop" : 1605850111712,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "规格搜索",
+      "time" : {
+        "start" : 1605850111852,
+        "stop" : 1605850111881,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "id",
+        "value" : "7"
+      }, {
+        "name" : "api_id",
+        "value" : "7"
+      }, {
+        "name" : "params",
+        "value" : "'{\n'keywords':'黄连素'\n}'"
+      }, {
+        "name" : "rowid",
+        "value" : "8"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1605850111898,
+      "stop" : 1605850111898,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "搜索模块"
+  }, {
+    "name" : "epic",
+    "value" : "药房网APP"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_searchmedicine"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearchMedicine"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "22012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_searchmedicine"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_id",
+    "value" : "7"
+  }, {
+    "name" : "id",
+    "value" : "7"
+  }, {
+    "name" : "params",
+    "value" : "'{\n'keywords':'黄连素'\n}'"
+  }, {
+    "name" : "rowid",
+    "value" : "8"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f09677c358716af2.json",
+  "parameterValues" : [ "7", "7", "'{\n'keywords':'黄连素'\n}'", "8" ]
+}

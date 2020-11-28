@@ -1,6 +1,5 @@
 from common.get_log import get_log
 import requests
-import logging
 import pytest
 from page_request.pagerequest import Apimethod
 from data import canshu1
@@ -14,13 +13,6 @@ from mysql import mysqlDB
 # print(text)
 # get_log('test').info('测试一下')
 
-
-
-logging.debug('This is debug message')
-logging.info('This is info message')
-logging.warning('This is warning message')
-
-logging.basicConfig(level=logging.DEBUG)
 
 
 casedate=canshu1.excelshuju1().openexl('E:\pythonbijia\data\case.xlsx','Sheet2')

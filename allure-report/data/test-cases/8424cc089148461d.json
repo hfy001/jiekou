@@ -1,0 +1,111 @@
+{
+  "uid" : "8424cc089148461d",
+  "name" : "test_getOrderList[33-33-{'pageIndex':'1',\n'pageSize':'10',\n'order_status':'unsent'}-34]",
+  "fullName" : "test_case.test_order.TestOrder#test_getOrderList",
+  "historyId" : "6ddb15a8950fed4c0ac3cbb6bfd4bd93",
+  "time" : {
+    "start" : 1605842265262,
+    "stop" : 1605842265591,
+    "duration" : 329
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "loginssid",
+    "time" : {
+      "start" : 1605842265261,
+      "stop" : 1605842265261,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1605842264586,
+      "stop" : 1605842264586,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1605842265779,
+      "stop" : 1605842265779,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrder"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "22952-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_id",
+    "value" : "33"
+  }, {
+    "name" : "id",
+    "value" : "33"
+  }, {
+    "name" : "params",
+    "value" : "'{'pageIndex':'1',\n'pageSize':'10',\n'order_status':'unsent'}'"
+  }, {
+    "name" : "rowid",
+    "value" : "34"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8424cc089148461d.json",
+  "parameterValues" : [ "33", "33", "'{'pageIndex':'1',\n'pageSize':'10',\n'order_status':'unsent'}'", "34" ]
+}

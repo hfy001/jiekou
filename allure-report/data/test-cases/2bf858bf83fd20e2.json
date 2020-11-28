@@ -1,0 +1,191 @@
+{
+  "uid" : "2bf858bf83fd20e2",
+  "name" : "获取我的积分",
+  "fullName" : "test_case.test_person.Testperson#test_getValidPoint",
+  "historyId" : "ff2eddcbd1412d0073aeaf6b89f7be47",
+  "time" : {
+    "start" : 1606560228399,
+    "stop" : 1606560228586,
+    "duration" : 187
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1606560228157,
+      "stop" : 1606560228157,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "loginssid",
+    "time" : {
+      "start" : 1606560228398,
+      "stop" : 1606560228398,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取我的积分",
+      "time" : {
+        "start" : 1606560228399,
+        "stop" : 1606560228586,
+        "duration" : 187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "id",
+        "value" : "35"
+      }, {
+        "name" : "api_id",
+        "value" : "35"
+      }, {
+        "name" : "params",
+        "value" : "'{}'"
+      }, {
+        "name" : "rowid",
+        "value" : "36"
+      }, {
+        "name" : "loginssid",
+        "value" : "<common.login.login1 object at 0x04B5F550>"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1606560229148,
+      "stop" : 1606560229148,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "我的模块"
+  }, {
+    "name" : "epic",
+    "value" : "药房网APP"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testperson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQA5M9D"
+  }, {
+    "name" : "thread",
+    "value" : "6592-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_id",
+    "value" : "35"
+  }, {
+    "name" : "id",
+    "value" : "35"
+  }, {
+    "name" : "params",
+    "value" : "'{}'"
+  }, {
+    "name" : "rowid",
+    "value" : "36"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5ba04fa71ad2764e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605858896309,
+        "stop" : 1605858896479,
+        "duration" : 170
+      }
+    }, {
+      "uid" : "578ae13ed61c32bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605850110673,
+        "stop" : 1605850110868,
+        "duration" : 195
+      }
+    }, {
+      "uid" : "a788e90edf6731c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605842266069,
+        "stop" : 1605842266217,
+        "duration" : 148
+      }
+    }, {
+      "uid" : "d5f09f87f8d43005",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605836391179,
+        "stop" : 1605836391338,
+        "duration" : 159
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2bf858bf83fd20e2.json",
+  "parameterValues" : [ "35", "35", "'{}'", "36" ]
+}
