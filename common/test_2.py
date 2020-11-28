@@ -49,11 +49,14 @@ import allure
 from common import pysplit
 import  re
 from mysql import mysqlDB
+from common import get_path
 
+
+path=get_path.get_login()
 logging.basicConfig(level=logging.DEBUG)
 
 
-casedate=canshu1.excelshuju1().openexl('E:\pythonbijia\data\case.xlsx','Sheet2')
+casedate=canshu1.excelshuju1().openexl(path,'Sheet2')
 print(casedate)
 
 @allure.feature('登录')

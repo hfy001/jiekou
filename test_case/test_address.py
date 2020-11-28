@@ -2,7 +2,11 @@ import pytest
 from src.address  import Address
 from data import  get_data
 import allure
-casedate1 = get_data.excelshuju().openexl('E:\pythonbijia\data\getapi.xlsx', 'Sheet2')
+from common import get_path
+
+
+path=get_path.get_api()
+casedate1 = get_data.excelshuju().openexl(path, 'Sheet2')
 case=eval(casedate1[0][2])
 print(case)
 
@@ -19,7 +23,7 @@ class TestAddress:
     @allure.title("获取地址")
     @pytest.mark.parametrize("id,api_id,params,rowid",[casedate1[0]])
     def test_getaddress(self,id,api_id,params,rowid,loginssid):
-        re = self.add.get_address(params,loginssid)
+        re = self.add.get_address(eval(params),loginssid)
         resaddress = re.json()["result"][0]["address_name"]
         assert resaddress == '海大富别人高回报看缴费如果您把日军'
 

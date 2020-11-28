@@ -1,7 +1,10 @@
 import json
 from data import  get_api
 from page_request.pagerequest import Apimethod
+from common import get_path
 
+
+path=get_path.get_api()
 
 # 搜索页面
 
@@ -10,7 +13,7 @@ def pretty(r):
 
 #  查询药品 ，关键字联想，搜索品牌，可以不要cookie
 class searchmedicine:
-    casedate1 = get_api.excelshuju().openexl('E:\pythonbijia\data\getapi.xlsx', 'Sheet1')
+    casedate1 = get_api.excelshuju().openexl(path, 'Sheet1')
 
     def searchmedicine(self,params):
         headers={}

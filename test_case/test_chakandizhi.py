@@ -11,11 +11,14 @@ import  re
 from mysql import mysqlDB
 from common import login
 from common import gol
+from common import get_path
 
+
+path=get_path.get_login()
 logging.basicConfig(level=logging.DEBUG)
 
 
-casedate1=canshu2.excelshuju2().openexl('E:\pythonbijia\data\case.xlsx','Sheet3')
+casedate1=canshu2.excelshuju2().openexl(path,'Sheet3')
 
 # casedate1[0][3]=array[0]      #pysplit.get_cookie.cookie(login)
 print(casedate1)

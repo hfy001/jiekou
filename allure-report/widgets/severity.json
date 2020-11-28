@@ -1,755 +1,225 @@
 [ {
-  "uid" : "ddb8ac91dd0f15f2",
-  "name" : "获取用户实名信息",
+  "uid" : "72f16319006666b",
+  "name" : "查询药品模块",
   "time" : {
-    "start" : 1606560228593,
-    "stop" : 1606560228791,
-    "duration" : 198
+    "start" : 1606577854120,
+    "stop" : 1606577854121,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5d5fb9ced244c2b8",
+  "name" : "添加地址",
+  "time" : {
+    "start" : 1606577847334,
+    "stop" : 1606577847540,
+    "duration" : 206
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d250b81afd4c8feb",
-  "name" : "test_a",
+  "uid" : "13a44b9da20b7d40",
+  "name" : "test_other[7-8-15]",
   "time" : {
-    "start" : 1606560207762,
-    "stop" : 1606560207762,
+    "start" : 1606577842150,
+    "stop" : 1606577842150,
     "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9fe66fd41ee5abc3",
-  "name" : "品牌搜索",
+  "uid" : "1a73f5203162b3b",
+  "name" : "test_login[login_r2-query_param0]",
   "time" : {
-    "start" : 1606560232042,
-    "stop" : 1606560232135,
-    "duration" : 93
+    "start" : 1606577842099,
+    "stop" : 1606577842099,
+    "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6d4fe01d45dde1a1",
-  "name" : "test_pricecompare[10-10-{'mid':'181741'}-11]",
+  "uid" : "3ba928ed8e014551",
+  "name" : "test_chakandizhi[get]",
   "time" : {
-    "start" : 1605842266664,
-    "stop" : 1605842266879,
+    "start" : 1606577842058,
+    "stop" : 1606577842058,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e153adf42c0d3ad3",
+  "name" : "关键字联想",
+  "time" : {
+    "start" : 1606577859705,
+    "stop" : 1606577859754,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8528140ddd4d3938",
+  "name" : "比价",
+  "time" : {
+    "start" : 1606577849446,
+    "stop" : 1606577849868,
+    "duration" : 422
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f3f1dfc289d5e7d3",
+  "name" : "收藏商家",
+  "time" : {
+    "start" : 1606577855146,
+    "stop" : 1606577855366,
+    "duration" : 220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89efca44bd69322",
+  "name" : "新增用药人",
+  "time" : {
+    "start" : 1606577858958,
+    "stop" : 1606577859173,
     "duration" : 215
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "accbc63038960ee7",
-  "name" : "收藏药品",
-  "time" : {
-    "start" : 1606560224991,
-    "stop" : 1606560225185,
-    "duration" : 194
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2b8daadda440683",
-  "name" : "test_login[login_r1-query_param1]",
-  "time" : {
-    "start" : 1606560207729,
-    "stop" : 1606560207729,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "947f91f7e4533b5f",
-  "name" : "订单结算页",
-  "time" : {
-    "start" : 1606560226701,
-    "stop" : 1606560226902,
-    "duration" : 201
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "af922a4380e8636d",
-  "name" : "比价页商家商品",
-  "time" : {
-    "start" : 1606560229150,
-    "stop" : 1606560229394,
-    "duration" : 244
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "46dbe3d5d490dbd7",
-  "name" : "查看地址模块",
-  "time" : {
-    "start" : 1606560222934,
-    "stop" : 1606560223108,
-    "duration" : 174
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "a4728ad8b1a5e40",
-  "name" : "查询药品",
-  "time" : {
-    "start" : 1606560229614,
-    "stop" : 1606560231967,
-    "duration" : 2353
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1a2814bac6896070",
-  "name" : "取消收藏药品",
-  "time" : {
-    "start" : 1606560225190,
-    "stop" : 1606560225385,
-    "duration" : 195
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "98464a17d28deea2",
-  "name" : "删除地址模块",
-  "time" : {
-    "start" : 1606560224329,
-    "stop" : 1606560224986,
-    "duration" : 657
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eb4a453ea78acd74",
+  "uid" : "be388c9a32a34599",
   "name" : "我的页面",
   "time" : {
-    "start" : 1606560228158,
-    "stop" : 1606560228391,
-    "duration" : 233
+    "start" : 1606577858165,
+    "stop" : 1606577858405,
+    "duration" : 240
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b960c256fe7e1ed9",
-  "name" : "test_chakandizhi[None]",
-  "time" : {
-    "start" : 1606560207686,
-    "stop" : 1606560207686,
-    "duration" : 0
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ef9a31e8f4ae71f9",
-  "name" : "商家优选商品",
-  "time" : {
-    "start" : 1606560232923,
-    "stop" : 1606560233031,
-    "duration" : 108
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bce5033dde766d7a",
-  "name" : "test_login[login_r1-query_param0]",
-  "time" : {
-    "start" : 1606560207732,
-    "stop" : 1606560207732,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "774b7a3199ff779b",
-  "name" : "取消收藏商家",
-  "time" : {
-    "start" : 1606560225567,
-    "stop" : 1606560225754,
-    "duration" : 187
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "98f1931a05f49b66",
-  "name" : "发起付款，获取需要支付的sdk",
-  "time" : {
-    "start" : 1606560227753,
-    "stop" : 1606560227902,
-    "duration" : 149
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "bd78239b47e1740",
-  "name" : "添加地址",
-  "time" : {
-    "start" : 1606560213788,
-    "stop" : 1606560216870,
-    "duration" : 3082
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cf800e4c48d7df50",
-  "name" : "删除购物车商品",
-  "time" : {
-    "start" : 1606560222243,
-    "stop" : 1606560222465,
-    "duration" : 222
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ac5757b7ce989de0",
-  "name" : "test_chakandizhi",
-  "time" : {
-    "start" : 1606560207716,
-    "stop" : 1606560207716,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "ee0a9a5cf7a7bf14",
-  "name" : "test_chakandizhi[{'userName':'啦啦哈哈',\n'password':'abc123',\n'login_type':'2'}]",
-  "time" : {
-    "start" : 1606560207691,
-    "stop" : 1606560207692,
-    "duration" : 1
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "a305b983adfd7535",
-  "name" : "test_login[login_r2-query_param0]",
-  "time" : {
-    "start" : 1606560207759,
-    "stop" : 1606560207759,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "32a7f718fedf46d3",
-  "name" : "厂家搜索",
-  "time" : {
-    "start" : 1606560232186,
-    "stop" : 1606560232228,
-    "duration" : 42
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fa8196ee4107fac",
-  "name" : "test_d",
-  "time" : {
-    "start" : 1606560207765,
-    "stop" : 1606560207765,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2bf858bf83fd20e2",
-  "name" : "获取我的积分",
-  "time" : {
-    "start" : 1606560228399,
-    "stop" : 1606560228586,
-    "duration" : 187
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "68347f62cdca2eac",
-  "name" : "新增用药人",
-  "time" : {
-    "start" : 1606560228971,
-    "stop" : 1606560229145,
-    "duration" : 174
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "40bc1d7f85f07937",
-  "name" : "test_add1[1-2-3]",
-  "time" : {
-    "start" : 1606560207775,
-    "stop" : 1606560207775,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4d030f30b96be96f",
-  "name" : "test_c",
-  "time" : {
-    "start" : 1606560207770,
-    "stop" : 1606560207770,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d8c7769cf46f30a0",
-  "name" : "test_tianjiadizhi[1-http://192.168.2.252:18080/4000/4000/0/-person.address.insert-{'data':'{\\\"name\\\":\\\"sqc11\\\",\\\"regionid\\\":\\\"562\\\",\\\"mobile\\\":\\\"15335722137\\\",\\\"address_name\\\":\\\"海大富别人高回报看缴费如果您把日军\\\"}',\n'__client':'app_wx',\n'app_version':'4.5.00',\n'osVersion':'miniapp',\n'deviceName':'iPhone%206s%20Plus%3CiPhone8%2C2%3E',\n'os':'ios',\n'version':'7.0.17',\n'market':'iPhone',\n'networkType':'true',\n'lat':'31.236276',\n'lng':'121.480248'\n}-get-2-{\"code\":1}]",
-  "time" : {
-    "start" : 1605850106542,
-    "stop" : 1605850106775,
-    "duration" : 233
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9bd30e144b9ffc3c",
-  "name" : "test_add2[7-8-15]",
-  "time" : {
-    "start" : 1606560207797,
-    "stop" : 1606560207797,
-    "duration" : 0
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "4ecdedcede014585",
-  "name" : "比价商品详细描述",
-  "time" : {
-    "start" : 1606560229398,
-    "stop" : 1606560229609,
-    "duration" : 211
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8bff64a3b61d1f50",
-  "name" : "获取订单列表",
-  "time" : {
-    "start" : 1606560227385,
-    "stop" : 1606560227748,
-    "duration" : 363
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4ba1e3248723194a",
-  "name" : "获取地址",
-  "time" : {
-    "start" : 1606560207814,
-    "stop" : 1606560213775,
-    "duration" : 5961
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "611e122d9f583e32",
-  "name" : "比价",
-  "time" : {
-    "start" : 1606560218946,
-    "stop" : 1606560219354,
-    "duration" : 408
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "6ae514b9b8fdd2a0",
-  "name" : "店铺包邮活动",
-  "time" : {
-    "start" : 1606560232239,
-    "stop" : 1606560232438,
-    "duration" : 199
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a0e9751544fe4337",
-  "name" : "商家药品详情页",
-  "time" : {
-    "start" : 1606560232444,
-    "stop" : 1606560232831,
-    "duration" : 387
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "29b56a2a157f7d75",
-  "name" : "商家资质和外景",
-  "time" : {
-    "start" : 1606560233035,
-    "stop" : 1606560233064,
-    "duration" : 29
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f2b36eb678f5ebd4",
-  "name" : "修改购物车数量",
-  "time" : {
-    "start" : 1606560221862,
-    "stop" : 1606560222015,
-    "duration" : 153
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "c33373cc9f18f728",
-  "name" : "test_other[7-8-15]",
-  "time" : {
-    "start" : 1606560207811,
-    "stop" : 1606560207811,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c5bb13cbbbfa673",
-  "name" : "获取未付款订单信息",
-  "time" : {
-    "start" : 1606560227157,
-    "stop" : 1606560227375,
-    "duration" : 218
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "bb7e01357b473594",
-  "name" : "test_add2[1-2-3]",
-  "time" : {
-    "start" : 1606560207787,
-    "stop" : 1606560207787,
-    "duration" : 0
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "b36a9baeed78b11f",
-  "name" : "test_case02[3-None-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'感冒灵'}-get-4-None]",
-  "time" : {
-    "start" : 1606560226056,
-    "stop" : 1606560226060,
-    "duration" : 4
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "e7c829e07cf8578e",
-  "name" : "查询药品模块",
-  "time" : {
-    "start" : 1606560223118,
-    "stop" : 1606560223602,
-    "duration" : 484
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8a4b0c9fb28dbb9f",
-  "name" : "查看订单物流信息",
-  "time" : {
-    "start" : 1606560227911,
-    "stop" : 1606560228148,
-    "duration" : 237
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "569cf4d5b225d636",
-  "name" : "查询药品模块",
-  "time" : {
-    "start" : 1606560224290,
-    "stop" : 1606560224324,
-    "duration" : 34
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dbbcb50a8c2b1e32",
-  "name" : "test_case02[2-http://192.168.2.252:18080/4000/4000/0/-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'克拉霉素'}-get-3-{\"code\":1}]",
-  "time" : {
-    "start" : 1606560225875,
-    "stop" : 1606560226050,
-    "duration" : 175
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1e83c849e8022faa",
-  "name" : "购物车数量",
-  "time" : {
-    "start" : 1606560219872,
-    "stop" : 1606560220246,
-    "duration" : 374
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f662f3897d9e7158",
-  "name" : "查询药品模块",
-  "time" : {
-    "start" : 1606560223607,
-    "stop" : 1606560224264,
-    "duration" : 657
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8bf0b20b1d6c2b16",
-  "name" : "test_other[4-13-9]",
-  "time" : {
-    "start" : 1606560207808,
-    "stop" : 1606560207808,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "13b5d749c3c52cbc",
-  "name" : "test_add1[4-13-9]",
-  "time" : {
-    "start" : 1606560207778,
-    "stop" : 1606560207778,
-    "duration" : 0
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "bfd7ddc5669f63d8",
-  "name" : "test_add2[4-13-9]",
-  "time" : {
-    "start" : 1606560207794,
-    "stop" : 1606560207794,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1f4ffc2bdd371e52",
-  "name" : "test_case02[1-http://192.168.2.252:18080/4000/4000/0/-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'感冒灵',\n'aliascn':'999',\n'standard':'10gx9袋/盒',\n'trocheType':'颗粒剂',\n'titleAbb':'华润三九',\n'pageSize':'10',\n'pageIndex':'1orderBy=\\'shopCount asc\\''}-get-2-{\"code\":1}]",
-  "time" : {
-    "start" : 1606560225762,
-    "stop" : 1606560225869,
-    "duration" : 107
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5997192ba55d0635",
-  "name" : "获取购物车商品等具体信息",
-  "time" : {
-    "start" : 1606560222481,
-    "stop" : 1606560222929,
-    "duration" : 448
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "642309e7d9e0830",
-  "name" : "test_case02[4-http://192.168.2.252:18080/4000/4000/0/-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':''}-get-5-{\"code\":1}]",
-  "time" : {
-    "start" : 1606560226086,
-    "stop" : 1606560226102,
-    "duration" : 16
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "24c8085e81e4d34d",
-  "name" : "商家药品分类",
-  "time" : {
-    "start" : 1606560233084,
-    "stop" : 1606560233114,
-    "duration" : 30
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1a45a5778a4b3a24",
-  "name" : "test_chakandizhi[1]",
-  "time" : {
-    "start" : 1606560207411,
-    "stop" : 1606560207412,
-    "duration" : 1
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "6fc22d0d802432c",
+  "uid" : "462a243cb4e588c7",
   "name" : "商家详情页",
   "time" : {
-    "start" : 1606560232835,
-    "stop" : 1606560232919,
-    "duration" : 84
+    "start" : 1606577860402,
+    "stop" : 1606577860491,
+    "duration" : 89
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8fc014a712c6da1e",
-  "name" : "移入收藏夹",
+  "uid" : "cdc7be473a044b84",
+  "name" : "test_other[1-2-3]",
   "time" : {
-    "start" : 1606560222024,
-    "stop" : 1606560222228,
-    "duration" : 204
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "c4c34bb9c0e92092",
-  "name" : "test_login[login_r1-query_param2]",
-  "time" : {
-    "start" : 1606560207734,
-    "stop" : 1606560207734,
+    "start" : 1606577842143,
+    "stop" : 1606577842143,
     "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "25ca64a0a721d464",
-  "name" : "比价",
+  "uid" : "b723fdaa9df729a6",
+  "name" : "test_login[login_r1-query_param0]",
   "time" : {
-    "start" : 1606560219365,
-    "stop" : 1606560219766,
-    "duration" : 401
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a1ce65bb2c3d215f",
-  "name" : "收藏商家",
-  "time" : {
-    "start" : 1606560225390,
-    "stop" : 1606560225563,
-    "duration" : 173
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4d361d33ef6f273a",
-  "name" : "test_login[login_r0-query_param0]",
-  "time" : {
-    "start" : 1606560207723,
-    "stop" : 1606560207723,
+    "start" : 1606577842088,
+    "stop" : 1606577842088,
     "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2201e48765b7f5ff",
-  "name" : "登录模块",
+  "uid" : "7e4b7e81f1df540c",
+  "name" : "删除地址模块",
   "time" : {
-    "start" : 1606560226108,
-    "stop" : 1606560226695,
-    "duration" : 587
+    "start" : 1606577854188,
+    "stop" : 1606577854709,
+    "duration" : 521
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e9bb12a2aa0c9699",
-  "name" : "搜索地址",
+  "uid" : "9737efea6b7af2c",
+  "name" : "购物车数量",
   "time" : {
-    "start" : 1606560216874,
-    "stop" : 1606560217084,
-    "duration" : 210
+    "start" : 1606577850456,
+    "stop" : 1606577851010,
+    "duration" : 554
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68eddeb6d2a12ffe",
+  "name" : "test_chakandizhi[guest.account.login]",
+  "time" : {
+    "start" : 1606577842040,
+    "stop" : 1606577842040,
+    "duration" : 0
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "20d66a0af21b261c",
+  "uid" : "756401392f41fa77",
+  "name" : "test_add1[1-2-3]",
+  "time" : {
+    "start" : 1606577842113,
+    "stop" : 1606577842113,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1f01f8be89826d",
+  "name" : "test_case02[2-http://192.168.2.252:18080/4000/4000/0/-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'克拉霉素'}-get-3-{\"code\":1}]",
+  "time" : {
+    "start" : 1606577855709,
+    "stop" : 1606577855922,
+    "duration" : 213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef3236778060b86a",
   "name" : "test_login[login_r0-query_param2]",
   "time" : {
-    "start" : 1606560207751,
-    "stop" : 1606560207751,
+    "start" : 1606577842093,
+    "stop" : 1606577842093,
     "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cb9f4e2f70a3a7fe",
-  "name" : "删除地址",
+  "uid" : "71eb3fd71be73acc",
+  "name" : "test_chakandizhi[{\"code\":1}]",
   "time" : {
-    "start" : 1606560217094,
-    "stop" : 1606560217623,
-    "duration" : 529
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9eb461aa01d6632a",
-  "name" : "APP首页底部资质图片",
-  "time" : {
-    "start" : 1606560233068,
-    "stop" : 1606560233081,
-    "duration" : 13
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f29bb53798e5f08e",
-  "name" : "test_login[login_r2-query_param1]",
-  "time" : {
-    "start" : 1606560207756,
-    "stop" : 1606560207756,
+    "start" : 1606577842069,
+    "stop" : 1606577842069,
     "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4eb8c5cdc3429d8a",
-  "name" : "比价",
-  "time" : {
-    "start" : 1606560217628,
-    "stop" : 1606560218934,
-    "duration" : 1306
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "c008687767413026",
-  "name" : "新增用药人",
-  "time" : {
-    "start" : 1606560228799,
-    "stop" : 1606560228961,
-    "duration" : 162
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "89b47a4d0697e44a",
-  "name" : "加入购物车",
+  "uid" : "f0c9facc99dfa9d4",
+  "name" : "test_other[4-13-9]",
   "time" : {
-    "start" : 1606560220251,
-    "stop" : 1606560220935,
-    "duration" : 684
+    "start" : 1606577842146,
+    "stop" : 1606577842146,
+    "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ea8ae78328f2683b",
-  "name" : "关键字联想",
+  "uid" : "b733794c6fca12dc",
+  "name" : "新增用药人",
   "time" : {
-    "start" : 1606560232008,
-    "stop" : 1606560232039,
-    "duration" : 31
+    "start" : 1606577858784,
+    "stop" : 1606577858947,
+    "duration" : 163
   },
-  "status" : "passed",
+  "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "70003db6ba6990f9",
-  "name" : "购物车页面精选商品",
-  "time" : {
-    "start" : 1606560220940,
-    "stop" : 1606560221858,
-    "duration" : 918
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c47a8f4c9b77b4e9",
-  "name" : "比价",
-  "time" : {
-    "start" : 1606560219777,
-    "stop" : 1606560219861,
-    "duration" : 84
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "412097c1a17d5b8d",
+  "uid" : "267f64add6124a12",
   "name" : "test_a",
   "time" : {
     "start" : 1605850093627,
@@ -759,132 +229,662 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5389ed54855bcb35",
-  "name" : "规格搜索",
+  "uid" : "c452c4fac07f4496",
+  "name" : "test_pricecompare[10-10-{'mid':'181741'}-11]",
   "time" : {
-    "start" : 1606560232139,
-    "stop" : 1606560232182,
-    "duration" : 43
+    "start" : 1605842266664,
+    "stop" : 1605842266879,
+    "duration" : 215
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "483c99d339c92aeb",
-  "name" : "test_login[login_r0-query_param1]",
-  "time" : {
-    "start" : 1606560207726,
-    "stop" : 1606560207727,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "24dfd3956cb50193",
-  "name" : "test_b",
-  "time" : {
-    "start" : 1606560207768,
-    "stop" : 1606560207768,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c381f1f768e204a3",
-  "name" : "test_chakandizhi[get]",
-  "time" : {
-    "start" : 1606560207697,
-    "stop" : 1606560207697,
-    "duration" : 0
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f5452d91f7db5ee1",
+  "uid" : "df5714609d3f88c5",
   "name" : "test_chakandizhi[2]",
   "time" : {
-    "start" : 1606560207703,
-    "stop" : 1606560207703,
-    "duration" : 0
+    "start" : 1606577842063,
+    "stop" : 1606577842064,
+    "duration" : 1
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "dd0bd49e6782368e",
-  "name" : "test_add1[7-8-15]",
+  "uid" : "24108055966b5f97",
+  "name" : "店铺包邮活动",
   "time" : {
-    "start" : 1606560207784,
-    "stop" : 1606560207784,
-    "duration" : 0
+    "start" : 1606577859825,
+    "stop" : 1606577860060,
+    "duration" : 235
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7fda226aef84dfa9",
+  "uid" : "b367d2872bd9bfa6",
   "name" : "test_login[login_r2-query_param2]",
   "time" : {
-    "start" : 1606560207753,
-    "stop" : 1606560207753,
+    "start" : 1606577842095,
+    "stop" : 1606577842095,
     "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a708063d252a4edf",
-  "name" : "test_chakandizhi[guest.account.login]",
+  "uid" : "9b6073f16e43f189",
+  "name" : "APP首页底部资质图片",
   "time" : {
-    "start" : 1606560207680,
-    "stop" : 1606560207680,
+    "start" : 1606577860628,
+    "stop" : 1606577860642,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bff87b755a92a141",
+  "name" : "test_chakandizhi[None]",
+  "time" : {
+    "start" : 1606577842046,
+    "stop" : 1606577842046,
     "duration" : 0
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "93c5a42c628d73c7",
-  "name" : "test_chakandizhi[{\"code\":1}]",
+  "uid" : "2d0aa7e201f07278",
+  "name" : "test_a",
   "time" : {
-    "start" : 1606560207709,
-    "stop" : 1606560207709,
+    "start" : 1606577842107,
+    "stop" : 1606577842107,
     "duration" : 0
   },
-  "status" : "failed",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "271b4d733af2b81a",
-  "name" : "创建订单",
+  "uid" : "7da224cdbb00c7cb",
+  "name" : "加入购物车",
   "time" : {
-    "start" : 1606560226912,
-    "stop" : 1606560227126,
-    "duration" : 214
+    "start" : 1606577851016,
+    "stop" : 1606577851551,
+    "duration" : 535
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "471ee0e1f12470da",
+  "name" : "test_d",
+  "time" : {
+    "start" : 1606577842110,
+    "stop" : 1606577842110,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "770818e3f11b4d48",
+  "name" : "获取地址",
+  "time" : {
+    "start" : 1606577842153,
+    "stop" : 1606577847321,
+    "duration" : 5168
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "f357b107805ddf2d",
-  "name" : "查询药品模块",
+  "uid" : "e4a49aa1221d2a31",
+  "name" : "比价",
   "time" : {
-    "start" : 1606560224271,
-    "stop" : 1606560224278,
-    "duration" : 7
+    "start" : 1606577849880,
+    "stop" : 1606577850306,
+    "duration" : 426
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "1248fa291c9f8c4b",
-  "name" : "test_chakandizhi[http://192.168.2.252:18080/4000/4000/0/]",
+  "uid" : "4879201483b3e76c",
+  "name" : "比价页商家商品",
   "time" : {
-    "start" : 1606560207665,
-    "stop" : 1606560207668,
-    "duration" : 3
+    "start" : 1606577859182,
+    "stop" : 1606577859377,
+    "duration" : 195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7d91b1ee965323a",
+  "name" : "登录模块",
+  "time" : {
+    "start" : 1606577855987,
+    "stop" : 1606577856683,
+    "duration" : 696
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "feb338b61ac2f286",
+  "name" : "查看订单物流信息",
+  "time" : {
+    "start" : 1606577857949,
+    "stop" : 1606577858154,
+    "duration" : 205
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "3f346990ef900294",
-  "name" : "test_other[1-2-3]",
+  "uid" : "dc1fd06e5f1ad163",
+  "name" : "test_login[login_r0-query_param0]",
   "time" : {
-    "start" : 1606560207804,
-    "stop" : 1606560207805,
+    "start" : 1606577842083,
+    "stop" : 1606577842083,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c90a5fa78ccfc84",
+  "name" : "创建订单",
+  "time" : {
+    "start" : 1606577856934,
+    "stop" : 1606577857157,
+    "duration" : 223
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9493abcc3b5891e6",
+  "name" : "查看地址模块",
+  "time" : {
+    "start" : 1606577853432,
+    "stop" : 1606577853601,
+    "duration" : 169
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdcff8a462b57194",
+  "name" : "获取购物车商品等具体信息",
+  "time" : {
+    "start" : 1606577853121,
+    "stop" : 1606577853426,
+    "duration" : 305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9eaf4213b8d5db72",
+  "name" : "test_login[login_r2-query_param1]",
+  "time" : {
+    "start" : 1606577842097,
+    "stop" : 1606577842097,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4955f51cc0713984",
+  "name" : "厂家搜索",
+  "time" : {
+    "start" : 1606577859807,
+    "stop" : 1606577859818,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69e49cfea5f46dc2",
+  "name" : "test_add2[7-8-15]",
+  "time" : {
+    "start" : 1606577842136,
+    "stop" : 1606577842136,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a38478d24f4ecb07",
+  "name" : "修改购物车数量",
+  "time" : {
+    "start" : 1606577852447,
+    "stop" : 1606577852621,
+    "duration" : 174
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1589d2201ab26897",
+  "name" : "获取我的积分",
+  "time" : {
+    "start" : 1606577858416,
+    "stop" : 1606577858587,
+    "duration" : 171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d598282357b3ac12",
+  "name" : "查询药品模块",
+  "time" : {
+    "start" : 1606577854137,
+    "stop" : 1606577854181,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "880544524953f5f9",
+  "name" : "商家优选商品",
+  "time" : {
+    "start" : 1606577860496,
+    "stop" : 1606577860601,
+    "duration" : 105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6a4362948741ccd",
+  "name" : "删除购物车商品",
+  "time" : {
+    "start" : 1606577852857,
+    "stop" : 1606577853095,
+    "duration" : 238
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c8c699f6bc21ae9",
+  "name" : "test_chakandizhi",
+  "time" : {
+    "start" : 1606577842076,
+    "stop" : 1606577842076,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ceb39bb477f00643",
+  "name" : "test_add2[4-13-9]",
+  "time" : {
+    "start" : 1606577842133,
+    "stop" : 1606577842133,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "439be5afd553148b",
+  "name" : "取消收藏商家",
+  "time" : {
+    "start" : 1606577855373,
+    "stop" : 1606577855579,
+    "duration" : 206
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2dc3d958edfe2b77",
+  "name" : "test_login[login_r1-query_param1]",
+  "time" : {
+    "start" : 1606577842086,
+    "stop" : 1606577842086,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa93a38cd60c389",
+  "name" : "品牌搜索",
+  "time" : {
+    "start" : 1606577859758,
+    "stop" : 1606577859767,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba5e876ec19e45e2",
+  "name" : "test_chakandizhi[{'userName':'啦啦哈哈',\n'password':'abc123',\n'login_type':'2'}]",
+  "time" : {
+    "start" : 1606577842052,
+    "stop" : 1606577842052,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1544617d8ca157b",
+  "name" : "test_chakandizhi[1]",
+  "time" : {
+    "start" : 1606577841792,
+    "stop" : 1606577841792,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7df0ecec6ab97cc",
+  "name" : "test_case02[1-http://192.168.2.252:18080/4000/4000/0/-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'感冒灵',\n'aliascn':'999',\n'standard':'10gx9袋/盒',\n'trocheType':'颗粒剂',\n'titleAbb':'华润三九',\n'pageSize':'10',\n'pageIndex':'1orderBy=\\'shopCount asc\\''}-get-2-{\"code\":1}]",
+  "time" : {
+    "start" : 1606577855587,
+    "stop" : 1606577855702,
+    "duration" : 115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c614433b67e6a2b0",
+  "name" : "获取用户实名信息",
+  "time" : {
+    "start" : 1606577858592,
+    "stop" : 1606577858778,
+    "duration" : 186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80bde56f63137d0a",
+  "name" : "比价商品详细描述",
+  "time" : {
+    "start" : 1606577859382,
+    "stop" : 1606577859572,
+    "duration" : 190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "594b539bbb210584",
+  "name" : "商家资质和外景",
+  "time" : {
+    "start" : 1606577860606,
+    "stop" : 1606577860622,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5305e965b7ecf883",
+  "name" : "test_c",
+  "time" : {
+    "start" : 1606577842105,
+    "stop" : 1606577842105,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "748a77baeb3a62bd",
+  "name" : "test_b",
+  "time" : {
+    "start" : 1606577842103,
+    "stop" : 1606577842103,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef0466efd25f7dd5",
+  "name" : "删除地址",
+  "time" : {
+    "start" : 1606577847746,
+    "stop" : 1606577848311,
+    "duration" : 565
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52a04ab38e83a9d0",
+  "name" : "比价",
+  "time" : {
+    "start" : 1606577848318,
+    "stop" : 1606577849432,
+    "duration" : 1114
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a2dfb8bea0db8587",
+  "name" : "移入收藏夹",
+  "time" : {
+    "start" : 1606577852631,
+    "stop" : 1606577852846,
+    "duration" : 215
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "34862aaecf112711",
+  "name" : "查询药品模块",
+  "time" : {
+    "start" : 1606577853620,
+    "stop" : 1606577853885,
+    "duration" : 265
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c114390e259ffde0",
+  "name" : "test_case02[3-None-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'感冒灵'}-get-4-None]",
+  "time" : {
+    "start" : 1606577855929,
+    "stop" : 1606577855931,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "daf665a8eff4e6a7",
+  "name" : "test_login[login_r1-query_param2]",
+  "time" : {
+    "start" : 1606577842090,
+    "stop" : 1606577842091,
     "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b94097be47826526",
+  "name" : "规格搜索",
+  "time" : {
+    "start" : 1606577859772,
+    "stop" : 1606577859798,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f26238df4fec668c",
+  "name" : "test_tianjiadizhi[1-http://192.168.2.252:18080/4000/4000/0/-person.address.insert-{'data':'{\\\"name\\\":\\\"sqc11\\\",\\\"regionid\\\":\\\"562\\\",\\\"mobile\\\":\\\"15335722137\\\",\\\"address_name\\\":\\\"海大富别人高回报看缴费如果您把日军\\\"}',\n'__client':'app_wx',\n'app_version':'4.5.00',\n'osVersion':'miniapp',\n'deviceName':'iPhone%206s%20Plus%3CiPhone8%2C2%3E',\n'os':'ios',\n'version':'7.0.17',\n'market':'iPhone',\n'networkType':'true',\n'lat':'31.236276',\n'lng':'121.480248'\n}-get-2-{\"code\":1}]",
+  "time" : {
+    "start" : 1605850106542,
+    "stop" : 1605850106775,
+    "duration" : 233
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d0130d4971af647",
+  "name" : "取消收藏药品",
+  "time" : {
+    "start" : 1606577854848,
+    "stop" : 1606577855140,
+    "duration" : 292
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f125dfe939209d6",
+  "name" : "test_chakandizhi[http://192.168.2.252:18080/4000/4000/0/]",
+  "time" : {
+    "start" : 1606577842033,
+    "stop" : 1606577842035,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d961e2d02d45f7c6",
+  "name" : "test_add1[4-13-9]",
+  "time" : {
+    "start" : 1606577842116,
+    "stop" : 1606577842117,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd93c855e87dfa46",
+  "name" : "商家药品分类",
+  "time" : {
+    "start" : 1606577860650,
+    "stop" : 1606577860682,
+    "duration" : 32
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "39e41be9526522fb",
+  "name" : "test_add2[1-2-3]",
+  "time" : {
+    "start" : 1606577842126,
+    "stop" : 1606577842127,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d8003e5b3c0945c",
+  "name" : "收藏药品",
+  "time" : {
+    "start" : 1606577854716,
+    "stop" : 1606577854843,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85b374fb54477f53",
+  "name" : "test_add1[7-8-15]",
+  "time" : {
+    "start" : 1606577842123,
+    "stop" : 1606577842123,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a7d55f5082ca122",
+  "name" : "获取未付款订单信息",
+  "time" : {
+    "start" : 1606577857170,
+    "stop" : 1606577857375,
+    "duration" : 205
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4aa3cd99114a7ea1",
+  "name" : "商家药品详情页",
+  "time" : {
+    "start" : 1606577860075,
+    "stop" : 1606577860397,
+    "duration" : 322
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "269d59b06d9077a0",
+  "name" : "搜索地址",
+  "time" : {
+    "start" : 1606577847548,
+    "stop" : 1606577847734,
+    "duration" : 186
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b803e516a0d0ab0",
+  "name" : "购物车页面精选商品",
+  "time" : {
+    "start" : 1606577851557,
+    "stop" : 1606577852442,
+    "duration" : 885
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3b4a21a97ff78d8",
+  "name" : "test_case02[4-http://192.168.2.252:18080/4000/4000/0/-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':''}-get-5-{\"code\":1}]",
+  "time" : {
+    "start" : 1606577855945,
+    "stop" : 1606577855981,
+    "duration" : 36
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3251e345d5a0dd9",
+  "name" : "获取订单列表",
+  "time" : {
+    "start" : 1606577857389,
+    "stop" : 1606577857746,
+    "duration" : 357
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2022a16665a54f9",
+  "name" : "发起付款，获取需要支付的sdk",
+  "time" : {
+    "start" : 1606577857752,
+    "stop" : 1606577857938,
+    "duration" : 186
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "809d915d6ac7f2d3",
+  "name" : "订单结算页",
+  "time" : {
+    "start" : 1606577856689,
+    "stop" : 1606577856921,
+    "duration" : 232
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c98c048506810c80",
+  "name" : "比价",
+  "time" : {
+    "start" : 1606577850317,
+    "stop" : 1606577850444,
+    "duration" : 127
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ac5b53fbc823c012",
+  "name" : "查询药品",
+  "time" : {
+    "start" : 1606577859577,
+    "stop" : 1606577859699,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37ff37f267ce5fd1",
+  "name" : "test_login[login_r0-query_param1]",
+  "time" : {
+    "start" : 1606577842085,
+    "stop" : 1606577842085,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eba1acfea5133643",
+  "name" : "查询药品模块",
+  "time" : {
+    "start" : 1606577853905,
+    "stop" : 1606577854105,
+    "duration" : 200
   },
   "status" : "passed",
   "severity" : "normal"

@@ -1,7 +1,10 @@
 import json
 from data import  get_api
 from page_request.pagerequest import Apimethod
+from common import get_path
 
+
+path=get_path.get_api()
 
 
 
@@ -11,7 +14,7 @@ def pretty(r):
 #  购物车
 class cart:
 
-    casedate1 = get_api.excelshuju().openexl('E:\pythonbijia\data\getapi.xlsx', 'Sheet1')
+    casedate1 = get_api.excelshuju().openexl(path, 'Sheet1')
 
     # 购物车数量
     def get_cartcount(self, params, loginssid):

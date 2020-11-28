@@ -1,7 +1,10 @@
 import json
 from data import  get_api
 from page_request.pagerequest import Apimethod
+from common import get_path
 
+
+path=get_path.get_api()
 
 
 
@@ -11,7 +14,7 @@ def pretty(r):
 #  商家
 class shop:
 
-    casedate1 = get_api.excelshuju().openexl('E:\pythonbijia\data\getapi.xlsx', 'Sheet1')
+    casedate1 = get_api.excelshuju().openexl(path, 'Sheet1')
 
     # 商家包邮活动
     def get_FreePost(self, params,loginssid):

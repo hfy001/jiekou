@@ -3,8 +3,11 @@ from src.cart import cart
 from data import get_data
 from mysql import mysqlDB
 import allure
+from common import get_path
 
-casedate1 = get_data.excelshuju().openexl('E:\pythonbijia\data\getapi.xlsx', 'Sheet2')
+
+path=get_path.get_api()
+casedate1 = get_data.excelshuju().openexl(path, 'Sheet2')
 case = eval(casedate1[0][2])
 print(case)
 

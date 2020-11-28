@@ -3,7 +3,10 @@ from data import  get_api
 from common import login
 from data import canshu2
 from page_request.pagerequest import Apimethod
+from common import get_path
 
+
+path=get_path.get_api()
 
 def pretty(r):
     print(json.dumps(r.json(), indent=4, ensure_ascii=False))
@@ -12,7 +15,7 @@ def pretty(r):
 
 class Address:
 
-    casedate1 = get_api.excelshuju().openexl('E:\pythonbijia\data\getapi.xlsx', 'Sheet1')
+    casedate1 = get_api.excelshuju().openexl(path, 'Sheet1')
 
     def get_address(self,params,loginssid):
         headers={}

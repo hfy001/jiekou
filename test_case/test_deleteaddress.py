@@ -5,11 +5,14 @@ from page_request.pagerequest import Apimethod
 from data import canshu2
 from mysql import mysqlDB
 import allure
+from common import get_path
 
+
+path=get_path.get_login()
 logging.basicConfig(level=logging.DEBUG)
 
 
-casedate1=canshu2.excelshuju2().openexl('E:\pythonbijia\data\case.xlsx','Sheet5')
+casedate1=canshu2.excelshuju2().openexl(path,'Sheet5')
 
 # casedate1[0][3]=array[0]      #pysplit.get_cookie.cookie(login)
 print(casedate1)

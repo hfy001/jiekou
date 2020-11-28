@@ -9,10 +9,13 @@ logging.info('This is info message')
 logging.warning('This is warning message')
 
 logging.basicConfig(level=logging.DEBUG)
+from common import get_path
 
 
+path=get_path.get_login()
 
-casedate=canshu.excelshuju().openexl('E:\pythonbijia\data\case.xlsx')
+
+casedate=canshu.excelshuju().openexl(path)
 
 print(casedate)
 

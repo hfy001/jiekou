@@ -6,9 +6,12 @@ from mysql import mysqlDB
 from data import canshu
 from page_request.pagerequest import Apimethod
 import allure
+from common import get_path
 
 
-casedate=canshu.excelshuju().openexl('E:\pythonbijia\data\canshu1.xlsx')
+path=get_path.get_bijia()
+
+casedate=canshu.excelshuju().openexl(path)
 
 logging.basicConfig(level=logging.DEBUG)
 

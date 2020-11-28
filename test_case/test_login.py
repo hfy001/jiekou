@@ -8,11 +8,10 @@ from write_excel.wrexcel import writeex
 from urllib import  parse
 import allure
 from mysql import mysqlDB
+from common import get_path
 
-# fruits='{"apple":1,"pear":2}'
-# text=json.loads(fruits)
-# print(text)
-# get_log('test').info('测试一下')
+
+path=get_path.get_login()
 
 
 
@@ -23,7 +22,7 @@ logging.warning('This is warning message')
 logging.basicConfig(level=logging.DEBUG)
 
 
-casedate=canshu1.excelshuju1().openexl('E:\pythonbijia\data\case.xlsx','Sheet2')
+casedate=canshu1.excelshuju1().openexl(path,'Sheet2')
 
 print(casedate)
 

@@ -3,8 +3,11 @@ from src.order  import order
 from data import  get_data
 import allure
 from data import get_params
+from common import get_path
 
-casedate1 = get_data.excelshuju().openexl('E:\pythonbijia\data\getapi.xlsx', 'Sheet2')
+
+path=get_path.get_api()
+casedate1 = get_data.excelshuju().openexl(path, 'Sheet2')
 
 parameter=get_params.get_params()
 

@@ -1,7 +1,10 @@
 import json
 from data import  get_api
 from page_request.pagerequest import Apimethod
+from common import get_path
 
+
+path=get_path.get_api()
 
 def pretty(r):
     print(json.dumps(r.json(), indent=4, ensure_ascii=False))
@@ -10,7 +13,7 @@ def pretty(r):
 
 class person:
 
-    casedate1 = get_api.excelshuju().openexl('E:\pythonbijia\data\getapi.xlsx', 'Sheet1')
+    casedate1 = get_api.excelshuju().openexl(path, 'Sheet1')
 
     # 我的页面
     def get_AccountCenter(self,params,loginssid):

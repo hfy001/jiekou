@@ -1,7 +1,10 @@
 import json
 from data import  get_api
 from page_request.pagerequest import Apimethod
+from common import get_path
 
+
+path=get_path.get_api()
 
 # 比价页面
 
@@ -10,7 +13,7 @@ def pretty(r):
 
 #  比价商品页 商家列表  可以不要cookie
 class pricecomparison:
-    casedate1 = get_api.excelshuju().openexl('E:\pythonbijia\data\getapi.xlsx', 'Sheet1')
+    casedate1 = get_api.excelshuju().openexl(path, 'Sheet1')
 
 
     # 比价页商家商品

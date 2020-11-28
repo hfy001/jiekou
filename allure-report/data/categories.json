@@ -7,13 +7,13 @@
       "name" : "AssertionError: assert 1 == ''",
       "children" : [ {
         "name" : "test_chakandizhi[1]",
-        "uid" : "1a45a5778a4b3a24",
+        "uid" : "d1544617d8ca157b",
         "parentUid" : "8687aae74b0ad785363869d35570729d",
         "status" : "failed",
         "time" : {
-          "start" : 1606560207411,
-          "stop" : 1606560207412,
-          "duration" : 1
+          "start" : 1606577841792,
+          "stop" : 1606577841792,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +24,13 @@
       "name" : "AssertionError: assert 'http://192.1.../4000/4000/0/' == ''\n  + http://192.168.2.252:18080/4000/4000/0/",
       "children" : [ {
         "name" : "test_chakandizhi[http://192.168.2.252:18080/4000/4000/0/]",
-        "uid" : "1248fa291c9f8c4b",
+        "uid" : "9f125dfe939209d6",
         "parentUid" : "5d3a2064a5922085c96cbbb562bfeb1b",
         "status" : "failed",
         "time" : {
-          "start" : 1606560207665,
-          "stop" : 1606560207668,
-          "duration" : 3
+          "start" : 1606577842033,
+          "stop" : 1606577842035,
+          "duration" : 2
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,12 +41,12 @@
       "name" : "AssertionError: assert 'guest.account.login' == ''\n  + guest.account.login",
       "children" : [ {
         "name" : "test_chakandizhi[guest.account.login]",
-        "uid" : "a708063d252a4edf",
+        "uid" : "68eddeb6d2a12ffe",
         "parentUid" : "11361ec690d8e7f70c333f13da3507e1",
         "status" : "failed",
         "time" : {
-          "start" : 1606560207680,
-          "stop" : 1606560207680,
+          "start" : 1606577842040,
+          "stop" : 1606577842040,
           "duration" : 0
         },
         "flaky" : false,
@@ -58,12 +58,12 @@
       "name" : "AssertionError: assert None == ''",
       "children" : [ {
         "name" : "test_chakandizhi[None]",
-        "uid" : "b960c256fe7e1ed9",
+        "uid" : "bff87b755a92a141",
         "parentUid" : "a21227e58a95b0b4fc55a49a225f0b3f",
         "status" : "failed",
         "time" : {
-          "start" : 1606560207686,
-          "stop" : 1606560207686,
+          "start" : 1606577842046,
+          "stop" : 1606577842046,
           "duration" : 0
         },
         "flaky" : false,
@@ -75,13 +75,13 @@
       "name" : "AssertionError: assert \"{'userName':...in_type':'2'}\" == ''\n  + {'userName':'啦啦哈哈',\n  + 'password':'abc123',\n  + 'login_type':'2'}",
       "children" : [ {
         "name" : "test_chakandizhi[{'userName':'啦啦哈哈',\n'password':'abc123',\n'login_type':'2'}]",
-        "uid" : "ee0a9a5cf7a7bf14",
+        "uid" : "ba5e876ec19e45e2",
         "parentUid" : "7c785578cf6ad870f6596d351321b6f5",
         "status" : "failed",
         "time" : {
-          "start" : 1606560207691,
-          "stop" : 1606560207692,
-          "duration" : 1
+          "start" : 1606577842052,
+          "stop" : 1606577842052,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
@@ -92,12 +92,12 @@
       "name" : "AssertionError: assert 'get' == ''\n  + get",
       "children" : [ {
         "name" : "test_chakandizhi[get]",
-        "uid" : "c381f1f768e204a3",
+        "uid" : "3ba928ed8e014551",
         "parentUid" : "21a230ede9d691fe663a89f08cfc1b0a",
         "status" : "failed",
         "time" : {
-          "start" : 1606560207697,
-          "stop" : 1606560207697,
+          "start" : 1606577842058,
+          "stop" : 1606577842058,
           "duration" : 0
         },
         "flaky" : false,
@@ -109,13 +109,13 @@
       "name" : "AssertionError: assert 2 == ''",
       "children" : [ {
         "name" : "test_chakandizhi[2]",
-        "uid" : "f5452d91f7db5ee1",
+        "uid" : "df5714609d3f88c5",
         "parentUid" : "891cf1e54658e6a32432f6b3d946c609",
         "status" : "failed",
         "time" : {
-          "start" : 1606560207703,
-          "stop" : 1606560207703,
-          "duration" : 0
+          "start" : 1606577842063,
+          "stop" : 1606577842064,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
@@ -126,12 +126,12 @@
       "name" : "AssertionError: assert '{\"code\":1}' == ''\n  + {\"code\":1}",
       "children" : [ {
         "name" : "test_chakandizhi[{\"code\":1}]",
-        "uid" : "93c5a42c628d73c7",
+        "uid" : "71eb3fd71be73acc",
         "parentUid" : "dff85c16f4d4fb3566c459c90d188c74",
         "status" : "failed",
         "time" : {
-          "start" : 1606560207709,
-          "stop" : 1606560207709,
+          "start" : 1606577842069,
+          "stop" : 1606577842069,
           "duration" : 0
         },
         "flaky" : false,
@@ -143,13 +143,13 @@
       "name" : "AssertionError: assert 17 == 9\n +  where 17 = add(4, 13)",
       "children" : [ {
         "name" : "test_add1[4-13-9]",
-        "uid" : "13b5d749c3c52cbc",
+        "uid" : "d961e2d02d45f7c6",
         "parentUid" : "f4890ff36bff0809a6fdea9351645ad7",
         "status" : "failed",
         "time" : {
-          "start" : 1606560207778,
-          "stop" : 1606560207778,
-          "duration" : 0
+          "start" : 1606577842116,
+          "stop" : 1606577842117,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
@@ -160,13 +160,13 @@
       "name" : "AssertionError: assert 4 == 2\n +  where 4 = add(1, 3)",
       "children" : [ {
         "name" : "test_add2[1-2-3]",
-        "uid" : "bb7e01357b473594",
+        "uid" : "39e41be9526522fb",
         "parentUid" : "b27a6aa60f935d665014a775af4f3cf4",
         "status" : "failed",
         "time" : {
-          "start" : 1606560207787,
-          "stop" : 1606560207787,
-          "duration" : 0
+          "start" : 1606577842126,
+          "stop" : 1606577842127,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
@@ -177,12 +177,12 @@
       "name" : "AssertionError: assert 22 == 8\n +  where 22 = add(7, 15)",
       "children" : [ {
         "name" : "test_add2[7-8-15]",
-        "uid" : "9bd30e144b9ffc3c",
+        "uid" : "69e49cfea5f46dc2",
         "parentUid" : "d2c71852225ef60b584717ca163c76f3",
         "status" : "failed",
         "time" : {
-          "start" : 1606560207797,
-          "stop" : 1606560207797,
+          "start" : 1606577842136,
+          "stop" : 1606577842136,
           "duration" : 0
         },
         "flaky" : false,
@@ -194,26 +194,26 @@
       "name" : "AssertionError: assert '上海市徐汇区电话v登记表v好几块聚光灯如果' == '海大富别人高回报看缴费如果您把日军'\n  - 海大富别人高回报看缴费如果您把日军\n  + 上海市徐汇区电话v登记表v好几块聚光灯如果",
       "children" : [ {
         "name" : "获取地址",
-        "uid" : "4ba1e3248723194a",
+        "uid" : "770818e3f11b4d48",
         "parentUid" : "6fbc7d9fd74571cf6f1dea2a5ada22a4",
         "status" : "failed",
         "time" : {
-          "start" : 1606560207814,
-          "stop" : 1606560213775,
-          "duration" : 5961
+          "start" : 1606577842153,
+          "stop" : 1606577847321,
+          "duration" : 5168
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "1", "1", "'{'pageIndex':'undefined',\n'pageSize':'10',\n'__client':'app_wx',\n'app_version':'4.5.00',\n'osVersion':'miniapp',\n'deviceName':'iPhone%206s%20Plus%3CiPhone8%2C2%3E',\n'os':'ios',\n'version':'7.0.17',\n'market':'iPhone',\n'networkType':'true',\n'lat':'31.236276',\n'lng':'121.480248',\n'user_city_name':'上海',\n'user_region_id':'95'}'", "2" ]
       }, {
         "name" : "查看地址模块",
-        "uid" : "46dbe3d5d490dbd7",
+        "uid" : "9493abcc3b5891e6",
         "parentUid" : "6fbc7d9fd74571cf6f1dea2a5ada22a4",
         "status" : "failed",
         "time" : {
-          "start" : 1606560222934,
-          "stop" : 1606560223108,
-          "duration" : 174
+          "start" : 1606577853432,
+          "stop" : 1606577853601,
+          "duration" : 169
         },
         "flaky" : false,
         "newFailed" : false,
@@ -221,59 +221,59 @@
       } ],
       "uid" : "6fbc7d9fd74571cf6f1dea2a5ada22a4"
     }, {
-      "name" : "AssertionError: assert 2231234 == 1\n +  where 2231234 = <test_case.test_address.TestAddress object at 0x04DED2F8>.resaddresscode",
+      "name" : "AssertionError: assert 2231235 == 1\n +  where 2231235 = <test_case.test_address.TestAddress object at 0x04E593A0>.resaddresscode",
       "children" : [ {
         "name" : "搜索地址",
-        "uid" : "e9bb12a2aa0c9699",
-        "parentUid" : "5b3dc98003807b1096d6c89a2ff4bb5b",
+        "uid" : "269d59b06d9077a0",
+        "parentUid" : "cca17e4fe65677708e744e71735e7f6b",
         "status" : "failed",
         "time" : {
-          "start" : 1606560216874,
-          "stop" : 1606560217084,
-          "duration" : 210
+          "start" : 1606577847548,
+          "stop" : 1606577847734,
+          "duration" : 186
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "2", "2", "'{'data':'{\\\"name\\\":\\\"sqc11\\\",\\\"regionid\\\":\\\"562\\\",\\\"mobile\\\":\\\"15335722137\\\",\\\"address_name\\\":\\\"海大富别人高回报看缴费如果您把日军\\\"}',\n'__client':'app_wx',\n'app_version':'4.5.00',\n'osVersion':'miniapp',\n'deviceName':'iPhone%206s%20Plus%3CiPhone8%2C2%3E',\n'os':'ios',\n'version':'7.0.17',\n'market':'iPhone',\n'networkType':'true',\n'lat':'31.236276',\n'lng':'121.480248'\n}'", "3" ]
       } ],
-      "uid" : "5b3dc98003807b1096d6c89a2ff4bb5b"
+      "uid" : "cca17e4fe65677708e744e71735e7f6b"
     }, {
       "name" : "AssertionError: assert -1 == 1",
       "children" : [ {
         "name" : "修改购物车数量",
-        "uid" : "f2b36eb678f5ebd4",
+        "uid" : "a38478d24f4ecb07",
         "parentUid" : "9d1d3261ebe476358507181f409872a4",
         "status" : "failed",
         "time" : {
-          "start" : 1606560221862,
-          "stop" : 1606560222015,
-          "duration" : 153
+          "start" : 1606577852447,
+          "stop" : 1606577852621,
+          "duration" : 174
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "26", "26", "'{'cartId':'17596967',\n'quantity':'3'}'", "27" ]
       }, {
         "name" : "移入收藏夹",
-        "uid" : "8fc014a712c6da1e",
+        "uid" : "a2dfb8bea0db8587",
         "parentUid" : "9d1d3261ebe476358507181f409872a4",
         "status" : "failed",
         "time" : {
-          "start" : 1606560222024,
-          "stop" : 1606560222228,
-          "duration" : 204
+          "start" : 1606577852631,
+          "stop" : 1606577852846,
+          "duration" : 215
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "27", "27", "'{'cartidList':'[17597757]'}'", "28" ]
       }, {
         "name" : "删除购物车商品",
-        "uid" : "cf800e4c48d7df50",
+        "uid" : "a6a4362948741ccd",
         "parentUid" : "9d1d3261ebe476358507181f409872a4",
         "status" : "failed",
         "time" : {
-          "start" : 1606560222243,
-          "stop" : 1606560222465,
-          "duration" : 222
+          "start" : 1606577852857,
+          "stop" : 1606577853095,
+          "duration" : 238
         },
         "flaky" : false,
         "newFailed" : false,
@@ -281,124 +281,124 @@
       } ],
       "uid" : "9d1d3261ebe476358507181f409872a4"
     }, {
-      "name" : "AssertionError: assert -2 == 1\n +  where -2 = <test_case.test_order.TestOrder object at 0x04DED148>.resaddresscode",
+      "name" : "AssertionError: assert -2 == 1\n +  where -2 = <test_case.test_order.TestOrder object at 0x04E050E8>.resaddresscode",
       "children" : [ {
         "name" : "订单结算页",
-        "uid" : "947f91f7e4533b5f",
-        "parentUid" : "c771400dacdba04bade412bda5902098",
+        "uid" : "809d915d6ac7f2d3",
+        "parentUid" : "a10fddeafecd1b2ca8ea42c8f1e6bf17",
         "status" : "failed",
         "time" : {
-          "start" : 1606560226701,
-          "stop" : 1606560226902,
-          "duration" : 201
+          "start" : 1606577856689,
+          "stop" : 1606577856921,
+          "duration" : 232
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "29", "29", "'{'addressid':'2231220',\n'cartids':'17597753'}'", "30" ]
       } ],
-      "uid" : "c771400dacdba04bade412bda5902098"
+      "uid" : "a10fddeafecd1b2ca8ea42c8f1e6bf17"
     }, {
-      "name" : "AssertionError: assert -3 == 1\n +  where -3 = <test_case.test_order.TestOrder object at 0x04C89D48>.resaddresscode",
+      "name" : "AssertionError: assert -3 == 1\n +  where -3 = <test_case.test_order.TestOrder object at 0x04D7D370>.resaddresscode",
       "children" : [ {
         "name" : "创建订单",
-        "uid" : "271b4d733af2b81a",
-        "parentUid" : "c31c8d6c9af7e573c1dd7432c8e82a87",
+        "uid" : "2c90a5fa78ccfc84",
+        "parentUid" : "b0c78c616db5a83c563d13278de08b26",
         "status" : "failed",
         "time" : {
-          "start" : 1606560226912,
-          "stop" : 1606560227126,
-          "duration" : 214
+          "start" : 1606577856934,
+          "stop" : 1606577857157,
+          "duration" : 223
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "30", "30", "'{'data_info':'{\\\"cartids\\\":\\\"17597753\\\",\\\"packageids\\\":\\\"\\\",\\\"request_os\\\":\\\"ios\\\",\\\"use_point\\\":\\\"0\\\",\\\"platform_coupon_id\\\":\\\"\\\",\\\"use_balance\\\":\\\"0.00\\\",\\\"addressid\\\":\\\"2231220\\\",\\\"all_order_price_total\\\":\\\"153.00\\\",\\\"shop_list\\\":{\\\"351879\\\":{\\\"packageid\\\":\\\"8133\\\",\\\"logisticsid\\\":\\\"0\\\",\\\"couponsid\\\":\\\"7850427\\\",\\\"rx_image\\\":\\\"\\\",\\\"rx_content\\\":\\\"\\\",\\\"no_rx_reason\\\":\\\"\\\",\\\"dict_bool_etax\\\":0,\\\"invoice_idcard\\\":\\\"\\\",\\\"invoice_name\\\":\\\"\\\",\\\"invoice_type\\\":\\\"0\\\"}},\\\"medicate_name\\\":\\\"\\\",\\\"medicate_idcard\\\":\\\"\\\",\\\"medicate_sex\\\":\\\"\\\",\\\"rx_info\\\":null}'}'", "31" ]
       } ],
-      "uid" : "c31c8d6c9af7e573c1dd7432c8e82a87"
+      "uid" : "b0c78c616db5a83c563d13278de08b26"
     }, {
-      "name" : "AssertionError: assert -1 == 1\n +  where -1 = <test_case.test_order.TestOrder object at 0x04DA41D8>.resaddresscode",
+      "name" : "AssertionError: assert -1 == 1\n +  where -1 = <test_case.test_order.TestOrder object at 0x04E1A178>.resaddresscode",
       "children" : [ {
         "name" : "获取未付款订单信息",
-        "uid" : "c5bb13cbbbfa673",
-        "parentUid" : "f2d6e810bf49b0d7e6ed273b8d148e69",
+        "uid" : "1a7d55f5082ca122",
+        "parentUid" : "08f93531302cb4dafa7cdaed70f67c64",
         "status" : "failed",
         "time" : {
-          "start" : 1606560227157,
-          "stop" : 1606560227375,
-          "duration" : 218
+          "start" : 1606577857170,
+          "stop" : 1606577857375,
+          "duration" : 205
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "32", "32", "'{'orderno':'C2011181104128819'}'", "33" ]
       } ],
-      "uid" : "f2d6e810bf49b0d7e6ed273b8d148e69"
+      "uid" : "08f93531302cb4dafa7cdaed70f67c64"
     }, {
-      "name" : "AssertionError: assert -1 == 1\n +  where -1 = <test_case.test_order.TestOrder object at 0x04DF6EE0>.resaddresscode",
+      "name" : "AssertionError: assert -1 == 1\n +  where -1 = <test_case.test_order.TestOrder object at 0x04D4D538>.resaddresscode",
       "children" : [ {
         "name" : "发起付款，获取需要支付的sdk",
-        "uid" : "98f1931a05f49b66",
-        "parentUid" : "b28936e753bc520785e885cc34d6e2e6",
+        "uid" : "f2022a16665a54f9",
+        "parentUid" : "125047922382d1449262b3a719252df4",
         "status" : "failed",
         "time" : {
-          "start" : 1606560227753,
-          "stop" : 1606560227902,
-          "duration" : 149
+          "start" : 1606577857752,
+          "stop" : 1606577857938,
+          "duration" : 186
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "36", "36", "'{'ordernoList':'C2011181738382585',\n'type':'alipay'}'", "37" ]
       } ],
-      "uid" : "b28936e753bc520785e885cc34d6e2e6"
+      "uid" : "125047922382d1449262b3a719252df4"
     }, {
-      "name" : "AssertionError: assert -900 == 1\n +  where -900 = <test_case.test_order.TestOrder object at 0x04CF4D00>.resaddresscode",
+      "name" : "AssertionError: assert -900 == 1\n +  where -900 = <test_case.test_order.TestOrder object at 0x04D67DC0>.resaddresscode",
       "children" : [ {
         "name" : "查看订单物流信息",
-        "uid" : "8a4b0c9fb28dbb9f",
-        "parentUid" : "51f3759f0e78880122c5d954232c3fd8",
+        "uid" : "feb338b61ac2f286",
+        "parentUid" : "e58682bf459c3fb6d7a01b34c050bf4e",
         "status" : "failed",
         "time" : {
-          "start" : 1606560227911,
-          "stop" : 1606560228148,
-          "duration" : 237
+          "start" : 1606577857949,
+          "stop" : 1606577858154,
+          "duration" : 205
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "41", "43", "'{'orderno':'C2007291550013607'}'", "44" ]
       } ],
-      "uid" : "51f3759f0e78880122c5d954232c3fd8"
+      "uid" : "e58682bf459c3fb6d7a01b34c050bf4e"
     }, {
-      "name" : "AssertionError: assert -3 == 1\n +  where -3 = <test_case.test_person.Testperson object at 0x04B39040>.resaddresscode",
+      "name" : "AssertionError: assert -3 == 1\n +  where -3 = <test_case.test_person.Testperson object at 0x04C819B8>.resaddresscode",
       "children" : [ {
         "name" : "新增用药人",
-        "uid" : "c008687767413026",
-        "parentUid" : "be30a011725fdb1f93d0b9409452b356",
+        "uid" : "b733794c6fca12dc",
+        "parentUid" : "ed45feadaf0d4d04eb867932dfd40113",
         "status" : "failed",
         "time" : {
-          "start" : 1606560228799,
-          "stop" : 1606560228961,
-          "duration" : 162
+          "start" : 1606577858784,
+          "stop" : 1606577858947,
+          "duration" : 163
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "38", "38", "'{'data':'{\\\"real_name\\\":\\\"黄凤雅\\\",\\\"idcard_no\\\":\\\"32068419920825136\\\",\\\"birthday\\\":\\\"1992-08-25\\\",\\\"dict_sex\\\":\\\"0\\\",\\\"weight\\\":\\\"\\\",\\\"mobile\\\":\\\"17521558586\\\",\\\"dict_bool_medical_history\\\":\\\"0\\\",\\\"medical_history\\\":\\\"\\\",\\\"allergy_history\\\":\\\"\\\",\\\"family_history\\\":\\\"\\\",\\\"dict_bool_allergy_history\\\":\\\"0\\\",\\\"dict_bool_family_history\\\":\\\"0\\\",\\\"dict_bool_liver\\\":\\\"0\\\",\\\"dict_bool_renal\\\":\\\"0\\\",\\\"dict_bool_nurse\\\":\\\"0\\\",\\\"relation_label\\\":\\\"本人\\\",\\\"dict_bool_default\\\":\\\"0\\\"}'}'", "39" ]
       } ],
-      "uid" : "be30a011725fdb1f93d0b9409452b356"
+      "uid" : "ed45feadaf0d4d04eb867932dfd40113"
     }, {
-      "name" : "AssertionError: assert -900 == 1\n +  where -900 = <test_case.test_storemedicine.TestSearchMedicine object at 0x04B77310>.resaddresscode",
+      "name" : "AssertionError: assert -900 == 1\n +  where -900 = <test_case.test_storemedicine.TestSearchMedicine object at 0x04DB5A90>.resaddresscode",
       "children" : [ {
         "name" : "商家药品分类",
-        "uid" : "24c8085e81e4d34d",
-        "parentUid" : "ff8c8e882d0c7e8a6ebfe68580bc31ca",
+        "uid" : "bd93c855e87dfa46",
+        "parentUid" : "49e6975faffb4c04dd0de999ae5cfa2f",
         "status" : "failed",
         "time" : {
-          "start" : 1606560233084,
-          "stop" : 1606560233114,
-          "duration" : 30
+          "start" : 1606577860650,
+          "stop" : 1606577860682,
+          "duration" : 32
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "18", "18", "'{\n'medicineid':'169368',\n'storeid':'338958'\n}\n'", "19" ]
       } ],
-      "uid" : "ff8c8e882d0c7e8a6ebfe68580bc31ca"
+      "uid" : "49e6975faffb4c04dd0de999ae5cfa2f"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   }, {
@@ -407,12 +407,12 @@
       "name" : "AttributeError: 'login1' object has no attribute 'login'",
       "children" : [ {
         "name" : "test_chakandizhi",
-        "uid" : "ac5757b7ce989de0",
+        "uid" : "6c8c699f6bc21ae9",
         "parentUid" : "01f67f1cbe2bb2f737d6708d7a2abafe",
         "status" : "broken",
         "time" : {
-          "start" : 1606560207716,
-          "stop" : 1606560207716,
+          "start" : 1606577842076,
+          "stop" : 1606577842076,
           "duration" : 0
         },
         "flaky" : false,
@@ -424,52 +424,52 @@
       "name" : "TypeError: 'NoneType' object is not subscriptable",
       "children" : [ {
         "name" : "比价",
-        "uid" : "4eb8c5cdc3429d8a",
+        "uid" : "52a04ab38e83a9d0",
         "parentUid" : "86a928d47f47009c564bd8e345a40463",
         "status" : "broken",
         "time" : {
-          "start" : 1606560217628,
-          "stop" : 1606560218934,
-          "duration" : 1306
+          "start" : 1606577848318,
+          "stop" : 1606577849432,
+          "duration" : 1114
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "1", "'{'Content-Type': 'application/json'}'", "'http://192.168.2.252:18080'", "'get'", "'{\n 'user_city_name':'上海市',\n 'user_region_id':'95',\n'pageIndex':'1',\n'pageSize':'10',\n'conditions':'{\\\"sort\\\":\\\"\\\",\\\"sorttype\\\":\\\"desc\\\",\\\"medicineid\\\":\\\"278803\\\",\\\"is_freepostage\\\":\\\"1\\\",\\\"lat\\\":\\\"31.211457\\\",\\\"lng\\\":\\\"121.635224\\\",\\\"user_city_name\\\":\\\"上海市\\\",\\\"user_region_id\\\":\\\"95\\\" }'\n}'", "'/4000/4000/0/guest.medicine.getShopMedicines'", "2" ]
       }, {
         "name" : "比价",
-        "uid" : "611e122d9f583e32",
+        "uid" : "8528140ddd4d3938",
         "parentUid" : "86a928d47f47009c564bd8e345a40463",
         "status" : "broken",
         "time" : {
-          "start" : 1606560218946,
-          "stop" : 1606560219354,
-          "duration" : 408
+          "start" : 1606577849446,
+          "stop" : 1606577849868,
+          "duration" : 422
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "2", "'{'Content-Type': 'application/x-www-form-urlencoded'}'", "'http://192.168.2.252:18080'", "'get'", "'{\n    'user_city_name':'上海市',\n    'user_region_id':'95',\n    'pageIndex':'1',\n    'pageSize':'10',\n    'conditions':'{\\\"medicineid\\\":\\\"278803\\\"}'\n    }'", "'/4000/4000/0/guest.medicine.getShopMedicines'", "3" ]
       }, {
         "name" : "比价",
-        "uid" : "25ca64a0a721d464",
+        "uid" : "e4a49aa1221d2a31",
         "parentUid" : "86a928d47f47009c564bd8e345a40463",
         "status" : "broken",
         "time" : {
-          "start" : 1606560219365,
-          "stop" : 1606560219766,
-          "duration" : 401
+          "start" : 1606577849880,
+          "stop" : 1606577850306,
+          "duration" : 426
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "3", "'{'Content-Type': 'application/x-www-form-urlencoded'}'", "'http://192.168.2.252:18080'", "'get'", "'{\n    'user_city_name':'',\n    'user_region_id':'',\n    'pageIndex':'1',\n    'pageSize':'10',\n    'conditions':'{\\\"medicineid\\\":\\\"278803\\\"}'\n    }'", "'/4000/4000/0/guest.medicine.getShopMedicines'", "4" ]
       }, {
         "name" : "比价",
-        "uid" : "c47a8f4c9b77b4e9",
+        "uid" : "c98c048506810c80",
         "parentUid" : "86a928d47f47009c564bd8e345a40463",
         "status" : "broken",
         "time" : {
-          "start" : 1606560219777,
-          "stop" : 1606560219861,
-          "duration" : 84
+          "start" : 1606577850317,
+          "stop" : 1606577850444,
+          "duration" : 127
         },
         "flaky" : false,
         "newFailed" : false,
@@ -480,26 +480,26 @@
       "name" : "AttributeError: 'dict' object has no attribute 'status_code'",
       "children" : [ {
         "name" : "查询药品模块",
-        "uid" : "f357b107805ddf2d",
+        "uid" : "72f16319006666b",
         "parentUid" : "351e6bf9897ad7533602fa268df04282",
         "status" : "broken",
         "time" : {
-          "start" : 1606560224271,
-          "stop" : 1606560224278,
-          "duration" : 7
+          "start" : 1606577854120,
+          "stop" : 1606577854121,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "3", "'{'Content-Type':'application/x-www-form-urlencoded'}'", "None", "'get'", "'{'keywords':'感冒灵'}'", "'guest.medicine.getSearchPageData'", "4" ]
       }, {
         "name" : "test_case02[3-None-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'感冒灵'}-get-4-None]",
-        "uid" : "b36a9baeed78b11f",
+        "uid" : "c114390e259ffde0",
         "parentUid" : "351e6bf9897ad7533602fa268df04282",
         "status" : "broken",
         "time" : {
-          "start" : 1606560226056,
-          "stop" : 1606560226060,
-          "duration" : 4
+          "start" : 1606577855929,
+          "stop" : 1606577855931,
+          "duration" : 2
         },
         "flaky" : false,
         "newFailed" : false,

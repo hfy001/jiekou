@@ -1,10 +1,11 @@
 import requests
 from data import canshu1
+from common import get_path
 
 
-casedate=canshu1.excelshuju1().openexl('E:\pythonbijia\data\case.xlsx','Sheet2')
+path=get_path.get_login()
+casedate=canshu1.excelshuju1().openexl(path,'Sheet2')
 print(casedate)
-
 
 class login1():
     def get_ssid(self):

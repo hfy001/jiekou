@@ -3,7 +3,7 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "test_pricecompare[10-10-{'mid':'181741'}-11]",
-    "uid" : "6d4fe01d45dde1a1",
+    "uid" : "c452c4fac07f4496",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -16,7 +16,7 @@
     "parameters" : [ "10", "10", "'{'mid':'181741'}'", "11" ]
   }, {
     "name" : "test_a",
-    "uid" : "412097c1a17d5b8d",
+    "uid" : "267f64add6124a12",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -33,7 +33,7 @@
       "name" : "添加地址模块",
       "children" : [ {
         "name" : "test_tianjiadizhi[1-http://192.168.2.252:18080/4000/4000/0/-person.address.insert-{'data':'{\\\"name\\\":\\\"sqc11\\\",\\\"regionid\\\":\\\"562\\\",\\\"mobile\\\":\\\"15335722137\\\",\\\"address_name\\\":\\\"海大富别人高回报看缴费如果您把日军\\\"}',\n'__client':'app_wx',\n'app_version':'4.5.00',\n'osVersion':'miniapp',\n'deviceName':'iPhone%206s%20Plus%3CiPhone8%2C2%3E',\n'os':'ios',\n'version':'7.0.17',\n'market':'iPhone',\n'networkType':'true',\n'lat':'31.236276',\n'lng':'121.480248'\n}-get-2-{\"code\":1}]",
-        "uid" : "d8c7769cf46f30a0",
+        "uid" : "f26238df4fec668c",
         "parentUid" : "da191bc638022c63b6882f1e1557795b",
         "status" : "passed",
         "time" : {
@@ -50,52 +50,52 @@
       "name" : "收货地址模块",
       "children" : [ {
         "name" : "获取地址",
-        "uid" : "4ba1e3248723194a",
+        "uid" : "770818e3f11b4d48",
         "parentUid" : "38e9933782b1140a01298a00bc9faec3",
         "status" : "failed",
         "time" : {
-          "start" : 1606560207814,
-          "stop" : 1606560213775,
-          "duration" : 5961
+          "start" : 1606577842153,
+          "stop" : 1606577847321,
+          "duration" : 5168
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "1", "1", "'{'pageIndex':'undefined',\n'pageSize':'10',\n'__client':'app_wx',\n'app_version':'4.5.00',\n'osVersion':'miniapp',\n'deviceName':'iPhone%206s%20Plus%3CiPhone8%2C2%3E',\n'os':'ios',\n'version':'7.0.17',\n'market':'iPhone',\n'networkType':'true',\n'lat':'31.236276',\n'lng':'121.480248',\n'user_city_name':'上海',\n'user_region_id':'95'}'", "2" ]
       }, {
         "name" : "添加地址",
-        "uid" : "bd78239b47e1740",
+        "uid" : "5d5fb9ced244c2b8",
         "parentUid" : "38e9933782b1140a01298a00bc9faec3",
         "status" : "passed",
         "time" : {
-          "start" : 1606560213788,
-          "stop" : 1606560216870,
-          "duration" : 3082
+          "start" : 1606577847334,
+          "stop" : 1606577847540,
+          "duration" : 206
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "2", "2", "'{'data':'{\\\"name\\\":\\\"sqc11\\\",\\\"regionid\\\":\\\"562\\\",\\\"mobile\\\":\\\"15335722137\\\",\\\"address_name\\\":\\\"海大富别人高回报看缴费如果您把日军\\\"}',\n'__client':'app_wx',\n'app_version':'4.5.00',\n'osVersion':'miniapp',\n'deviceName':'iPhone%206s%20Plus%3CiPhone8%2C2%3E',\n'os':'ios',\n'version':'7.0.17',\n'market':'iPhone',\n'networkType':'true',\n'lat':'31.236276',\n'lng':'121.480248'\n}'", "3" ]
       }, {
         "name" : "搜索地址",
-        "uid" : "e9bb12a2aa0c9699",
+        "uid" : "269d59b06d9077a0",
         "parentUid" : "38e9933782b1140a01298a00bc9faec3",
         "status" : "failed",
         "time" : {
-          "start" : 1606560216874,
-          "stop" : 1606560217084,
-          "duration" : 210
+          "start" : 1606577847548,
+          "stop" : 1606577847734,
+          "duration" : 186
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "2", "2", "'{'data':'{\\\"name\\\":\\\"sqc11\\\",\\\"regionid\\\":\\\"562\\\",\\\"mobile\\\":\\\"15335722137\\\",\\\"address_name\\\":\\\"海大富别人高回报看缴费如果您把日军\\\"}',\n'__client':'app_wx',\n'app_version':'4.5.00',\n'osVersion':'miniapp',\n'deviceName':'iPhone%206s%20Plus%3CiPhone8%2C2%3E',\n'os':'ios',\n'version':'7.0.17',\n'market':'iPhone',\n'networkType':'true',\n'lat':'31.236276',\n'lng':'121.480248'\n}'", "3" ]
       }, {
         "name" : "删除地址",
-        "uid" : "cb9f4e2f70a3a7fe",
+        "uid" : "ef0466efd25f7dd5",
         "parentUid" : "38e9933782b1140a01298a00bc9faec3",
         "status" : "passed",
         "time" : {
-          "start" : 1606560217094,
-          "stop" : 1606560217623,
-          "duration" : 529
+          "start" : 1606577847746,
+          "stop" : 1606577848311,
+          "duration" : 565
         },
         "flaky" : false,
         "newFailed" : false,
@@ -106,52 +106,52 @@
       "name" : "比价",
       "children" : [ {
         "name" : "比价",
-        "uid" : "4eb8c5cdc3429d8a",
+        "uid" : "52a04ab38e83a9d0",
         "parentUid" : "53f5b0c591266314ddca697861aa7676",
         "status" : "broken",
         "time" : {
-          "start" : 1606560217628,
-          "stop" : 1606560218934,
-          "duration" : 1306
+          "start" : 1606577848318,
+          "stop" : 1606577849432,
+          "duration" : 1114
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "1", "'{'Content-Type': 'application/json'}'", "'http://192.168.2.252:18080'", "'get'", "'{\n 'user_city_name':'上海市',\n 'user_region_id':'95',\n'pageIndex':'1',\n'pageSize':'10',\n'conditions':'{\\\"sort\\\":\\\"\\\",\\\"sorttype\\\":\\\"desc\\\",\\\"medicineid\\\":\\\"278803\\\",\\\"is_freepostage\\\":\\\"1\\\",\\\"lat\\\":\\\"31.211457\\\",\\\"lng\\\":\\\"121.635224\\\",\\\"user_city_name\\\":\\\"上海市\\\",\\\"user_region_id\\\":\\\"95\\\" }'\n}'", "'/4000/4000/0/guest.medicine.getShopMedicines'", "2" ]
       }, {
         "name" : "比价",
-        "uid" : "611e122d9f583e32",
+        "uid" : "8528140ddd4d3938",
         "parentUid" : "53f5b0c591266314ddca697861aa7676",
         "status" : "broken",
         "time" : {
-          "start" : 1606560218946,
-          "stop" : 1606560219354,
-          "duration" : 408
+          "start" : 1606577849446,
+          "stop" : 1606577849868,
+          "duration" : 422
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "2", "'{'Content-Type': 'application/x-www-form-urlencoded'}'", "'http://192.168.2.252:18080'", "'get'", "'{\n    'user_city_name':'上海市',\n    'user_region_id':'95',\n    'pageIndex':'1',\n    'pageSize':'10',\n    'conditions':'{\\\"medicineid\\\":\\\"278803\\\"}'\n    }'", "'/4000/4000/0/guest.medicine.getShopMedicines'", "3" ]
       }, {
         "name" : "比价",
-        "uid" : "25ca64a0a721d464",
+        "uid" : "e4a49aa1221d2a31",
         "parentUid" : "53f5b0c591266314ddca697861aa7676",
         "status" : "broken",
         "time" : {
-          "start" : 1606560219365,
-          "stop" : 1606560219766,
-          "duration" : 401
+          "start" : 1606577849880,
+          "stop" : 1606577850306,
+          "duration" : 426
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "3", "'{'Content-Type': 'application/x-www-form-urlencoded'}'", "'http://192.168.2.252:18080'", "'get'", "'{\n    'user_city_name':'',\n    'user_region_id':'',\n    'pageIndex':'1',\n    'pageSize':'10',\n    'conditions':'{\\\"medicineid\\\":\\\"278803\\\"}'\n    }'", "'/4000/4000/0/guest.medicine.getShopMedicines'", "4" ]
       }, {
         "name" : "比价",
-        "uid" : "c47a8f4c9b77b4e9",
+        "uid" : "c98c048506810c80",
         "parentUid" : "53f5b0c591266314ddca697861aa7676",
         "status" : "broken",
         "time" : {
-          "start" : 1606560219777,
-          "stop" : 1606560219861,
-          "duration" : 84
+          "start" : 1606577850317,
+          "stop" : 1606577850444,
+          "duration" : 127
         },
         "flaky" : false,
         "newFailed" : false,
@@ -162,91 +162,91 @@
       "name" : "购物车模块",
       "children" : [ {
         "name" : "购物车数量",
-        "uid" : "1e83c849e8022faa",
+        "uid" : "9737efea6b7af2c",
         "parentUid" : "5788eb921e79a32156c0dca60b62dde1",
         "status" : "passed",
         "time" : {
-          "start" : 1606560219872,
-          "stop" : 1606560220246,
-          "duration" : 374
+          "start" : 1606577850456,
+          "stop" : 1606577851010,
+          "duration" : 554
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "11", "11", "'{}'", "12" ]
       }, {
         "name" : "加入购物车",
-        "uid" : "89b47a4d0697e44a",
+        "uid" : "7da224cdbb00c7cb",
         "parentUid" : "5788eb921e79a32156c0dca60b62dde1",
         "status" : "passed",
         "time" : {
-          "start" : 1606560220251,
-          "stop" : 1606560220935,
-          "duration" : 684
+          "start" : 1606577851016,
+          "stop" : 1606577851551,
+          "duration" : 535
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "20", "20", "'{\n'quantity':'1',\n'storeMedicineId':'26258716'\n}\n'", "21" ]
       }, {
         "name" : "购物车页面精选商品",
-        "uid" : "70003db6ba6990f9",
+        "uid" : "4b803e516a0d0ab0",
         "parentUid" : "5788eb921e79a32156c0dca60b62dde1",
         "status" : "passed",
         "time" : {
-          "start" : 1606560220940,
-          "stop" : 1606560221858,
-          "duration" : 918
+          "start" : 1606577851557,
+          "stop" : 1606577852442,
+          "duration" : 885
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "24", "24", "'{'limit':'6'}'", "25" ]
       }, {
         "name" : "修改购物车数量",
-        "uid" : "f2b36eb678f5ebd4",
+        "uid" : "a38478d24f4ecb07",
         "parentUid" : "5788eb921e79a32156c0dca60b62dde1",
         "status" : "failed",
         "time" : {
-          "start" : 1606560221862,
-          "stop" : 1606560222015,
-          "duration" : 153
+          "start" : 1606577852447,
+          "stop" : 1606577852621,
+          "duration" : 174
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "26", "26", "'{'cartId':'17596967',\n'quantity':'3'}'", "27" ]
       }, {
         "name" : "移入收藏夹",
-        "uid" : "8fc014a712c6da1e",
+        "uid" : "a2dfb8bea0db8587",
         "parentUid" : "5788eb921e79a32156c0dca60b62dde1",
         "status" : "failed",
         "time" : {
-          "start" : 1606560222024,
-          "stop" : 1606560222228,
-          "duration" : 204
+          "start" : 1606577852631,
+          "stop" : 1606577852846,
+          "duration" : 215
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "27", "27", "'{'cartidList':'[17597757]'}'", "28" ]
       }, {
         "name" : "删除购物车商品",
-        "uid" : "cf800e4c48d7df50",
+        "uid" : "a6a4362948741ccd",
         "parentUid" : "5788eb921e79a32156c0dca60b62dde1",
         "status" : "failed",
         "time" : {
-          "start" : 1606560222243,
-          "stop" : 1606560222465,
-          "duration" : 222
+          "start" : 1606577852857,
+          "stop" : 1606577853095,
+          "duration" : 238
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "28", "28", "'{'cartId':'17597756'}'", "29" ]
       }, {
         "name" : "获取购物车商品等具体信息",
-        "uid" : "5997192ba55d0635",
+        "uid" : "bdcff8a462b57194",
         "parentUid" : "5788eb921e79a32156c0dca60b62dde1",
         "status" : "passed",
         "time" : {
-          "start" : 1606560222481,
-          "stop" : 1606560222929,
-          "duration" : 448
+          "start" : 1606577853121,
+          "stop" : 1606577853426,
+          "duration" : 305
         },
         "flaky" : false,
         "newFailed" : false,
@@ -257,65 +257,65 @@
       "name" : "查看地址模块",
       "children" : [ {
         "name" : "查看地址模块",
-        "uid" : "46dbe3d5d490dbd7",
+        "uid" : "9493abcc3b5891e6",
         "parentUid" : "af36be8e51e776a24a1144a79b6ddf55",
         "status" : "failed",
         "time" : {
-          "start" : 1606560222934,
-          "stop" : 1606560223108,
-          "duration" : 174
+          "start" : 1606577853432,
+          "stop" : 1606577853601,
+          "duration" : 169
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "1", "'{\"code\":1}'", "'http://192.168.2.252:18080/4000/4000/0/'", "'get'", "'{'pageIndex':'undefined',\n'pageSize':'10',\n'__client':'app_wx',\n'app_version':'4.5.00',\n'osVersion':'miniapp',\n'deviceName':'iPhone%206s%20Plus%3CiPhone8%2C2%3E',\n'os':'ios',\n'version':'7.0.17',\n'market':'iPhone',\n'networkType':'true',\n'lat':'31.236276',\n'lng':'121.480248',\n'user_city_name':'上海',\n'user_region_id':'95'}'", "'person.address.getReceiptAddress'", "2" ]
       }, {
         "name" : "收藏药品",
-        "uid" : "accbc63038960ee7",
+        "uid" : "2d8003e5b3c0945c",
         "parentUid" : "af36be8e51e776a24a1144a79b6ddf55",
         "status" : "passed",
         "time" : {
-          "start" : 1606560224991,
-          "stop" : 1606560225185,
-          "duration" : 194
+          "start" : 1606577854716,
+          "stop" : 1606577854843,
+          "duration" : 127
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "18", "18", "'{\n'medicineid':'169368',\n'storeid':'338958'\n}\n'", "19" ]
       }, {
         "name" : "取消收藏药品",
-        "uid" : "1a2814bac6896070",
+        "uid" : "2d0130d4971af647",
         "parentUid" : "af36be8e51e776a24a1144a79b6ddf55",
         "status" : "passed",
         "time" : {
-          "start" : 1606560225190,
-          "stop" : 1606560225385,
-          "duration" : 195
+          "start" : 1606577854848,
+          "stop" : 1606577855140,
+          "duration" : 292
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "19", "19", "'{\n'medicineid':'169368',\n'storeid':'338958'\n}\n'", "20" ]
       }, {
         "name" : "收藏商家",
-        "uid" : "a1ce65bb2c3d215f",
+        "uid" : "f3f1dfc289d5e7d3",
         "parentUid" : "af36be8e51e776a24a1144a79b6ddf55",
         "status" : "passed",
         "time" : {
-          "start" : 1606560225390,
-          "stop" : 1606560225563,
-          "duration" : 173
+          "start" : 1606577855146,
+          "stop" : 1606577855366,
+          "duration" : 220
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "21", "21", "'{\n'storeid':'338958'\n}\n'", "22" ]
       }, {
         "name" : "取消收藏商家",
-        "uid" : "774b7a3199ff779b",
+        "uid" : "439be5afd553148b",
         "parentUid" : "af36be8e51e776a24a1144a79b6ddf55",
         "status" : "passed",
         "time" : {
-          "start" : 1606560225567,
-          "stop" : 1606560225754,
-          "duration" : 187
+          "start" : 1606577855373,
+          "stop" : 1606577855579,
+          "duration" : 206
         },
         "flaky" : false,
         "newFailed" : false,
@@ -326,52 +326,52 @@
       "name" : "查询药品模块",
       "children" : [ {
         "name" : "查询药品模块",
-        "uid" : "e7c829e07cf8578e",
+        "uid" : "34862aaecf112711",
         "parentUid" : "458b2786ff8148b6464d7ebd162127b4",
         "status" : "passed",
         "time" : {
-          "start" : 1606560223118,
-          "stop" : 1606560223602,
-          "duration" : 484
+          "start" : 1606577853620,
+          "stop" : 1606577853885,
+          "duration" : 265
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "1", "'{'Content-Type':'application/x-www-form-urlencoded'}'", "'http://192.168.2.252:18080/4000/4000/0/'", "'get'", "'{'keywords':'感冒灵',\n'aliascn':'999',\n'standard':'10gx9袋/盒',\n'trocheType':'颗粒剂',\n'titleAbb':'华润三九',\n'pageSize':'10',\n'pageIndex':'1orderBy=\\'shopCount asc\\''}'", "'guest.medicine.getSearchPageData'", "2" ]
       }, {
         "name" : "查询药品模块",
-        "uid" : "f662f3897d9e7158",
+        "uid" : "eba1acfea5133643",
         "parentUid" : "458b2786ff8148b6464d7ebd162127b4",
         "status" : "passed",
         "time" : {
-          "start" : 1606560223607,
-          "stop" : 1606560224264,
-          "duration" : 657
+          "start" : 1606577853905,
+          "stop" : 1606577854105,
+          "duration" : 200
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "2", "'{'Content-Type':'application/x-www-form-urlencoded'}'", "'http://192.168.2.252:18080/4000/4000/0/'", "'get'", "'{'keywords':'克拉霉素'}'", "'guest.medicine.getSearchPageData'", "3" ]
       }, {
         "name" : "查询药品模块",
-        "uid" : "f357b107805ddf2d",
+        "uid" : "72f16319006666b",
         "parentUid" : "458b2786ff8148b6464d7ebd162127b4",
         "status" : "broken",
         "time" : {
-          "start" : 1606560224271,
-          "stop" : 1606560224278,
-          "duration" : 7
+          "start" : 1606577854120,
+          "stop" : 1606577854121,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "3", "'{'Content-Type':'application/x-www-form-urlencoded'}'", "None", "'get'", "'{'keywords':'感冒灵'}'", "'guest.medicine.getSearchPageData'", "4" ]
       }, {
         "name" : "查询药品模块",
-        "uid" : "569cf4d5b225d636",
+        "uid" : "d598282357b3ac12",
         "parentUid" : "458b2786ff8148b6464d7ebd162127b4",
         "status" : "passed",
         "time" : {
-          "start" : 1606560224290,
-          "stop" : 1606560224324,
-          "duration" : 34
+          "start" : 1606577854137,
+          "stop" : 1606577854181,
+          "duration" : 44
         },
         "flaky" : false,
         "newFailed" : false,
@@ -382,13 +382,13 @@
       "name" : "删除地址模块",
       "children" : [ {
         "name" : "删除地址模块",
-        "uid" : "98464a17d28deea2",
+        "uid" : "7e4b7e81f1df540c",
         "parentUid" : "7904bc1d88160baaa82894e9aa30e22e",
         "status" : "passed",
         "time" : {
-          "start" : 1606560224329,
-          "stop" : 1606560224986,
-          "duration" : 657
+          "start" : 1606577854188,
+          "stop" : 1606577854709,
+          "duration" : 521
         },
         "flaky" : false,
         "newFailed" : false,
@@ -399,13 +399,13 @@
       "name" : "登录模块",
       "children" : [ {
         "name" : "登录模块",
-        "uid" : "2201e48765b7f5ff",
+        "uid" : "f7d91b1ee965323a",
         "parentUid" : "f819ecd8552ecd0292e69b43337e590f",
         "status" : "passed",
         "time" : {
-          "start" : 1606560226108,
-          "stop" : 1606560226695,
-          "duration" : 587
+          "start" : 1606577855987,
+          "stop" : 1606577856683,
+          "duration" : 696
         },
         "flaky" : false,
         "newFailed" : false,
@@ -416,78 +416,78 @@
       "name" : "订单模块",
       "children" : [ {
         "name" : "订单结算页",
-        "uid" : "947f91f7e4533b5f",
+        "uid" : "809d915d6ac7f2d3",
         "parentUid" : "88697d03f41e57355a3bf1608742892f",
         "status" : "failed",
         "time" : {
-          "start" : 1606560226701,
-          "stop" : 1606560226902,
-          "duration" : 201
+          "start" : 1606577856689,
+          "stop" : 1606577856921,
+          "duration" : 232
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "29", "29", "'{'addressid':'2231220',\n'cartids':'17597753'}'", "30" ]
       }, {
         "name" : "创建订单",
-        "uid" : "271b4d733af2b81a",
+        "uid" : "2c90a5fa78ccfc84",
         "parentUid" : "88697d03f41e57355a3bf1608742892f",
         "status" : "failed",
         "time" : {
-          "start" : 1606560226912,
-          "stop" : 1606560227126,
-          "duration" : 214
+          "start" : 1606577856934,
+          "stop" : 1606577857157,
+          "duration" : 223
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "30", "30", "'{'data_info':'{\\\"cartids\\\":\\\"17597753\\\",\\\"packageids\\\":\\\"\\\",\\\"request_os\\\":\\\"ios\\\",\\\"use_point\\\":\\\"0\\\",\\\"platform_coupon_id\\\":\\\"\\\",\\\"use_balance\\\":\\\"0.00\\\",\\\"addressid\\\":\\\"2231220\\\",\\\"all_order_price_total\\\":\\\"153.00\\\",\\\"shop_list\\\":{\\\"351879\\\":{\\\"packageid\\\":\\\"8133\\\",\\\"logisticsid\\\":\\\"0\\\",\\\"couponsid\\\":\\\"7850427\\\",\\\"rx_image\\\":\\\"\\\",\\\"rx_content\\\":\\\"\\\",\\\"no_rx_reason\\\":\\\"\\\",\\\"dict_bool_etax\\\":0,\\\"invoice_idcard\\\":\\\"\\\",\\\"invoice_name\\\":\\\"\\\",\\\"invoice_type\\\":\\\"0\\\"}},\\\"medicate_name\\\":\\\"\\\",\\\"medicate_idcard\\\":\\\"\\\",\\\"medicate_sex\\\":\\\"\\\",\\\"rx_info\\\":null}'}'", "31" ]
       }, {
         "name" : "获取未付款订单信息",
-        "uid" : "c5bb13cbbbfa673",
+        "uid" : "1a7d55f5082ca122",
         "parentUid" : "88697d03f41e57355a3bf1608742892f",
         "status" : "failed",
         "time" : {
-          "start" : 1606560227157,
-          "stop" : 1606560227375,
-          "duration" : 218
+          "start" : 1606577857170,
+          "stop" : 1606577857375,
+          "duration" : 205
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "32", "32", "'{'orderno':'C2011181104128819'}'", "33" ]
       }, {
         "name" : "获取订单列表",
-        "uid" : "8bff64a3b61d1f50",
+        "uid" : "a3251e345d5a0dd9",
         "parentUid" : "88697d03f41e57355a3bf1608742892f",
         "status" : "passed",
         "time" : {
-          "start" : 1606560227385,
-          "stop" : 1606560227748,
-          "duration" : 363
+          "start" : 1606577857389,
+          "stop" : 1606577857746,
+          "duration" : 357
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "33", "33", "'{'pageIndex':'1',\n'pageSize':'10',\n'order_status':'unsent'}'", "34" ]
       }, {
         "name" : "发起付款，获取需要支付的sdk",
-        "uid" : "98f1931a05f49b66",
+        "uid" : "f2022a16665a54f9",
         "parentUid" : "88697d03f41e57355a3bf1608742892f",
         "status" : "failed",
         "time" : {
-          "start" : 1606560227753,
-          "stop" : 1606560227902,
-          "duration" : 149
+          "start" : 1606577857752,
+          "stop" : 1606577857938,
+          "duration" : 186
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "36", "36", "'{'ordernoList':'C2011181738382585',\n'type':'alipay'}'", "37" ]
       }, {
         "name" : "查看订单物流信息",
-        "uid" : "8a4b0c9fb28dbb9f",
+        "uid" : "feb338b61ac2f286",
         "parentUid" : "88697d03f41e57355a3bf1608742892f",
         "status" : "failed",
         "time" : {
-          "start" : 1606560227911,
-          "stop" : 1606560228148,
-          "duration" : 237
+          "start" : 1606577857949,
+          "stop" : 1606577858154,
+          "duration" : 205
         },
         "flaky" : false,
         "newFailed" : false,
@@ -498,65 +498,65 @@
       "name" : "我的模块",
       "children" : [ {
         "name" : "我的页面",
-        "uid" : "eb4a453ea78acd74",
+        "uid" : "be388c9a32a34599",
         "parentUid" : "80db2e34eff0625228560b46f441d9ce",
         "status" : "passed",
         "time" : {
-          "start" : 1606560228158,
-          "stop" : 1606560228391,
-          "duration" : 233
+          "start" : 1606577858165,
+          "stop" : 1606577858405,
+          "duration" : 240
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "34", "34", "'{}'", "35" ]
       }, {
         "name" : "获取我的积分",
-        "uid" : "2bf858bf83fd20e2",
+        "uid" : "1589d2201ab26897",
         "parentUid" : "80db2e34eff0625228560b46f441d9ce",
         "status" : "passed",
         "time" : {
-          "start" : 1606560228399,
-          "stop" : 1606560228586,
-          "duration" : 187
+          "start" : 1606577858416,
+          "stop" : 1606577858587,
+          "duration" : 171
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "35", "35", "'{}'", "36" ]
       }, {
         "name" : "获取用户实名信息",
-        "uid" : "ddb8ac91dd0f15f2",
+        "uid" : "c614433b67e6a2b0",
         "parentUid" : "80db2e34eff0625228560b46f441d9ce",
         "status" : "passed",
         "time" : {
-          "start" : 1606560228593,
-          "stop" : 1606560228791,
-          "duration" : 198
+          "start" : 1606577858592,
+          "stop" : 1606577858778,
+          "duration" : 186
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "37", "37", "'{}'", "38" ]
       }, {
         "name" : "新增用药人",
-        "uid" : "c008687767413026",
+        "uid" : "b733794c6fca12dc",
         "parentUid" : "80db2e34eff0625228560b46f441d9ce",
         "status" : "failed",
         "time" : {
-          "start" : 1606560228799,
-          "stop" : 1606560228961,
-          "duration" : 162
+          "start" : 1606577858784,
+          "stop" : 1606577858947,
+          "duration" : 163
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "38", "38", "'{'data':'{\\\"real_name\\\":\\\"黄凤雅\\\",\\\"idcard_no\\\":\\\"32068419920825136\\\",\\\"birthday\\\":\\\"1992-08-25\\\",\\\"dict_sex\\\":\\\"0\\\",\\\"weight\\\":\\\"\\\",\\\"mobile\\\":\\\"17521558586\\\",\\\"dict_bool_medical_history\\\":\\\"0\\\",\\\"medical_history\\\":\\\"\\\",\\\"allergy_history\\\":\\\"\\\",\\\"family_history\\\":\\\"\\\",\\\"dict_bool_allergy_history\\\":\\\"0\\\",\\\"dict_bool_family_history\\\":\\\"0\\\",\\\"dict_bool_liver\\\":\\\"0\\\",\\\"dict_bool_renal\\\":\\\"0\\\",\\\"dict_bool_nurse\\\":\\\"0\\\",\\\"relation_label\\\":\\\"本人\\\",\\\"dict_bool_default\\\":\\\"0\\\"}'}'", "39" ]
       }, {
         "name" : "新增用药人",
-        "uid" : "68347f62cdca2eac",
+        "uid" : "89efca44bd69322",
         "parentUid" : "80db2e34eff0625228560b46f441d9ce",
         "status" : "passed",
         "time" : {
-          "start" : 1606560228971,
-          "stop" : 1606560229145,
-          "duration" : 174
+          "start" : 1606577858958,
+          "stop" : 1606577859173,
+          "duration" : 215
         },
         "flaky" : false,
         "newFailed" : false,
@@ -567,26 +567,26 @@
       "name" : "搜索比价模块",
       "children" : [ {
         "name" : "比价页商家商品",
-        "uid" : "af922a4380e8636d",
+        "uid" : "4879201483b3e76c",
         "parentUid" : "c2877254ebb159049e77622a9c83adf9",
         "status" : "passed",
         "time" : {
-          "start" : 1606560229150,
-          "stop" : 1606560229394,
-          "duration" : 244
+          "start" : 1606577859182,
+          "stop" : 1606577859377,
+          "duration" : 195
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "9", "9", "'{\n    'user_city_name':'上海市',\n    'user_region_id':'95',\n    'pageIndex':'1',\n    'pageSize':'10',\n    'conditions':'{\\\"medicineid\\\":\\\"181741\\\"}'\n    }'", "10" ]
       }, {
         "name" : "比价商品详细描述",
-        "uid" : "4ecdedcede014585",
+        "uid" : "80bde56f63137d0a",
         "parentUid" : "c2877254ebb159049e77622a9c83adf9",
         "status" : "passed",
         "time" : {
-          "start" : 1606560229398,
-          "stop" : 1606560229609,
-          "duration" : 211
+          "start" : 1606577859382,
+          "stop" : 1606577859572,
+          "duration" : 190
         },
         "flaky" : false,
         "newFailed" : false,
@@ -597,65 +597,65 @@
       "name" : "搜索模块",
       "children" : [ {
         "name" : "查询药品",
-        "uid" : "a4728ad8b1a5e40",
+        "uid" : "ac5b53fbc823c012",
         "parentUid" : "a409f679eae5e8abca52758ae6d67551",
         "status" : "passed",
         "time" : {
-          "start" : 1606560229614,
-          "stop" : 1606560231967,
-          "duration" : 2353
+          "start" : 1606577859577,
+          "stop" : 1606577859699,
+          "duration" : 122
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "4", "4", "'{\n'keywords':'感冒灵'\n}'", "5" ]
       }, {
         "name" : "关键字联想",
-        "uid" : "ea8ae78328f2683b",
+        "uid" : "e153adf42c0d3ad3",
         "parentUid" : "a409f679eae5e8abca52758ae6d67551",
         "status" : "passed",
         "time" : {
-          "start" : 1606560232008,
-          "stop" : 1606560232039,
-          "duration" : 31
+          "start" : 1606577859705,
+          "stop" : 1606577859754,
+          "duration" : 49
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "5", "5", "'{\n'keyword':'感冒灵',\n'limit':'20',\n'type':'medicine'\n}'", "6" ]
       }, {
         "name" : "品牌搜索",
-        "uid" : "9fe66fd41ee5abc3",
+        "uid" : "aa93a38cd60c389",
         "parentUid" : "a409f679eae5e8abca52758ae6d67551",
         "status" : "passed",
         "time" : {
-          "start" : 1606560232042,
-          "stop" : 1606560232135,
-          "duration" : 93
+          "start" : 1606577859758,
+          "stop" : 1606577859767,
+          "duration" : 9
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "6", "6", "'{\n'keywords':'黄连素'\n}'", "7" ]
       }, {
         "name" : "规格搜索",
-        "uid" : "5389ed54855bcb35",
+        "uid" : "b94097be47826526",
         "parentUid" : "a409f679eae5e8abca52758ae6d67551",
         "status" : "passed",
         "time" : {
-          "start" : 1606560232139,
-          "stop" : 1606560232182,
-          "duration" : 43
+          "start" : 1606577859772,
+          "stop" : 1606577859798,
+          "duration" : 26
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "7", "7", "'{\n'keywords':'黄连素'\n}'", "8" ]
       }, {
         "name" : "厂家搜索",
-        "uid" : "32a7f718fedf46d3",
+        "uid" : "4955f51cc0713984",
         "parentUid" : "a409f679eae5e8abca52758ae6d67551",
         "status" : "passed",
         "time" : {
-          "start" : 1606560232186,
-          "stop" : 1606560232228,
-          "duration" : 42
+          "start" : 1606577859807,
+          "stop" : 1606577859818,
+          "duration" : 11
         },
         "flaky" : false,
         "newFailed" : false,
@@ -666,91 +666,91 @@
       "name" : "店铺模块",
       "children" : [ {
         "name" : "店铺包邮活动",
-        "uid" : "6ae514b9b8fdd2a0",
+        "uid" : "24108055966b5f97",
         "parentUid" : "e26d792b95b7b61f5c6d8669c161c6dd",
         "status" : "passed",
         "time" : {
-          "start" : 1606560232239,
-          "stop" : 1606560232438,
-          "duration" : 199
+          "start" : 1606577859825,
+          "stop" : 1606577860060,
+          "duration" : 235
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "25", "25", "'{'storeid':'338958','price':'不可为空'}'", "26" ]
       }, {
         "name" : "商家药品详情页",
-        "uid" : "a0e9751544fe4337",
+        "uid" : "4aa3cd99114a7ea1",
         "parentUid" : "e26d792b95b7b61f5c6d8669c161c6dd",
         "status" : "passed",
         "time" : {
-          "start" : 1606560232444,
-          "stop" : 1606560232831,
-          "duration" : 387
+          "start" : 1606577860075,
+          "stop" : 1606577860397,
+          "duration" : 322
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "12", "12", "'{'store_medicine_id':'21494279'}'", "13" ]
       }, {
         "name" : "商家详情页",
-        "uid" : "6fc22d0d802432c",
+        "uid" : "462a243cb4e588c7",
         "parentUid" : "e26d792b95b7b61f5c6d8669c161c6dd",
         "status" : "passed",
         "time" : {
-          "start" : 1606560232835,
-          "stop" : 1606560232919,
-          "duration" : 84
+          "start" : 1606577860402,
+          "stop" : 1606577860491,
+          "duration" : 89
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "13", "13", "'{'storeid':'351879'}'", "14" ]
       }, {
         "name" : "商家优选商品",
-        "uid" : "ef9a31e8f4ae71f9",
+        "uid" : "880544524953f5f9",
         "parentUid" : "e26d792b95b7b61f5c6d8669c161c6dd",
         "status" : "passed",
         "time" : {
-          "start" : 1606560232923,
-          "stop" : 1606560233031,
-          "duration" : 108
+          "start" : 1606577860496,
+          "stop" : 1606577860601,
+          "duration" : 105
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "14", "14", "'{'storeid':'351879'}'", "15" ]
       }, {
         "name" : "商家资质和外景",
-        "uid" : "29b56a2a157f7d75",
+        "uid" : "594b539bbb210584",
         "parentUid" : "e26d792b95b7b61f5c6d8669c161c6dd",
         "status" : "passed",
         "time" : {
-          "start" : 1606560233035,
-          "stop" : 1606560233064,
-          "duration" : 29
+          "start" : 1606577860606,
+          "stop" : 1606577860622,
+          "duration" : 16
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "15", "15", "'{'storeid':'349567'}'", "16" ]
       }, {
         "name" : "APP首页底部资质图片",
-        "uid" : "9eb461aa01d6632a",
+        "uid" : "9b6073f16e43f189",
         "parentUid" : "e26d792b95b7b61f5c6d8669c161c6dd",
         "status" : "passed",
         "time" : {
-          "start" : 1606560233068,
-          "stop" : 1606560233081,
-          "duration" : 13
+          "start" : 1606577860628,
+          "stop" : 1606577860642,
+          "duration" : 14
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "16", "16", "'{}'", "17" ]
       }, {
         "name" : "商家药品分类",
-        "uid" : "24c8085e81e4d34d",
+        "uid" : "bd93c855e87dfa46",
         "parentUid" : "e26d792b95b7b61f5c6d8669c161c6dd",
         "status" : "failed",
         "time" : {
-          "start" : 1606560233084,
-          "stop" : 1606560233114,
-          "duration" : 30
+          "start" : 1606577860650,
+          "stop" : 1606577860682,
+          "duration" : 32
         },
         "flaky" : false,
         "newFailed" : false,
@@ -761,38 +761,38 @@
     "uid" : "8d64c952095737b3097cffeed2ae61f2"
   }, {
     "name" : "test_chakandizhi[1]",
-    "uid" : "1a45a5778a4b3a24",
+    "uid" : "d1544617d8ca157b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1606560207411,
-      "stop" : 1606560207412,
-      "duration" : 1
+      "start" : 1606577841792,
+      "stop" : 1606577841792,
+      "duration" : 0
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "1" ]
   }, {
     "name" : "test_chakandizhi[http://192.168.2.252:18080/4000/4000/0/]",
-    "uid" : "1248fa291c9f8c4b",
+    "uid" : "9f125dfe939209d6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1606560207665,
-      "stop" : 1606560207668,
-      "duration" : 3
+      "start" : 1606577842033,
+      "stop" : 1606577842035,
+      "duration" : 2
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'http://192.168.2.252:18080/4000/4000/0/'" ]
   }, {
     "name" : "test_chakandizhi[guest.account.login]",
-    "uid" : "a708063d252a4edf",
+    "uid" : "68eddeb6d2a12ffe",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1606560207680,
-      "stop" : 1606560207680,
+      "start" : 1606577842040,
+      "stop" : 1606577842040,
       "duration" : 0
     },
     "flaky" : false,
@@ -800,12 +800,12 @@
     "parameters" : [ "'guest.account.login'" ]
   }, {
     "name" : "test_chakandizhi[None]",
-    "uid" : "b960c256fe7e1ed9",
+    "uid" : "bff87b755a92a141",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1606560207686,
-      "stop" : 1606560207686,
+      "start" : 1606577842046,
+      "stop" : 1606577842046,
       "duration" : 0
     },
     "flaky" : false,
@@ -813,25 +813,25 @@
     "parameters" : [ "None" ]
   }, {
     "name" : "test_chakandizhi[{'userName':'啦啦哈哈',\n'password':'abc123',\n'login_type':'2'}]",
-    "uid" : "ee0a9a5cf7a7bf14",
+    "uid" : "ba5e876ec19e45e2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1606560207691,
-      "stop" : 1606560207692,
-      "duration" : 1
+      "start" : 1606577842052,
+      "stop" : 1606577842052,
+      "duration" : 0
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'{'userName':'啦啦哈哈',\n'password':'abc123',\n'login_type':'2'}'" ]
   }, {
     "name" : "test_chakandizhi[get]",
-    "uid" : "c381f1f768e204a3",
+    "uid" : "3ba928ed8e014551",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1606560207697,
-      "stop" : 1606560207697,
+      "start" : 1606577842058,
+      "stop" : 1606577842058,
       "duration" : 0
     },
     "flaky" : false,
@@ -839,25 +839,25 @@
     "parameters" : [ "'get'" ]
   }, {
     "name" : "test_chakandizhi[2]",
-    "uid" : "f5452d91f7db5ee1",
+    "uid" : "df5714609d3f88c5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1606560207703,
-      "stop" : 1606560207703,
-      "duration" : 0
+      "start" : 1606577842063,
+      "stop" : 1606577842064,
+      "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "2" ]
   }, {
     "name" : "test_chakandizhi[{\"code\":1}]",
-    "uid" : "93c5a42c628d73c7",
+    "uid" : "71eb3fd71be73acc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1606560207709,
-      "stop" : 1606560207709,
+      "start" : 1606577842069,
+      "stop" : 1606577842069,
       "duration" : 0
     },
     "flaky" : false,
@@ -865,12 +865,12 @@
     "parameters" : [ "'{\"code\":1}'" ]
   }, {
     "name" : "test_chakandizhi",
-    "uid" : "ac5757b7ce989de0",
+    "uid" : "6c8c699f6bc21ae9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1606560207716,
-      "stop" : 1606560207716,
+      "start" : 1606577842076,
+      "stop" : 1606577842076,
       "duration" : 0
     },
     "flaky" : false,
@@ -878,12 +878,12 @@
     "parameters" : [ ]
   }, {
     "name" : "test_login[login_r0-query_param0]",
-    "uid" : "4d361d33ef6f273a",
+    "uid" : "dc1fd06e5f1ad163",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1606560207723,
-      "stop" : 1606560207723,
+      "start" : 1606577842083,
+      "stop" : 1606577842083,
       "duration" : 0
     },
     "flaky" : false,
@@ -891,25 +891,25 @@
     "parameters" : [ "{'user': 'linda', 'password': '888888'}", "{'q': '中国平安', 'count': 3, 'page': 1}" ]
   }, {
     "name" : "test_login[login_r0-query_param1]",
-    "uid" : "483c99d339c92aeb",
+    "uid" : "37ff37f267ce5fd1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1606560207726,
-      "stop" : 1606560207727,
-      "duration" : 1
+      "start" : 1606577842085,
+      "stop" : 1606577842085,
+      "duration" : 0
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "{'user': 'linda', 'password': '888888'}", "{'q': '阿里巴巴', 'count': 2, 'page': 2}" ]
   }, {
     "name" : "test_login[login_r1-query_param1]",
-    "uid" : "2b8daadda440683",
+    "uid" : "2dc3d958edfe2b77",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1606560207729,
-      "stop" : 1606560207729,
+      "start" : 1606577842086,
+      "stop" : 1606577842086,
       "duration" : 0
     },
     "flaky" : false,
@@ -917,12 +917,12 @@
     "parameters" : [ "{'user': 'servenruby', 'password': '123456'}", "{'q': '阿里巴巴', 'count': 2, 'page': 2}" ]
   }, {
     "name" : "test_login[login_r1-query_param0]",
-    "uid" : "bce5033dde766d7a",
+    "uid" : "b723fdaa9df729a6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1606560207732,
-      "stop" : 1606560207732,
+      "start" : 1606577842088,
+      "stop" : 1606577842088,
       "duration" : 0
     },
     "flaky" : false,
@@ -930,25 +930,25 @@
     "parameters" : [ "{'user': 'servenruby', 'password': '123456'}", "{'q': '中国平安', 'count': 3, 'page': 1}" ]
   }, {
     "name" : "test_login[login_r1-query_param2]",
-    "uid" : "c4c34bb9c0e92092",
+    "uid" : "daf665a8eff4e6a7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1606560207734,
-      "stop" : 1606560207734,
-      "duration" : 0
+      "start" : 1606577842090,
+      "stop" : 1606577842091,
+      "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "{'user': 'servenruby', 'password': '123456'}", "{'q': 'pdd', 'count': 3, 'page': 1}" ]
   }, {
     "name" : "test_login[login_r0-query_param2]",
-    "uid" : "20d66a0af21b261c",
+    "uid" : "ef3236778060b86a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1606560207751,
-      "stop" : 1606560207751,
+      "start" : 1606577842093,
+      "stop" : 1606577842093,
       "duration" : 0
     },
     "flaky" : false,
@@ -956,12 +956,12 @@
     "parameters" : [ "{'user': 'linda', 'password': '888888'}", "{'q': 'pdd', 'count': 3, 'page': 1}" ]
   }, {
     "name" : "test_login[login_r2-query_param2]",
-    "uid" : "7fda226aef84dfa9",
+    "uid" : "b367d2872bd9bfa6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1606560207753,
-      "stop" : 1606560207753,
+      "start" : 1606577842095,
+      "stop" : 1606577842095,
       "duration" : 0
     },
     "flaky" : false,
@@ -969,12 +969,12 @@
     "parameters" : [ "{'user': 'test01', 'password': ''}", "{'q': 'pdd', 'count': 3, 'page': 1}" ]
   }, {
     "name" : "test_login[login_r2-query_param1]",
-    "uid" : "f29bb53798e5f08e",
+    "uid" : "9eaf4213b8d5db72",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1606560207756,
-      "stop" : 1606560207756,
+      "start" : 1606577842097,
+      "stop" : 1606577842097,
       "duration" : 0
     },
     "flaky" : false,
@@ -982,51 +982,25 @@
     "parameters" : [ "{'user': 'test01', 'password': ''}", "{'q': '阿里巴巴', 'count': 2, 'page': 2}" ]
   }, {
     "name" : "test_login[login_r2-query_param0]",
-    "uid" : "a305b983adfd7535",
+    "uid" : "1a73f5203162b3b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1606560207759,
-      "stop" : 1606560207759,
+      "start" : 1606577842099,
+      "stop" : 1606577842099,
       "duration" : 0
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "{'user': 'test01', 'password': ''}", "{'q': '中国平安', 'count': 3, 'page': 1}" ]
   }, {
-    "name" : "test_a",
-    "uid" : "d250b81afd4c8feb",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1606560207762,
-      "stop" : 1606560207762,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_d",
-    "uid" : "fa8196ee4107fac",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1606560207765,
-      "stop" : 1606560207765,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "test_b",
-    "uid" : "24dfd3956cb50193",
+    "uid" : "748a77baeb3a62bd",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1606560207768,
-      "stop" : 1606560207768,
+      "start" : 1606577842103,
+      "stop" : 1606577842103,
       "duration" : 0
     },
     "flaky" : false,
@@ -1034,12 +1008,38 @@
     "parameters" : [ ]
   }, {
     "name" : "test_c",
-    "uid" : "4d030f30b96be96f",
+    "uid" : "5305e965b7ecf883",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1606560207770,
-      "stop" : 1606560207770,
+      "start" : 1606577842105,
+      "stop" : 1606577842105,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_a",
+    "uid" : "2d0aa7e201f07278",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606577842107,
+      "stop" : 1606577842107,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_d",
+    "uid" : "471ee0e1f12470da",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606577842110,
+      "stop" : 1606577842110,
       "duration" : 0
     },
     "flaky" : false,
@@ -1047,12 +1047,12 @@
     "parameters" : [ ]
   }, {
     "name" : "test_add1[1-2-3]",
-    "uid" : "40bc1d7f85f07937",
+    "uid" : "756401392f41fa77",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1606560207775,
-      "stop" : 1606560207775,
+      "start" : 1606577842113,
+      "stop" : 1606577842113,
       "duration" : 0
     },
     "flaky" : false,
@@ -1060,25 +1060,25 @@
     "parameters" : [ "1", "2", "3" ]
   }, {
     "name" : "test_add1[4-13-9]",
-    "uid" : "13b5d749c3c52cbc",
+    "uid" : "d961e2d02d45f7c6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1606560207778,
-      "stop" : 1606560207778,
-      "duration" : 0
+      "start" : 1606577842116,
+      "stop" : 1606577842117,
+      "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "4", "13", "9" ]
   }, {
     "name" : "test_add1[7-8-15]",
-    "uid" : "dd0bd49e6782368e",
+    "uid" : "85b374fb54477f53",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1606560207784,
-      "stop" : 1606560207784,
+      "start" : 1606577842123,
+      "stop" : 1606577842123,
       "duration" : 0
     },
     "flaky" : false,
@@ -1086,25 +1086,25 @@
     "parameters" : [ "7", "8", "15" ]
   }, {
     "name" : "test_add2[1-2-3]",
-    "uid" : "bb7e01357b473594",
+    "uid" : "39e41be9526522fb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1606560207787,
-      "stop" : 1606560207787,
-      "duration" : 0
+      "start" : 1606577842126,
+      "stop" : 1606577842127,
+      "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "1", "2", "3" ]
   }, {
     "name" : "test_add2[4-13-9]",
-    "uid" : "bfd7ddc5669f63d8",
+    "uid" : "ceb39bb477f00643",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1606560207794,
-      "stop" : 1606560207794,
+      "start" : 1606577842133,
+      "stop" : 1606577842133,
       "duration" : 0
     },
     "flaky" : false,
@@ -1112,12 +1112,12 @@
     "parameters" : [ "4", "13", "9" ]
   }, {
     "name" : "test_add2[7-8-15]",
-    "uid" : "9bd30e144b9ffc3c",
+    "uid" : "69e49cfea5f46dc2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1606560207797,
-      "stop" : 1606560207797,
+      "start" : 1606577842136,
+      "stop" : 1606577842136,
       "duration" : 0
     },
     "flaky" : false,
@@ -1125,25 +1125,25 @@
     "parameters" : [ "7", "8", "15" ]
   }, {
     "name" : "test_other[1-2-3]",
-    "uid" : "3f346990ef900294",
+    "uid" : "cdc7be473a044b84",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1606560207804,
-      "stop" : 1606560207805,
-      "duration" : 1
+      "start" : 1606577842143,
+      "stop" : 1606577842143,
+      "duration" : 0
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "1", "2", "3" ]
   }, {
     "name" : "test_other[4-13-9]",
-    "uid" : "8bf0b20b1d6c2b16",
+    "uid" : "f0c9facc99dfa9d4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1606560207808,
-      "stop" : 1606560207808,
+      "start" : 1606577842146,
+      "stop" : 1606577842146,
       "duration" : 0
     },
     "flaky" : false,
@@ -1151,12 +1151,12 @@
     "parameters" : [ "4", "13", "9" ]
   }, {
     "name" : "test_other[7-8-15]",
-    "uid" : "c33373cc9f18f728",
+    "uid" : "13a44b9da20b7d40",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1606560207811,
-      "stop" : 1606560207811,
+      "start" : 1606577842150,
+      "stop" : 1606577842150,
       "duration" : 0
     },
     "flaky" : false,
@@ -1166,52 +1166,52 @@
     "name" : "查询药品",
     "children" : [ {
       "name" : "test_case02[1-http://192.168.2.252:18080/4000/4000/0/-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'感冒灵',\n'aliascn':'999',\n'standard':'10gx9袋/盒',\n'trocheType':'颗粒剂',\n'titleAbb':'华润三九',\n'pageSize':'10',\n'pageIndex':'1orderBy=\\'shopCount asc\\''}-get-2-{\"code\":1}]",
-      "uid" : "1f4ffc2bdd371e52",
+      "uid" : "d7df0ecec6ab97cc",
       "parentUid" : "34f646c0d4c86f380e7ea9410dc26866",
       "status" : "passed",
       "time" : {
-        "start" : 1606560225762,
-        "stop" : 1606560225869,
-        "duration" : 107
+        "start" : 1606577855587,
+        "stop" : 1606577855702,
+        "duration" : 115
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "1", "'{\"code\":1}'", "'{'Content-Type':'application/x-www-form-urlencoded'}'", "'http://192.168.2.252:18080/4000/4000/0/'", "'get'", "'{'keywords':'感冒灵',\n'aliascn':'999',\n'standard':'10gx9袋/盒',\n'trocheType':'颗粒剂',\n'titleAbb':'华润三九',\n'pageSize':'10',\n'pageIndex':'1orderBy=\\'shopCount asc\\''}'", "'guest.medicine.getSearchPageData'", "2" ]
     }, {
       "name" : "test_case02[2-http://192.168.2.252:18080/4000/4000/0/-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'克拉霉素'}-get-3-{\"code\":1}]",
-      "uid" : "dbbcb50a8c2b1e32",
+      "uid" : "d1f01f8be89826d",
       "parentUid" : "34f646c0d4c86f380e7ea9410dc26866",
       "status" : "passed",
       "time" : {
-        "start" : 1606560225875,
-        "stop" : 1606560226050,
-        "duration" : 175
+        "start" : 1606577855709,
+        "stop" : 1606577855922,
+        "duration" : 213
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "2", "'{\"code\":1}'", "'{'Content-Type':'application/x-www-form-urlencoded'}'", "'http://192.168.2.252:18080/4000/4000/0/'", "'get'", "'{'keywords':'克拉霉素'}'", "'guest.medicine.getSearchPageData'", "3" ]
     }, {
       "name" : "test_case02[3-None-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':'感冒灵'}-get-4-None]",
-      "uid" : "b36a9baeed78b11f",
+      "uid" : "c114390e259ffde0",
       "parentUid" : "34f646c0d4c86f380e7ea9410dc26866",
       "status" : "broken",
       "time" : {
-        "start" : 1606560226056,
-        "stop" : 1606560226060,
-        "duration" : 4
+        "start" : 1606577855929,
+        "stop" : 1606577855931,
+        "duration" : 2
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "3", "None", "'{'Content-Type':'application/x-www-form-urlencoded'}'", "None", "'get'", "'{'keywords':'感冒灵'}'", "'guest.medicine.getSearchPageData'", "4" ]
     }, {
       "name" : "test_case02[4-http://192.168.2.252:18080/4000/4000/0/-guest.medicine.getSearchPageData-{'Content-Type':'application/x-www-form-urlencoded'}-{'keywords':''}-get-5-{\"code\":1}]",
-      "uid" : "642309e7d9e0830",
+      "uid" : "f3b4a21a97ff78d8",
       "parentUid" : "34f646c0d4c86f380e7ea9410dc26866",
       "status" : "passed",
       "time" : {
-        "start" : 1606560226086,
-        "stop" : 1606560226102,
-        "duration" : 16
+        "start" : 1606577855945,
+        "stop" : 1606577855981,
+        "duration" : 36
       },
       "flaky" : false,
       "newFailed" : false,

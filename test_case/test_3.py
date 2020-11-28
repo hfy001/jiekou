@@ -10,7 +10,7 @@ class TestAbc():
     def test_add2(self,a,b,c):  # => 作为用例参数，接收装饰器传入的数据
         assert add(a, c) == b
     def test_other(self,a,b,c):
-        print("\na,b的值分别为:",f"{a},{b}")
+        print("\na,b的值分别为:","{a},{b}")
 
 if __name__ == '__main__':
     pytest.main(["-s", "demo.py","-v"])

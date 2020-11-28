@@ -1,4 +1,0 @@
-INFO     登录:test_login.py:34 当前是第1条案例
-INFO     登录:test_login.py:35 当前测试数据是{'userName':'啦啦哈哈',
-'password':'abc123',
-'login_type':'2'}
