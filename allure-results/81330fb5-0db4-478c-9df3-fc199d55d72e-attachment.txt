@@ -1,6 +1,0 @@
-INFO     查询药品:test_log.py:33 当前是第4条案例
-INFO     查询药品:test_log.py:34 当前测试数据是{'keywords':''}
-DEBUG    urllib3.connectionpool:connectionpool.py:207 Starting new HTTP connection (1): 192.168.2.252
-DEBUG    urllib3.connectionpool:connectionpool.py:394 http://192.168.2.252:18080 "GET /4000/4000/0/guest.medicine.getSearchPageData?keywords= HTTP/1.1" 200 57
-DEBUG    urllib3.connectionpool:connectionpool.py:207 Starting new HTTP connection (1): 192.168.2.252
-DEBUG    urllib3.connectionpool:connectionpool.py:394 http://192.168.2.252:18080 "GET /4000/4000/0/guest.medicine.getSearchPageData?keywords= HTTP/1.1" 200 57
