@@ -1,4 +1,4 @@
-from common.get_log import get_log
+# from common.get_log import get_log
 import json
 import logging
 import pytest

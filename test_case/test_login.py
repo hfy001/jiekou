@@ -1,4 +1,4 @@
-from common.get_log import get_log
+# from common.get_log import get_log
 import json
 import logging
 import pytest
@@ -35,8 +35,8 @@ print(casedate)
 @pytest.mark.parametrize("caseid,host,path,headers,params,method,rowid,exceptvalue",casedate)
 def test_case02(caseid,host,path,headers,params,method,rowid,exceptvalue):
 
-    get_log('登录').info('当前是第{}条案例'.format(caseid))
-    get_log('登录').info('当前测试数据是{}'.format(params))
+    # get_log('登录').info('当前是第{}条案例'.format(caseid))
+    # get_log('登录').info('当前测试数据是{}'.format(params))
 
 
 

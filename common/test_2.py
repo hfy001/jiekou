@@ -38,7 +38,7 @@
 #     pytest.main(['-s', 'test_fixture1.py'])
 
 
-from common.get_log import get_log
+# from common.get_log import get_log
 import json
 import logging
 import pytest
@@ -64,8 +64,8 @@ print(casedate)
 @pytest.mark.parametrize("caseid,host,path,headers,params,method,rowid,exceptvalue",casedate)
 def login(caseid,host,path,headers,params,method,rowid,exceptvalue):
 
-    get_log('登录').info('当前是第{}条案例'.format(caseid))
-    get_log('登录').info('当前测试数据是{}'.format(params))
+    # get_log('登录').info('当前是第{}条案例'.format(caseid))
+    # get_log('登录').info('当前测试数据是{}'.format(params))
     res=Apimethod(host,path,headers,eval(params),method)
     rescookid = res.jiekouqingqiu().cookies.get_dict()["ssid"]
     array=pysplit.get_cookie.cookie(rescookid)
@@ -77,7 +77,7 @@ def get_cookie(request):
     cookie=request.param
     return cookie
 
-casedate1=canshu2.excelshuju2().openexl('E:\pythonbijia\data\case.xlsx','Sheet3')
+casedate1=canshu2.excelshuju2().openexl(path,'Sheet3')
 
 # casedate1[0][3]=array[0]      #pysplit.get_cookie.cookie(login)
 print(casedate1)
