@@ -56,6 +56,28 @@ class cart:
         pretty(resaddress)
         return resaddress
 
+    # 需要返回一个cartid 用于修改删除功能
+    def search_cartid(self,loginssid):
+        headers = {}
+        headers["Cookie"] = loginssid.get_ssid()
+        res = Apimethod(self.casedate1[22][1], self.casedate1[22][2], headers,{},
+                        self.casedate1[22][3])
+        resaddress = res.jiekouqingqiu()
+        cartid=resaddress.json()['result']['dataList'][0]['medicine_list'][0]['id']
+        return cartid
+
+    # 需要返回一个cartList 用于移入收藏夹功能
+    def search_cartList(self,loginssid):
+        headers = {}
+        headers["Cookie"] = loginssid.get_ssid()
+        res = Apimethod(self.casedate1[22][1], self.casedate1[22][2], headers,{},
+                        self.casedate1[22][3])
+        resaddress = res.jiekouqingqiu()
+        cartlist=[]
+        cartid=resaddress.json()['result']['dataList'][0]['medicine_list'][0]['id']
+        cartlist.append(cartid)
+        return cartlist
+
     # 修改购物车数量
     def editCart(self, params, loginssid):
         headers={}

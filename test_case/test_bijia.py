@@ -30,6 +30,7 @@ def test_case01(caseID,host,path,headers,params,method,rowid):
 
     b=eval(params)['conditions']
     d=eval(b)['medicineid']
+    print(d)
 
     sql = """select count(*) from
                            ( select sm.id  from stk_store_medicine sm
@@ -45,8 +46,8 @@ def test_case01(caseID,host,path,headers,params,method,rowid):
                              where st.dict_store_type=1
                              and st.dict_store_sub_type=0 and st.dict_business_status=1 and st.dict_business_status_store=1 and st.dict_store_status=4
                              and m.active=1 and sc.active=1 and sm.standard=m.standard   and sm.dict_store_medicine_status>0 and sm.reserve>0 and  sm.dict_scheduled_days < 2
-                             and sc.dict_medicine_b2c_status>=0 and m.dict_medicine_b2c_status>=0 and (ss.dict_bool_fake=0 or( ss.dict_bool_fake=1 and ((dict_medicine_type>0
-                             and sf.dict_store_fake<>1) OR (dict_medicine_type=0 and sf.dict_store_fake<>2) OR (dict_medicine_type=-1  and sf.dict_store_fake<>3)) ))
+                             and sc.dict_medicine_b2c_status>=0 and m.dict_medicine_b2c_status>=0 and (ss.dict_bool_fake=0 or( ss.dict_bool_fake=1 and ((sc.dict_medicine_type>0
+                             and sf.dict_store_fake<>1) OR (sc.dict_medicine_type=0 and sf.dict_store_fake<>2) OR (sc.dict_medicine_type=-1  and sf.dict_store_fake<>3)) ))
                              and m.id={0} and (IFNULL(sak.dict_app_type,0)=3 or ss.dict_shop_type!=3)
                              and ( r.name_path not like concat('%','全国','%' ) or st.dict_bool_citytrading=1 )  ) tb1 limit 1 ;""".format(d)
 

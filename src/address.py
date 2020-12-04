@@ -35,8 +35,6 @@ class Address:
         self.addressid=resaddress.json()['result']
         return resaddress
 
-
-
     # 需要返回一个addressid 用于删除功能
     def search_address(self,params,loginssid):
         headers = {}

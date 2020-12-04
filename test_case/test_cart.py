@@ -18,14 +18,14 @@ print(case)
 class TestCart:
 
     def setup_class(self):
-        self.add = cart()
+        self.cart = cart()
 
     @allure.step("购物车数量")
     @allure.title("购物车数量")
     # 购物车数量
     @pytest.mark.parametrize("id,api_id,params,rowid",[casedate1[10]])
     def test_cartcount(self, id, api_id, params, rowid, loginssid):
-        re = self.add.get_cartcount(params,loginssid)
+        re = self.cart.get_cartcount(params,loginssid)
         cartacount = re.json()["result"]['cartCount']
 
         sql = '''SELECT SUM(b.amount) as sumcart from stk_store_medicine a
@@ -44,7 +44,7 @@ class TestCart:
     @allure.title("加入购物车")
     @pytest.mark.parametrize("id,api_id,params,rowid",[casedate1[19]])
     def test_addCart(self,id,api_id,params,rowid,loginssid):
-        re = self.add.addCart(eval(params),loginssid)
+        re = self.cart.addCart(eval(params),loginssid)
         cart = re.json()["result"]['msg']
         assert cart=='加入购物车成功'
 
@@ -54,7 +54,7 @@ class TestCart:
     @allure.title("购物车信息")
     @pytest.mark.parametrize("id,api_id,params,rowid",[casedate1[22]])
     def test_getCart(self,id,api_id,params,rowid,loginssid):
-        re = self.add.get_Cart(eval(params),loginssid)
+        re = self.cart.get_Cart(eval(params),loginssid)
         cartcode = re.json()["code"]
         assert cartcode==1
 
@@ -64,7 +64,7 @@ class TestCart:
     @allure.title("购物车页面精选商品")
     @pytest.mark.parametrize("id,api_id,params,rowid",[casedate1[23]])
     def test_getTopVisitMedicine(self,id,api_id,params,rowid,loginssid):
-        re = self.add.get_TopVisitMedicine(eval(params),loginssid)
+        re = self.cart.get_TopVisitMedicine(eval(params),loginssid)
         cartcode = re.json()["code"]
         assert cartcode==1
 
@@ -74,7 +74,10 @@ class TestCart:
     @allure.title("修改购物车数量")
     @pytest.mark.parametrize("id,api_id,params,rowid",[casedate1[25]])
     def test_editCart(self,id,api_id,params,rowid,loginssid):
-        re = self.add.editCart(eval(params),loginssid)
+        cartid=self.cart.search_cartid(loginssid)
+        paramter=eval(params)
+        paramter['cartId']=cartid
+        re = self.cart.editCart(paramter,loginssid)
         cartcode = re.json()["code"]
         assert cartcode==1
 
@@ -83,7 +86,11 @@ class TestCart:
     @allure.title("移入收藏夹")
     @pytest.mark.parametrize("id,api_id,params,rowid",[casedate1[26]])
     def test_moveToFavorite(self,id,api_id,params,rowid,loginssid):
-        re = self.add.moveToFavorite(eval(params),loginssid)
+        cartid=self.cart.search_cartList(loginssid)
+        paramter=eval(params)
+        print(cartid)
+        paramter['cartidList']=cartid
+        re = self.cart.moveToFavorite(paramter,loginssid)
         cartcode = re.json()["code"]
         assert cartcode==1
 
@@ -93,7 +100,10 @@ class TestCart:
     @allure.title("删除购物车商品")
     @pytest.mark.parametrize("id,api_id,params,rowid",[casedate1[27]])
     def test_deleteCartGoods(self,id,api_id,params,rowid,loginssid):
-        re = self.add.deleteCartGoods(eval(params),loginssid)
+        cartid=self.cart.search_cartid(loginssid)
+        paramter=eval(params)
+        paramter['cartId']=cartid
+        re = self.cart.deleteCartGoods(paramter,loginssid)
         cartcode = re.json()["code"]
         assert cartcode==1
 
@@ -101,13 +111,13 @@ class TestCart:
     @allure.title("获取购物车商品等具体信息")
     @pytest.mark.parametrize("id,api_id,params,rowid",[casedate1[22]])
     def test_getCart(self,id,api_id,params,rowid,loginssid):
-        re = self.add.get_Cart(eval(params),loginssid)
+        re = self.cart.get_Cart(eval(params),loginssid)
         cartcode = re.json()["code"]
-        cartid = re.json()['result']['dataList'][0]['medicine_list'][0]['id']
+        # cartid = re.json()['result']['dataList'][0]['medicine_list'][0]['id']
 
-        for datalist in re.json()['result']['dataList']:
-            for  medicine in datalist['medicine_list']:
-                print(medicine['id'])
-
+        # for datalist in re.json()['result']['dataList']:
+        #     for  medicine in datalist['medicine_list']:
+        #         print(medicine['id'])
+        #
 
         assert cartcode==1

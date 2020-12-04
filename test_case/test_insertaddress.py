@@ -21,11 +21,20 @@ print(casedate1)
 @allure.feature("添加地址模块")
 @allure.step("添加地址模块")
 @allure.title("添加地址模块")
-class TestAddress:
-        @pytest.mark.parametrize("caseid1,host,path,params,method,rowid,exceptvalue", casedate1)
-        def test_tianjiadizhi(self,caseid1,host,path,params,method,rowid,exceptvalue,loginssid):
-                headers={}
-                headers["Cookie"]=loginssid.get_ssid()
-                res1 = Apimethod(host, path, headers, eval(params), method)
-                self.resaddresscode = res1.jiekouqingqiu().json()["code"]
-                assert self.resaddresscode==1
+
+
+@pytest.mark.parametrize("caseid1,host,path,params,method,rowid,exceptvalue", casedate1)
+def test_insertaddress(caseid1,host,path,params,method,rowid,exceptvalue,loginssid):
+        headers={}
+        headers["Cookie"]=loginssid.get_ssid()
+        res1 = Apimethod(host, path, headers, eval(params), method)
+        resaddresscode = res1.jiekouqingqiu().json()["code"]
+        assert resaddresscode == 1
+
+# @pytest.mark.parametrize("caseid1,host,path,params,method,rowid,exceptvalue", casedate1)
+# def test_insertaddress(self,caseid1,host,path,params,method,rowid,exceptvalue,loginssid):
+#         headers={}
+#         headers["Cookie"]=loginssid.get_ssid()
+#         res1 = Apimethod(host, path, headers, eval(params), method)
+#         self.resaddresscode = res1.jiekouqingqiu().json()["code"]
+#         assert self.resaddresscode == 1

@@ -36,11 +36,8 @@ def test_chakandizhi(loginssid):
     res1 = requests.get(url=casedate1[0][1] + casedate1[0][2], headers=headers, params=eval(casedate1[0][3]))
     resaddress = res1.json()["result"][0]["address_name"]
 
-    print(headers)
-    print(res1.text)
-    print(resaddress)
+
     assert resaddress == '上海市浦东新区浦东新区管委会'
+    resaddresscode = res1.json()["code"]
+    assert resaddresscode == 1
 
-
-if __name__=='__main__':
-    pytest.main('-q test_tologin.py')

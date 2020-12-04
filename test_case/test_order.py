@@ -1,5 +1,7 @@
 import pytest
 from src.order  import order
+from src.address import Address
+from src.cart import cart
 from data import  get_data
 import allure
 from data import get_params
@@ -19,12 +21,21 @@ class TestOrder:
 
     def setup_class(self):
         self.order = order()
+        self.add=Address()
+        self.cart = cart()
+
+
     # # 订单结算页
     @allure.step("订单结算页")
     @allure.title("订单结算页")
     @pytest.mark.parametrize("id,api_id,params,rowid",[casedate1[28]])
     def test_getBuy(self,id,api_id,params,rowid,loginssid):
-        re = self.order.getBuy(eval(params),loginssid)
+        addressid=self.add.search_address(eval(params),loginssid)
+        cartid = self.cart.search_cartid(loginssid)
+        parameter=eval(params)
+        parameter['addressid']=addressid
+        parameter['cartids'] = cartid
+        re = self.order.getBuy(parameter,loginssid)
         self.resaddresscode = re.json()["code"]
         assert self.resaddresscode == 1
 
@@ -33,10 +44,29 @@ class TestOrder:
     @allure.title("创建订单")
     @pytest.mark.parametrize("id,api_id,params,rowid",[casedate1[29]])
     def test_createOrder(self,id,api_id,params,rowid,loginssid):
-        re = self.order.createOrder(eval(params),loginssid)
+        addressid=self.add.search_address(eval(params),loginssid)
+        cartid = self.cart.search_cartid(loginssid)
+        parameter= {}
+        parameter['addressid']=addressid
+        parameter['cartids'] = cartid
+        resp = self.order.getBuy(parameter,loginssid)
+        cartids=resp.json()['result']['list'][0]['medicine_list'][0]['id']
+        totalprice=resp.json()['result']['list'][0]['store_medicine_price_total']
+        packageid=resp.json()['result']['list'][0]['package_list'][0]['id']
+        shopid=resp.json()['result']['list'][0]['storeid']
+        logisticsid=resp.json()['result']['list'][0]['logistics_list']
+
+        resparam=[]
+        resparam.append(cartids)
+        resparam.append(addressid)
+        resparam.append(totalprice)
+        resparam.append(packageid)
+        resparam.append(shopid)
+        resparam.append(logisticsid)
+
+        re = self.order.createOrder(parameter,loginssid)
         self.resaddresscode = re.json()["code"]
         assert self.resaddresscode == 1
-
 
     # 获取未付款订单信息
     @allure.step("获取未付款订单信息")
@@ -67,20 +97,20 @@ class TestOrder:
         self.resaddresscode = re.json()["code"]
         assert self.resaddresscode == 1
 
-    # # 查看物流
-    # @allure.step("查看物流")
-    # @allure.title("查看订单物流信息")
-    # @pytest.mark.parametrize("id,api_id,params,rowid",parameter.get_params(41))
-    # def test_getShippingTrace(self,id,api_id,params,rowid,loginssid):
-    #     re = self.order.getBatchOrderInfo(eval(params),loginssid)
-    #     self.resaddresscode = re.json()["code"]
-    #     assert self.resaddresscode == 1
-
     # 查看物流
     @allure.step("查看物流")
     @allure.title("查看订单物流信息")
-    @pytest.mark.parametrize("id,api_id,params,rowid",[casedate1[42]])
+    @pytest.mark.parametrize("id,api_id,params,rowid",parameter.getparams(41))
     def test_getShippingTrace(self,id,api_id,params,rowid,loginssid):
-        re = self.order.getBatchOrderInfo(eval(params),loginssid)
+        re = self.order.getShippingTrace(eval(params),loginssid)
         self.resaddresscode = re.json()["code"]
         assert self.resaddresscode == 1
+
+    # # 查看物流
+    # @allure.step("查看物流")
+    # @allure.title("查看订单物流信息")
+    # @pytest.mark.parametrize("id,api_id,params,rowid",[casedate1[40]])
+    # def test_getShippingTrace(self,id,api_id,params,rowid,loginssid):
+    #     re = self.order.getShippingTrace(eval(params),loginssid)
+    #     self.resaddresscode = re.json()["code"]
+    #     assert self.resaddresscode == 1

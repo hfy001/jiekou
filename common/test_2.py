@@ -82,9 +82,3 @@ casedate1=canshu2.excelshuju2().openexl(path,'Sheet3')
 # casedate1[0][3]=array[0]      #pysplit.get_cookie.cookie(login)
 print(casedate1)
 
-
-
-@pytest.mark.parametrize("get_cookie", casedate[0], indirect=True)
-def test_chakandizhi(get_cookie):
-    cookie=get_cookie
-    assert  cookie==''

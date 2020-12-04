@@ -18,6 +18,13 @@ class TestAddress:
     def setup_class(self):
         self.add = Address()
 
+    @allure.step("添加地址")
+    @allure.title("添加地址")
+    @pytest.mark.parametrize("id,api_id,params,rowid",[casedate1[1]])
+    def test_addaddress(self,id,api_id,params,rowid,loginssid):
+        re = self.add.add_address(eval(params),loginssid)
+        self.resaddresscode = re.json()["code"]
+        assert self.resaddresscode == 1
 
     @allure.step("获取地址")
     @allure.title("获取地址")
@@ -27,13 +34,6 @@ class TestAddress:
         resaddress = re.json()["result"][0]["address_name"]
         assert resaddress == '海大富别人高回报看缴费如果您把日军'
 
-    @allure.step("添加地址")
-    @allure.title("添加地址")
-    @pytest.mark.parametrize("id,api_id,params,rowid",[casedate1[1]])
-    def test_addaddress(self,id,api_id,params,rowid,loginssid):
-        re = self.add.add_address(eval(params),loginssid)
-        self.resaddresscode = re.json()["code"]
-        assert self.resaddresscode == 1
 
     @allure.step("搜索地址")
     @allure.title("搜索地址")
