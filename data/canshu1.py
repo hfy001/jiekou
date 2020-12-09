@@ -1,11 +1,12 @@
 import json
 import openpyxl
 
-class excelshuju1:
-    def openexl(self,lujing,wksheet):
-        wb=openpyxl.load_workbook(lujing)
 
-        sheet=wb[wksheet]
+class ExcelData1:
+    def openexl(self,path,wksheet):
+        wb = openpyxl.load_workbook(path)
+
+        sheet = wb[wksheet]
         # print(sheet.max_row)
         # print(sheet.max_column)
 

@@ -3,12 +3,14 @@ from src.person  import person
 from data import  get_data
 import allure
 from common import get_path
-
+from common.id_number import IdNumber
+from common.get_name import Full_Name
+from common.phone_number import PhoneNumber
+import json
 
 path=get_path.get_api()
-casedate1 = get_data.excelshuju().openexl(path, 'Sheet2')
-case=eval(casedate1[0][2])
-print(case)
+casedate1 = get_data.ExcelData().openexl(path, 'Sheet2')
+
 
 @allure.epic("药房网APP")
 @allure.feature("我的模块")
@@ -16,6 +18,9 @@ class Testperson:
 
     def setup_class(self):
         self.person = person()
+        self.id_number = IdNumber.generate_myid()
+        self.name = Full_Name()
+        self.phonenum = PhoneNumber()
 
 
 
@@ -52,7 +57,28 @@ class Testperson:
     @allure.title("新增用药人")
     @pytest.mark.parametrize("id,api_id,params,rowid",[casedate1[37]])
     def test_insertuserdrug(self,id,api_id,params,rowid,loginssid):
-        re = self.person.insert_userdrug(eval(params),loginssid)
+        param = {}
+        pa = {}
+        pa['real_name'] = self.name.random_name()
+        pa['idcard_no'] = self.id_number
+        pa['birthday'] ='1961-04-20'
+        pa['dict_sex'] =0
+        pa['weight'] = 50
+        pa['mobile'] = self.phonenum.create_phone()
+        pa['dict_bool_medical_history'] = 0
+        pa['medical_history'] = ''
+        pa['allergy_history'] = ''
+        pa['family_history'] = ''
+        pa['dict_bool_allergy_history'] = 0
+        pa['dict_bool_family_history'] = 0
+        pa['dict_bool_liver'] = 0
+        pa['dict_bool_renal'] = 0
+        pa['dict_bool_nurse'] = 0
+        pa['relation_label'] = '家属'
+        pa['dict_bool_default'] = 0
+        param['data']=json.dumps(pa)
+
+        re = self.person.insert_userdrug(param,loginssid)
         self.resaddresscode = re.json()["code"]
         assert self.resaddresscode == 1
 

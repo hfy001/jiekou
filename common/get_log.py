@@ -4,6 +4,8 @@ from common import get_cwd
 import os
 import time
 from logging.handlers import RotatingFileHandler
+
+
 def get_log(logger_name):
     # 创建ogger输出日志对象
     logger = logging.getLogger(logger_name)
@@ -51,6 +53,8 @@ def get_log(logger_name):
     logger.addHandler(error_handler)
     logger.addHandler(console_handler)
     return logger
+
+
 logs=get_log("__name__")
 
 # logs.info("111")

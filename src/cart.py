@@ -1,26 +1,26 @@
 import json
 from data import  get_api
-from page_request.pagerequest import Apimethod
+from page_request.pagerequest import ApiMethod
 from common import get_path
 
 
 path=get_path.get_api()
 
 
-
 def pretty(r):
     print(json.dumps(r.json(), indent=4, ensure_ascii=False))
+
 
 #  购物车
 class cart:
 
-    casedate1 = get_api.excelshuju().openexl(path, 'Sheet1')
+    casedate1 = get_api.ExcelData().openexl(path, 'Sheet1')
 
     # 购物车数量
     def get_cartcount(self, params, loginssid):
         headers={}
         headers["Cookie"] = loginssid.get_ssid()
-        res = Apimethod(self.casedate1[10][1], self.casedate1[10][2], headers, params,
+        res = ApiMethod(self.casedate1[10][1], self.casedate1[10][2], headers, params,
                         self.casedate1[10][3])
         resaddress = res.jiekouqingqiu()
         pretty(resaddress)
@@ -30,7 +30,7 @@ class cart:
     def addCart(self, params, loginssid):
         headers={}
         headers["Cookie"] = loginssid.get_ssid()
-        res = Apimethod(self.casedate1[19][1], self.casedate1[19][2], headers, params,
+        res = ApiMethod(self.casedate1[19][1], self.casedate1[19][2], headers, params,
                         self.casedate1[19][3])
         resaddress = res.jiekouqingqiu()
         pretty(resaddress)
@@ -40,7 +40,7 @@ class cart:
     def get_Cart(self, params, loginssid):
         headers={}
         headers["Cookie"] = loginssid.get_ssid()
-        res = Apimethod(self.casedate1[22][1], self.casedate1[22][2], headers, params,
+        res = ApiMethod(self.casedate1[22][1], self.casedate1[22][2], headers, params,
                         self.casedate1[22][3])
         resaddress = res.jiekouqingqiu()
         pretty(resaddress)
@@ -50,7 +50,7 @@ class cart:
     def get_TopVisitMedicine(self, params, loginssid):
         headers={}
         headers["Cookie"] = loginssid.get_ssid()
-        res = Apimethod(self.casedate1[23][1], self.casedate1[23][2], headers, params,
+        res = ApiMethod(self.casedate1[23][1], self.casedate1[23][2], headers, params,
                         self.casedate1[23][3])
         resaddress = res.jiekouqingqiu()
         pretty(resaddress)
@@ -60,7 +60,7 @@ class cart:
     def search_cartid(self,loginssid):
         headers = {}
         headers["Cookie"] = loginssid.get_ssid()
-        res = Apimethod(self.casedate1[22][1], self.casedate1[22][2], headers,{},
+        res = ApiMethod(self.casedate1[22][1], self.casedate1[22][2], headers,{},
                         self.casedate1[22][3])
         resaddress = res.jiekouqingqiu()
         cartid=resaddress.json()['result']['dataList'][0]['medicine_list'][0]['id']
@@ -70,7 +70,7 @@ class cart:
     def search_cartList(self,loginssid):
         headers = {}
         headers["Cookie"] = loginssid.get_ssid()
-        res = Apimethod(self.casedate1[22][1], self.casedate1[22][2], headers,{},
+        res = ApiMethod(self.casedate1[22][1], self.casedate1[22][2], headers,{},
                         self.casedate1[22][3])
         resaddress = res.jiekouqingqiu()
         cartlist=[]
@@ -82,7 +82,7 @@ class cart:
     def editCart(self, params, loginssid):
         headers={}
         headers["Cookie"] = loginssid.get_ssid()
-        res = Apimethod(self.casedate1[25][1], self.casedate1[25][2], headers, params,
+        res = ApiMethod(self.casedate1[25][1], self.casedate1[25][2], headers, params,
                         self.casedate1[25][3])
         resaddress = res.jiekouqingqiu()
         pretty(resaddress)
@@ -92,7 +92,7 @@ class cart:
     def moveToFavorite(self, params, loginssid):
         headers={}
         headers["Cookie"] = loginssid.get_ssid()
-        res = Apimethod(self.casedate1[26][1], self.casedate1[26][2], headers, params,
+        res = ApiMethod(self.casedate1[26][1], self.casedate1[26][2], headers, params,
                         self.casedate1[26][3])
         resaddress = res.jiekouqingqiu()
         pretty(resaddress)
@@ -102,7 +102,7 @@ class cart:
     def deleteCartGoods(self, params, loginssid):
         headers={}
         headers["Cookie"] = loginssid.get_ssid()
-        res = Apimethod(self.casedate1[27][1], self.casedate1[27][2], headers, params,
+        res = ApiMethod(self.casedate1[27][1], self.casedate1[27][2], headers, params,
                         self.casedate1[27][3])
         resaddress = res.jiekouqingqiu()
         pretty(resaddress)

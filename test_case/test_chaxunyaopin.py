@@ -1,6 +1,6 @@
 import logging
 import pytest
-from page_request.pagerequest import Apimethod
+from page_request.pagerequest import ApiMethod
 from data import canshu
 import allure
 
@@ -15,7 +15,7 @@ from common import get_path
 path=get_path.get_login()
 
 
-casedate=canshu.excelshuju().openexl(path)
+casedate=canshu.ExcelData().openexl(path)
 
 print(casedate)
 
@@ -29,7 +29,7 @@ def test_case02(caseID,host,path,headers,params,method,rowid):
 
     # response=requests.get(url=host+path,headers=eval(headers),params=eval(params))
 
-    res=Apimethod(host,path,eval(headers),eval(params),method)
+    res=ApiMethod(host,path,eval(headers),eval(params),method)
     print(res)
     resstatuscode=res.getstatus()
     rescode=res.getcode()

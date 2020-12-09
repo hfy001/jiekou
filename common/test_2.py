@@ -42,7 +42,7 @@
 import json
 import logging
 import pytest
-from page_request.pagerequest import Apimethod
+from page_request.pagerequest import ApiMethod
 from data import canshu1
 from data import canshu2
 import allure
@@ -56,8 +56,9 @@ path=get_path.get_login()
 logging.basicConfig(level=logging.DEBUG)
 
 
-casedate=canshu1.excelshuju1().openexl(path,'Sheet2')
+casedate=canshu1.ExcelData1().openexl(path,'Sheet2')
 print(casedate)
+
 
 @allure.feature('登录')
 @pytest.fixture()
@@ -66,9 +67,9 @@ def login(caseid,host,path,headers,params,method,rowid,exceptvalue):
 
     # get_log('登录').info('当前是第{}条案例'.format(caseid))
     # get_log('登录').info('当前测试数据是{}'.format(params))
-    res=Apimethod(host,path,headers,eval(params),method)
+    res=ApiMethod(host,path,headers,eval(params),method)
     rescookid = res.jiekouqingqiu().cookies.get_dict()["ssid"]
-    array=pysplit.get_cookie.cookie(rescookid)
+    array=pysplit.Get_Cookie.cookie(rescookid)
     return array
 
 
@@ -77,7 +78,7 @@ def get_cookie(request):
     cookie=request.param
     return cookie
 
-casedate1=canshu2.excelshuju2().openexl(path,'Sheet3')
+casedate1=canshu2.ExcelData2().openexl(path,'Sheet3')
 
 # casedate1[0][3]=array[0]      #pysplit.get_cookie.cookie(login)
 print(casedate1)

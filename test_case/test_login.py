@@ -2,7 +2,7 @@
 import json
 import logging
 import pytest
-from page_request.pagerequest import Apimethod
+from page_request.pagerequest import ApiMethod
 from data import canshu1
 from write_excel.wrexcel import writeex
 from urllib import  parse
@@ -22,7 +22,7 @@ logging.warning('This is warning message')
 logging.basicConfig(level=logging.DEBUG)
 
 
-casedate=canshu1.excelshuju1().openexl(path,'Sheet2')
+casedate=canshu1.ExcelData1().openexl(path,'Sheet2')
 
 print(casedate)
 
@@ -40,7 +40,7 @@ def test_case02(caseid,host,path,headers,params,method,rowid,exceptvalue):
 
 
 
-    res=Apimethod(host,path,headers,eval(params),method)
+    res=ApiMethod(host,path,headers,eval(params),method)
     print(res)
     resstatuscode=res.getstatus()
     rescode=res.getcode()

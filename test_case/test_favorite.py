@@ -7,7 +7,7 @@ from common import get_path
 
 
 path=get_path.get_api()
-casedate1 = get_data.excelshuju().openexl(path, 'Sheet2')
+casedate1 = get_data.ExcelData().openexl(path, 'Sheet2')
 case=eval(casedate1[0][2])
 print(case)
 

@@ -4,16 +4,17 @@ import logging
 import json
 from mysql import mysqlDB
 from data import canshu
-from page_request.pagerequest import Apimethod
+from page_request.pagerequest import ApiMethod
 import allure
 from common import get_path
 
 
 path=get_path.get_bijia()
 
-casedate=canshu.excelshuju().openexl(path)
+casedate=canshu.ExcelData().openexl(path)
 
 logging.basicConfig(level=logging.DEBUG)
+
 
 @allure.epic("药房网APP")
 @allure.feature("比价")
@@ -21,13 +22,11 @@ logging.basicConfig(level=logging.DEBUG)
 @allure.title("比价")
 @pytest.mark.parametrize("caseID,host,path,headers,params,method,rowid",casedate)
 def test_case01(caseID,host,path,headers,params,method,rowid):
-    res=Apimethod(host,path,eval(headers),eval(params),method)
+    res=ApiMethod(host,path,eval(headers),eval(params),method)
     print(res)
     resstatuscode=res.getstatus()
     rescode=res.getcode()
     rerowcount=res.getrowcount()
-
-
     b=eval(params)['conditions']
     d=eval(b)['medicineid']
     print(d)

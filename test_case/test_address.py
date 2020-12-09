@@ -6,7 +6,7 @@ from common import get_path
 
 
 path=get_path.get_api()
-casedate1 = get_data.excelshuju().openexl(path, 'Sheet2')
+casedate1 = get_data.ExcelData().openexl(path, 'Sheet2')
 case=eval(casedate1[0][2])
 print(case)
 
@@ -35,13 +35,6 @@ class TestAddress:
         assert resaddress == '海大富别人高回报看缴费如果您把日军'
 
 
-    @allure.step("搜索地址")
-    @allure.title("搜索地址")
-    @pytest.mark.parametrize("id,api_id,params,rowid", [casedate1[1]])
-    def test_searchaddress(self,id,api_id,params,rowid,loginssid):
-        re = self.add.search_address(eval(params),loginssid)
-        self.resaddresscode = re
-        assert self.resaddresscode == 1
 
     @allure.step("删除地址")
     @allure.title("删除地址")

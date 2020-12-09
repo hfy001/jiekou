@@ -6,7 +6,7 @@ from common import get_path
 
 
 path=get_path.get_api()
-casedate1 = get_data.excelshuju().openexl(path, 'Sheet2')
+casedate1 = get_data.ExcelData().openexl(path, 'Sheet2')
 case=eval(casedate1[0][2])
 print(case)
 
@@ -67,7 +67,7 @@ class TestSearchMedicine:
     # 商家药品分类
     @allure.step("商家药品分类")
     @allure.title("商家药品分类")
-    @pytest.mark.parametrize("id,api_id,params,rowid", [casedate1[17]],)
+    @pytest.mark.parametrize("id,api_id,params,rowid", [casedate1[16]],)
     def test_MedicineCategory(self, id, api_id, params, rowid):
         re = self.shopmedicine.MedicineCategory(eval(params))
         self.resaddresscode = re.json()['code']

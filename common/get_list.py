@@ -1,6 +1,7 @@
 from data import get_data
 
-casedate1 = get_data.excelshuju().openexl('E:\pythonbijia\data\getapi.xlsx', 'Sheet2')
+
+casedate1 = get_data.ExcelData().openexl('E:\pythonbijia\data\getapi.xlsx', 'Sheet2')
 case=eval(casedate1[0][2])
 # print(case)
 print([casedate1[40]])

@@ -1,8 +1,8 @@
-import  pytest
-from _pytest import runner
+import pytest
 from common import login
+
 
 @pytest.fixture()
 def loginssid():
-    aa=login.login1
-    return aa()
+    login_sid = login.Login1
+    return login_sid()

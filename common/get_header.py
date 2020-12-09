@@ -1,10 +1,11 @@
 import json
 import openpyxl
 
-class excelshuju1:
-    def openexl(self,lujing,wksheet):
-        wb=openpyxl.load_workbook(lujing)
-        sheet=wb[wksheet]
+
+class ExcelData:
+    def openexl(self, path, wk_sheet):
+        wb=openpyxl.load_workbook(path)
+        sheet=wb[wk_sheet]
         data_list=[]
         for i in range(2,sheet.max_row+1):
             a=[]

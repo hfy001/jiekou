@@ -2,7 +2,7 @@
 import json
 import logging
 import pytest
-from page_request.pagerequest import Apimethod
+from page_request.pagerequest import ApiMethod
 from data import canshu1
 from data import canshu2
 import allure
@@ -18,7 +18,7 @@ path=get_path.get_login()
 logging.basicConfig(level=logging.DEBUG)
 
 
-casedate1=canshu2.excelshuju2().openexl(path,'Sheet3')
+casedate1=canshu2.ExcelData2().openexl(path,'Sheet3')
 
 # casedate1[0][3]=array[0]      #pysplit.get_cookie.cookie(login)
 print(casedate1)
@@ -31,6 +31,6 @@ print(casedate1)
 def test_chakandizhi(caseid1,host,path,params,method,rowid,exceptvalue,loginssid):
     headers={}
     headers["Cookie"]=loginssid.get_ssid()
-    res1 = Apimethod(host, path, headers, eval(params), method)
+    res1 = ApiMethod(host, path, headers, eval(params), method)
     resaddress = res1.jiekouqingqiu().json()["result"][0]["address_name"]
     assert resaddress=='海大富别人高回报看缴费如果您把日军'

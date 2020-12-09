@@ -1,7 +1,7 @@
 
 import logging
 import pytest
-from page_request.pagerequest import Apimethod
+from page_request.pagerequest import ApiMethod
 from data import canshu2
 from mysql import mysqlDB
 import allure
@@ -12,7 +12,7 @@ path=get_path.get_login()
 logging.basicConfig(level=logging.DEBUG)
 
 
-casedate1=canshu2.excelshuju2().openexl(path,'Sheet5')
+casedate1=canshu2.ExcelData2().openexl(path,'Sheet5')
 
 # casedate1[0][3]=array[0]      #pysplit.get_cookie.cookie(login)
 print(casedate1)
@@ -33,7 +33,7 @@ def test_tianjiadizhi(caseid1,host,path,params,method,rowid,exceptvalue,loginssi
     db.close()
     param=eval(params)
     param['id']=addressid
-    res1 = Apimethod(host, path, headers, param, method)
+    res1 = ApiMethod(host, path, headers, param, method)
     resaddress = res1.jiekouqingqiu().json()["code"]
     print('param:',param)
     assert resaddress==1

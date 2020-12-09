@@ -52,7 +52,7 @@ class dizhi:
     def chakandizhi(self):
 
 
-        aa = login.login1()
+        aa = login.Login1()
         aa.get_ssid()
         headers={}
         # headers["Cookie"]=gol.get_value("ssid")

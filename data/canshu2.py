@@ -1,15 +1,15 @@
 import json
 import openpyxl
 
-class excelshuju2:
-    def openexl(self,lujing,wksheet):
-        wb=openpyxl.load_workbook(lujing)
+class ExcelData2:
+    def openexl(self,path,wksheet):
+        wb=openpyxl.load_workbook(path)
 
-        sheet=wb[wksheet]
+        sheet = wb[wksheet]
         # print(sheet.max_row)
         # print(sheet.max_column)
 
-        data_list=[]
+        data_list = []
 
         for i in range(2,sheet.max_row+1):
             a=[]
@@ -29,9 +29,6 @@ class excelshuju2:
             a.append(f)
             a.append(i)
             a.append(g)
-
-
-
             data_list.append(a)
         return data_list
 

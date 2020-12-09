@@ -6,6 +6,7 @@ import logging
 class requestlei():
     def __init__(self):
         pass
+
     def get(self,url,headers):
         try:
             r = requests.get(url,headers)
@@ -15,6 +16,7 @@ class requestlei():
         except Exception as e:
             print('get请求出错，出错原因：%s'%e)
             return {}
+
     def post(self,url,params,headers):
         try:
             r = requests.post(url,data = params,headers = headers)
@@ -22,9 +24,10 @@ class requestlei():
             return json_response
         except Exception as e:
             print('post请求出错，出错原因：%s'%e)
-    def delfile(self,url,params):
+
+    def delfile(self,url,hearders):
         try:
-            del_word = requests.delete(url,params,headers = self.hearders)
+            del_word = requests.delete(url,headers = hearders)
             json_response = json.loads(del_word.text)
             return json_response
         except Exception as e:

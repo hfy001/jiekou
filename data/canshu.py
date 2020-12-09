@@ -24,11 +24,9 @@ import requests
 # print(response.url)
 
 
-
-
-class excelshuju:
-    def openexl(self,lujing):
-        wb=openpyxl.load_workbook(lujing)
+class ExcelData:
+    def openexl(self,path):
+        wb=openpyxl.load_workbook(path)
 
         sheet=wb['Sheet1']
         # print(sheet.max_row)
@@ -43,8 +41,6 @@ class excelshuju:
             e=sheet.cell(i,4).value
             f=sheet.cell(i,5).value
             g = sheet.cell(i,6).value
-
-
             a.append(b)
             a.append(c)
             a.append(d)
